@@ -24,6 +24,9 @@ py -m pip install --user virtualenv
 cd C:\Users\taian\Documents\Arts\Project\named_after_Men\Plants
 py -m venv venv
 
+### OR Activate conda in vscode
+C:/Users/taian/Anaconda3/Scripts/activate
+conda activate base
 
 ### Activate/Deactivate virtual environment (cmd, powershell or Anaconda prompt)
 venv\Scripts\activate
