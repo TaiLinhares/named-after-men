@@ -37,6 +37,9 @@ deactivate
 py -m pip install package-name
 
 
+### Update requirements txt
+pip3 freeze > requirements.txt
+
 ### Pythonic
 https://pypi.org/project/black/
 https://pypi.org/project/pycodestyle/
