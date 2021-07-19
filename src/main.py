@@ -28,36 +28,6 @@ WP_URL = os.getenv('url')
 PSQL_USER = os.getenv('psql_user')
 PSQL_PASS = os.getenv('psql_password')
 
-# Define post ID
-start_day = datetime.date(2021,7,4)
-today = datetime.date.today()
-post_idx = (today - start_day).days + 1
-
-# Connect with local postgresql database
-conn = psycopg2.connect(
-   database="postgres", user=PSQL_USER, password=PSQL_PASS, host='127.0.0.1', port= '5432'
-)
-conn.autocommit = True
-cursor = conn.cursor()
-
-# Find out database length
-q = "SELECT COUNT(*) FROM plantsdb"
-cursor.execute(q)
-total_items = cursor.fetchall()[0][0]
-
-# Check if there is still content to post
-if post_idx <= total_items:
-    q = "SELECT * FROM plantsdb WHERE Id =" + str(post_idx)
-    cursor.execute(q)
-    query_content = cursor.fetchall()
-    print(query_content)
-else:
-    print('Project is over')
-
-# Close local database
-conn.commit()
-print("Database has been closed........")
-conn.close()
 
 # Define standard post text and formatting variables
 
@@ -87,8 +57,96 @@ fig_c = '</figcaption></figure>'
 footer_o = '<p class="has-text-align-center" id="plant_footer"><strong><span class="has-inline-color has-primary-color">Native to</span></strong> '#+countries
 footer_c = '</p>'
 
+#############################################################
+####################### Functions ###########################
+#############################################################
 
-# Functions
+def get_plant():
+    '''Connects with plantsdb database and queries the plant of the day
+    Returns tuple corresponding to the plant's row in DB'''
+
+    # Define post ID
+    start_day = datetime.date(2021,7,3)
+    today = datetime.date.today()
+    post_idx = (today - start_day).days + 1
+
+    # Connect with local postgresql database
+    conn = psycopg2.connect(
+    database="postgres", user=PSQL_USER, password=PSQL_PASS, host='127.0.0.1', port= '5432'
+    )
+    conn.autocommit = True
+    cursor = conn.cursor()
+
+    # Find out database length
+    q = "SELECT COUNT(*) FROM plantsdb"
+    cursor.execute(q)
+    total_items = cursor.fetchall()[0][0]
+
+    # Check if there is still content to post
+    if post_idx <= total_items:
+        q = "SELECT * FROM plantsdb WHERE Id =" + str(post_idx)
+        cursor.execute(q)
+        plant = cursor.fetchall()
+        # print(plant)
+    else:
+        print('Project is over')
+        return
+
+    # Close local database
+    conn.commit()
+    print("Database has been closed........")
+    conn.close()
+
+    return plant
+
+def wordpress_connect():
+    '''Connects to Wordpress and returns wp object'''
+    wp = Client(WP_URL, WP_USER, WP_PASS)
+
+    return wp
+    
+def twitter_connect():
+    '''Connects to Twitter and returns twitter object'''
+    auth = tweepy.OAuthHandler(TWITTER_API_KEY, TWITTER_API_SECRET_KEY)
+    auth.set_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
+    api = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
+
+    return api
+
+def wordpress_up_media(wp,filename):
+    '''Uploads picture to Wordpress
+        wp: wordpress object
+        filename: str, path to file to be uploaded
+        
+        returns wordpress media object'''
+
+    ## prepare metadata
+    data = {
+            'name': 'plant.jpg',
+            'type': 'image/jpeg',
+    }
+    
+    ## read the binary file and let the XMLRPC library encode it into base64
+    with open(filename, 'rb') as img:
+            data['bits'] = xmlrpc_client.Binary(img.read())
+
+    wp_media = wp.call(media.UploadFile(data))
+
+    return wp_media
+    
+
+def twitter_up_media(api,filename):
+    '''Uploads picture to twitter
+    api: twitter object
+    filename: str, path to file to be uploaded
+    
+    returns twitter media object'''
+
+    media = api.media_upload(filename)
+
+    return media
+
+
 def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc):
     '''Uploads media file to wordpress library, and creates post object
     
@@ -118,7 +176,7 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
         hommage = '. I pay hommage to the male botanist '
     
     # If plant do not have wiki page
-    if isinstance(wiki[0],type(None)):
+    if isinstance(wiki,type(None)):
         p_name = '<i>' + name + '</i>'
     else:
         p_name = '<i><a href=\"' + wiki + '\">' + name + '</a></i>'
@@ -138,6 +196,9 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
     content_text = row + footer
     
     return content_text
+
+
+
 
 def twitter_message(post_day, name, synonyms, men, cfa):
     '''Uploads media file to Twitter, and creates message
@@ -175,8 +236,39 @@ def twitter_message(post_day, name, synonyms, men, cfa):
     
     return content_text
 
+
+def wordpress_post(wp,title,message_wp,tags,category):
+    '''Posts to wordpress'''
+    post = WordPressPost()
+    post.post_status = 'publish'
+    post.title = title
+    post.content = message_wp
+    post.excerpt = 'Named after men'
+    post.terms_names = {
+        "post_tag": tags,
+        "category": category
+    }
+
+    wp.call(NewPost(post))
+    
+
+
+def twitter_post(api,message_twitter,tttr_media):
+    '''Posts to twitter'''
+
+    api.update_status(status=message_twitter, media_ids=[tttr_media.media_id])
+    # print(message_twitter)
+
+
+
+# Utils
+
+
+
 def text_concat(names,tag_o='',tag_c=''):
-    '''Concatenate list of names and apply conjunction'''
+    '''Concatenate list of names and apply conjunction
+    Returns concatenated list of names'''
+    
     text = ''
     
     for i,m in enumerate(names):
@@ -191,18 +283,52 @@ def text_concat(names,tag_o='',tag_c=''):
 
     return text
 
+def get_pic(img_url):
+    '''Download picture to directory'''
+
+    filename = 'temp.jpg'
+    request = requests.get(img_url, stream=True)
+    if request.status_code == 200:
+        with open(filename, 'wb') as image:
+            for chunk in request:
+                image.write(chunk)
+    else:
+        # return path to place holder image
+        return;
+
+    return 'temp.jpg'
+
+
+
+
 def main():
     
+    # Defining database array index to each peace of information
+    from_db_get = {
+        'Id':0,
+        'Name':1,
+        'Img_url':2,
+        'Year':3,
+        'Plant_url':4,
+        'Synonyms':5,
+        'Botanists_wp':6,
+        'Botanists_ttr':7,
+        'Countries':8
+    }
+
+    # Gets plant of the day
+    query_content = get_plant()
+
     # Retrieves content to post
-    day = query_content[0][0]
-    scientific_name = query_content[0][1]
-    img_url = query_content[0][2]
-    year = query_content[0][3]
-    plant_url = query_content[0][4]
-    synonyms = query_content[0][5]
-    botanists_wp = query_content[0][6]
-    botanists_ttr = query_content[0][7]
-    countries = query_content[0][8]
+    day = query_content[0][from_db_get['Id']]
+    scientific_name = query_content[0][from_db_get['Name']]
+    img_url = query_content[0][from_db_get['Img_url']]
+    year = query_content[0][from_db_get['Year']]
+    plant_url = query_content[0][from_db_get['Plant_url']]
+    synonyms = query_content[0][from_db_get['Synonyms']]
+    botanists_wp = query_content[0][from_db_get['Botanists_wp']]
+    botanists_ttr = query_content[0][from_db_get['Botanists_ttr']]
+    countries = query_content[0][from_db_get['Countries']]
     
     # Define tags and category
     tags = countries
@@ -217,65 +343,34 @@ def main():
     ctr_concat = text_concat(countries)
     
     # Download picture to directory
-    filename = 'temp.jpg'
-    request = requests.get(img_url, stream=True)
-    if request.status_code == 200:
-        with open(filename, 'wb') as image:
-            for chunk in request:
-                image.write(chunk)
-    else:
-        return;
+    filename = get_pic(img_url)
     
     # Connect to Wordpress
-    wp = Client(WP_URL, WP_USER, WP_PASS)
+    wp = wordpress_connect()
     
     
     # Connect to Twitter
-    auth = tweepy.OAuthHandler(TWITTER_API_KEY, TWITTER_API_SECRET_KEY)
-    auth.set_access_token(TWITTER_ACCESS_TOKEN, TWITTER_ACCESS_TOKEN_SECRET)
-    api = tweepy.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
+    api = twitter_connect()
     
     
     # Upload picture to Wordpress
-    ## prepare metadata
-    data = {
-            'name': 'plant.jpg',
-            'type': 'image/jpeg',  # mimetype
-    }
-    
-    ## read the binary file and let the XMLRPC library encode it into base64
-    with open(filename, 'rb') as img:
-            data['bits'] = xmlrpc_client.Binary(img.read())
-
-    wp_img = wp.call(media.UploadFile(data))
+    wp_img = wordpress_up_media(wp,filename)
     wp_img_url = wp_img['url']
     
     
     # Upload picture to twitter
-    tttr_media = api.media_upload(filename)
+    tttr_media = twitter_up_media(api,filename)
     
     # Create WP HTML post content and twitter message
     message_wp = wp_message(day,scientific_name,plant_url,syn_concat_wp,botanists_wp,year,ctr_concat,img_url,wp_img_url)
     message_twitter = twitter_message(day, scientific_name,syn_concat_ttr,botanists_ttr,call_for_action)
     
     
-    # WP Post
-    post = WordPressPost()
-    post.post_status = 'publish'
-    post.title = title
-    post.content = message_wp
-    post.excerpt = 'Named after men'
-    post.terms_names = {
-        "post_tag": tags,
-        "category": category
-    }
-
-    wp.call(NewPost(post))
-    
+    # Wordress Post
+    wordpress_post(wp,title,message_wp,tags,category)
     
     # Twitter Post
-    # api.update_status(status=message_twitter, media_ids=[tttr_media.media_id])
-    print(message_twitter)
+    twitter_post(api,message_twitter,tttr_media)
 
     os.remove(filename)
 
