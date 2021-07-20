@@ -7,10 +7,10 @@ from wordpress_xmlrpc.methods import media, posts
 # HTML
 
 # columns
-div_o = '<div class=\"wp-block-columns\">'
+div_o = '<div class="wp-block-columns">'
 div_c = '</div>'
 
-div_col_o = '<div class=\"wp-block-column\" style=\"flex-basis:50%\">'
+div_col_o = '<div class="wp-block-column" style="flex-basis:50%">'
 div_col_c = '</div>'
 
 # text
