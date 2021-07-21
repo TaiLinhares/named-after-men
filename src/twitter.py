@@ -42,7 +42,8 @@ def twitter_message(post_day, name, synonyms, men, cfa):
     """
     content_text = ""
 
-    # Message must be 2 characters shorter (278). Unfortunately I still didn't figure out why.
+    # Message must be 2 characters shorter (278). Unfortunately I still didn't
+    # figure out why.
     lim = 280 - (len(cfa) + 2)
 
     file_loader = FileSystemLoader("templates")
@@ -76,7 +77,8 @@ def twitter_message(post_day, name, synonyms, men, cfa):
 #     '''
 #     content_text = ''
 
-#     # Message must be 2 characters shorter (278). Unfortunately I still didn't figure out why.
+#     # Message must be 2 characters shorter (278).
+#     # Unfortunately I still didn't figure out why.
 #     lim = 280 - (len(cfa)+2)
 
 #     if synonyms != '':

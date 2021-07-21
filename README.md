@@ -50,6 +50,13 @@ py -m pip install package-name
 pip3 freeze > requirements.txt
 ```
 
-### Pythonic
-https://pypi.org/project/black/
-https://pypi.org/project/pycodestyle/
+### Pythonic Linting
+
+This project is linted using both [Black](https://pypi.org/project/black/) and [Pycodestyle(https://pypi.org/project/pycodestyle/). Both can be installed locally and ran with the following commands.
+
+```sh
+black .
+pycodestyle .
+```
+
+Configuration for pycodestyle can be found in the `./setup.cfg` file. The linters will also run as github actions when code is pushed to Github.

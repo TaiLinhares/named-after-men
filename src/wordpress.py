@@ -16,17 +16,24 @@ from jinja2 import Environment, FileSystemLoader
 # # text
 # p_text_o = '<p id="plant_text">'
 # p_text_c = '</p>'
-# span_o = '<span style="color: #d12b0e; font-size:3.6em; font-weight: 800; font-family: \'inter-val\',sans-serif; margin:0.05em 0.1em 0.1em 0; line-height: .68; float:left" >'
+# span_o = '<span style="color: #d12b0e; font-size:3.6em; font-weight: 800;' \
+# ' font-family: \'inter-val\',sans-serif; margin:0.05em 0.1em 0.1em 0; ' \
+# ' line-height: .68; float:left" >'
 # span_c = '</span>'
 # v_space = '<p></p><p></p><p></p>'
 
 # # image
-# fig_o = '<figure class="wp-block-image size-large is-style-default" id="plant_fig"><img src=\"'#+image wordpress url
-# caption = '\" alt="This plant\'s image" class="wp-image-29"/><figcaption>'#+caption_text
+# +image wordpress url
+# fig_o = '<figure class="wp-block-image size-large is-style-default"' \
+# 'id="plant_fig"><img src=\"'
+# +caption_text
+# caption = '\" alt="This plant\'s image" class="wp-image-29"/><figcaption>'
 # fig_c = '</figcaption></figure>'
 
 # # footer
-# footer_o = '<p class="has-text-align-center" id="plant_footer"><strong><span class="has-inline-color has-primary-color">Native to</span></strong> '#+countries
+# +countries
+# footer_o = '<p class="has-text-align-center" id="plant_footer"><strong>' \
+# '<span class="has-inline-color has-primary-color">Native to</span></strong> '
 # footer_c = '</p>'
 
 
@@ -47,13 +54,13 @@ def wordpress_up_media(wp, filename):
 
     returns wordpress media object"""
 
-    ## prepare metadata
+    # prepare metadata
     data = {
         "name": "plant.jpg",
         "type": "image/jpeg",
     }
 
-    ## read the binary file and let the XMLRPC library encode it into base64
+    # read the binary file and let the XMLRPC library encode it into base64
     with open(filename, "rb") as img:
         data["bits"] = xmlrpc_client.Binary(img.read())
 
@@ -100,7 +107,15 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
     return content_text
 
 
-# def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc):
+# def wp_message(
+# post_day, name,
+# wiki, synonyms,
+# men,
+# year,
+# countries,
+# img,
+# imgsrc
+# ):
 #     '''Uploads media file to wordpress library, and creates post object
 
 #     Attributes
@@ -135,13 +150,17 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
 #         p_name = '<i><a href=\"' + wiki + '\">' + name + '</a></i>'
 
 #     # Text snippets
-#     presenting = span_o + '#' + str(post_day) + span_c + ' They called me ' + p_name
+#     presenting = span_o + '#' + str(post_day) + span_c + ' \
+#       They called me ' + p_name
 #     catalogue = '. They first catalogued me in ' + str(year) + '.'
-#     caption_text = '<i>' + name + '</i>. See image source <a href=\"' + img + '\">here</a>.'
+#     caption_text = '<i>' + name + '</i>. See image source <a href=\"' \
+#       + img + '\">here</a>.'
 
 #     # Create post columns and rows
-#     figure = div_col_o + fig_o + imgsrc + caption + caption_text + fig_c + div_col_c
-#     text = div_col_o + v_space + p_text_o + presenting + also + synonyms + hommage + men + catalogue + p_text_c + div_col_c
+#     figure = div_col_o + fig_o + imgsrc + caption + caption_text \
+#       + fig_c + div_col_c
+#     text = div_col_o + v_space + p_text_o + presenting + also + synonyms + \
+#       hommage + men + catalogue + p_text_c + div_col_c
 #     row = div_o + figure + text + div_c
 #     footer = footer_o + countries + footer_c
 

@@ -2,7 +2,12 @@ import os
 from dotenv import load_dotenv
 import datetime
 import psycopg2
-from twitter import twitter_connect, twitter_up_media, twitter_message, twitter_post
+from twitter import (
+    twitter_connect,
+    twitter_up_media,
+    twitter_message,
+    twitter_post,
+)
 from wordpress import wordpress_connect, wordpress_up_media, wp_message, wordpress_post
 from utils import text_concat, get_pic
 
@@ -25,11 +30,15 @@ PSQL_PASS = os.getenv("psql_password")
 # Define standard post text and formatting variables
 
 # Call for action to the project to be posted on Twitter
-call_for_action = ". Data is not neutral, let's start this conversation. Know the project at www.namedaftermen.com #namedaftermen #decolonizescience #data #botanics"
+call_for_action = (
+    ". Data is not neutral, let's start this conversation. "
+    "Know the project at www.namedaftermen.com #namedaftermen "
+    "#decolonizescience #data #botanics"
+)
 
 
 #############################################################
-####################### Functions ###########################
+#                       Functions                           #
 #############################################################
 
 
@@ -151,7 +160,8 @@ def main():
         day, scientific_name, syn_concat_ttr, botanists_ttr, call_for_action
     )
 
-    # Post to Wordpress and Twitter (To Do: handle tweepy code 186 by shortening message_twitter and trying again)
+    # Post to Wordpress and Twitter (To Do: handle tweepy code 186 by
+    # shortening message_twitter and trying again)
     wordpress_post(wp, title, message_wp, tags, category)
 
     twitter_post(api, message_twitter, tttr_media)
