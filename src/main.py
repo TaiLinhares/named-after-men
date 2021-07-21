@@ -37,7 +37,7 @@ def get_plant():
     Returns tuple corresponding to the plant's row in DB'''
 
     # Define post ID
-    start_day = datetime.date(2021,7,10)
+    start_day = datetime.date(2021,7,9)
     today = datetime.date.today()
     post_idx = (today - start_day).days + 1
 
@@ -135,7 +135,7 @@ def main():
     # Post to Wordpress and Twitter (To Do: handle tweepy code 186 by shortening message_twitter and trying again)
     wordpress_post(wp,title,message_wp,tags,category)
 
-    # twitter_post(api,message_twitter,tttr_media)
+    twitter_post(api,message_twitter,tttr_media)
 
     os.remove(filename)
 

@@ -1,0 +1,1 @@
+#{{ post_day }} {{ name }}{% if synonyms != '' %}, also {% endif %}{{ synonyms }}{% if ',' in men %}. Named after male botanists {% else %}. Named after male botanist {% endif %}{{ men }}
