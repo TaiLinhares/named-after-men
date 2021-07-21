@@ -1,7 +1,10 @@
 import os
-from dotenv import load_dotenv
 import datetime
+
+from loguru import logger
 import psycopg2
+
+from config import CONF
 from twitter import (
     twitter_connect,
     twitter_up_media,
@@ -11,21 +14,18 @@ from twitter import (
 from wordpress import wordpress_connect, wordpress_up_media, wp_message, wordpress_post
 from utils import text_concat, get_pic
 
-# Load Environment variables
-load_dotenv()
-
-TWITTER_USER = os.getenv("ttr_user")
-TWITTER_API_KEY = os.getenv("API_key")
-TWITTER_API_SECRET_KEY = os.getenv("API_Secret_Key")
-TWITTER_BEARER_TOKEN = os.getenv("Bearer_Token")
-TWITTER_ACCESS_TOKEN = os.getenv("Access_Token")
-TWITTER_ACCESS_TOKEN_SECRET = os.getenv("Access_Token_Secret")
-WP_USER = os.getenv("wp_user")
-WP_PASS = os.getenv("wp_password")
-WP_URL = os.getenv("url")
-PSQL_USER = os.getenv("psql_user")
-PSQL_PASS = os.getenv("psql_password")
-
+# Defining database array index to each peace of information
+from_db_get = {
+    "Id": 0,
+    "Name": 1,
+    "Img_url": 2,
+    "Year": 3,
+    "Plant_url": 4,
+    "Synonyms": 5,
+    "Botanists_wp": 6,
+    "Botanists_ttr": 7,
+    "Countries": 8,
+}
 
 # Define standard post text and formatting variables
 
@@ -36,6 +36,8 @@ call_for_action = (
     "#decolonizescience #data #botanics"
 )
 
+# initialize logger
+logger = logger.bind(name="Plants")
 
 #############################################################
 #                       Functions                           #
@@ -74,32 +76,18 @@ def get_plant():
         plant = cursor.fetchall()
         # print(plant)
     else:
-        print("Project is over")
+        logger.info("Project is over")
         return
 
     # Close local database
     conn.commit()
-    print("Database has been closed........")
+    logger.info("Database has been closed........")
     conn.close()
 
     return plant
 
 
 def main():
-
-    # Defining database array index to each peace of information
-    from_db_get = {
-        "Id": 0,
-        "Name": 1,
-        "Img_url": 2,
-        "Year": 3,
-        "Plant_url": 4,
-        "Synonyms": 5,
-        "Botanists_wp": 6,
-        "Botanists_ttr": 7,
-        "Countries": 8,
-    }
-
     # Gets plant of the day
     query_content = get_plant()
 
@@ -130,12 +118,12 @@ def main():
     filename = get_pic(img_url)
 
     # Connect to Wordpress and Twitter
-    wp = wordpress_connect(WP_URL, WP_USER, WP_PASS)
+    wp = wordpress_connect(CONF.WP_URL, CONF.WP_USER, CONF.WP_PASS)
     api = twitter_connect(
-        TWITTER_API_KEY,
-        TWITTER_API_SECRET_KEY,
-        TWITTER_ACCESS_TOKEN,
-        TWITTER_ACCESS_TOKEN_SECRET,
+        CONF.TWITTER_API_KEY,
+        CONF.TWITTER_API_SECRET_KEY,
+        CONF.TWITTER_ACCESS_TOKEN,
+        CONF.TWITTER_ACCESS_TOKEN_SECRET,
     )
 
     # Upload picture to Wordpress and Twitter
