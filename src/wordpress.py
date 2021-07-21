@@ -34,27 +34,28 @@ from jinja2 import Environment, FileSystemLoader
 
 
 def wordpress_connect(WP_URL, WP_USER, WP_PASS):
-    '''Connects to Wordpress and returns wp object'''
+    """Connects to Wordpress and returns wp object"""
     wp = Client(WP_URL, WP_USER, WP_PASS)
 
     return wp
 
-def wordpress_up_media(wp,filename):
-    '''Uploads picture to Wordpress
-        wp: wordpress object
-        filename: str, path to file to be uploaded
-        
-        returns wordpress media object'''
+
+def wordpress_up_media(wp, filename):
+    """Uploads picture to Wordpress
+    wp: wordpress object
+    filename: str, path to file to be uploaded
+
+    returns wordpress media object"""
 
     ## prepare metadata
     data = {
-            'name': 'plant.jpg',
-            'type': 'image/jpeg',
+        "name": "plant.jpg",
+        "type": "image/jpeg",
     }
-    
+
     ## read the binary file and let the XMLRPC library encode it into base64
-    with open(filename, 'rb') as img:
-            data['bits'] = xmlrpc_client.Binary(img.read())
+    with open(filename, "rb") as img:
+        data["bits"] = xmlrpc_client.Binary(img.read())
 
     wp_media = wp.call(media.UploadFile(data))
 
@@ -62,8 +63,8 @@ def wordpress_up_media(wp,filename):
 
 
 def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc):
-    '''Uploads media file to wordpress library, and creates post object
-    
+    """Uploads media file to wordpress library, and creates post object
+
     Attributes
     post_day: int, day since the project started
     name: str, plant scientific name
@@ -74,23 +75,34 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
     countries: str, concatenated native country names
     img: str, image original source
     imgsrc: str, wordpress image url
-    
-    returns: a string with html post content
-    '''
-    content_text = ''
 
-    file_loader = FileSystemLoader('templates')
+    returns: a string with html post content
+    """
+    content_text = ""
+
+    file_loader = FileSystemLoader("templates")
     env = Environment(loader=file_loader)
 
     template = env.get_template("wp_template.html")
 
-    content_text = template.render(imgsrc=imgsrc,img=img,post_day=str(post_day),name=name,wiki=wiki,synonyms=synonyms,men=men,year=str(year),countries=countries)
+    content_text = template.render(
+        imgsrc=imgsrc,
+        img=img,
+        post_day=str(post_day),
+        name=name,
+        wiki=wiki,
+        synonyms=synonyms,
+        men=men,
+        year=str(year),
+        countries=countries,
+    )
 
     return content_text
 
+
 # def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc):
 #     '''Uploads media file to wordpress library, and creates post object
-    
+
 #     Attributes
 #     post_day: int, day since the project started
 #     name: str, plant scientific name
@@ -101,56 +113,53 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
 #     countries: str, concatenated native country names
 #     img: str, image original source
 #     imgsrc: str, wordpress image url
-    
+
 #     returns: a string with html post content
 #     '''
 #     content_text = ''
-    
+
 #     if synonyms != '':
 #         also = ', also known as '
 #     else:
 #         also = ''
-        
+
 #     if ',' in men:
 #         hommage = '. I pay hommage to the male botanists '
 #     else:
 #         hommage = '. I pay hommage to the male botanist '
-    
+
 #     # If plant do not have wiki page
 #     if isinstance(wiki,type(None)):
 #         p_name = '<i>' + name + '</i>'
 #     else:
 #         p_name = '<i><a href=\"' + wiki + '\">' + name + '</a></i>'
-    
+
 #     # Text snippets
 #     presenting = span_o + '#' + str(post_day) + span_c + ' They called me ' + p_name
 #     catalogue = '. They first catalogued me in ' + str(year) + '.'
 #     caption_text = '<i>' + name + '</i>. See image source <a href=\"' + img + '\">here</a>.'
-    
+
 #     # Create post columns and rows
 #     figure = div_col_o + fig_o + imgsrc + caption + caption_text + fig_c + div_col_c
 #     text = div_col_o + v_space + p_text_o + presenting + also + synonyms + hommage + men + catalogue + p_text_c + div_col_c
 #     row = div_o + figure + text + div_c
 #     footer = footer_o + countries + footer_c
-    
+
 #     # Create final post
 #     content_text = row + footer
-    
+
 #     return content_text
 
-def wordpress_post(wp,title,message_wp,tags,category):
-    '''Posts to wordpress'''
+
+def wordpress_post(wp, title, message_wp, tags, category):
+    """Posts to wordpress"""
 
     post = WordPressPost()
-    post.post_status = 'publish'
+    post.post_status = "publish"
     post.title = title
     post.content = message_wp
-    post.comment_status = 'open'
-    post.excerpt = 'Named after men'
-    post.terms_names = {
-        "post_tag": tags,
-        "category": category
-    }
+    post.comment_status = "open"
+    post.excerpt = "Named after men"
+    post.terms_names = {"post_tag": tags, "category": category}
 
     wp.call(NewPost(post))
-    
