@@ -13,18 +13,16 @@
             <span style="color: #d12b0e; font-size:3.6em; font-weight: 800; font-family: \'inter-val\',sans-serif; margin:0.05em 0.1em 0.1em 0; line-height: .68; float:left" >
             #{{ post_day }} 
             </span>
-            They called me <!--{{ p_name }}-->
-            {% if isinstance(wiki,type(None)) %}
+            They called me 
+            {% if wiki == None %}
             <i>{{ name }}</i>
             {% else %}
             <i><a href="{{ wiki }}">{{ name }}</a></i>
             {% endif %}
-            <!--{{ also }}{{ synonyms }}-->
             {% if synonyms != '' %}
             , also known as {{ synonyms }}
             {% else %}
             {% endif %}
-            <!--{{ hommage }}{{ men }}-->
             {% if ',' in men %}
             . I pay hommage to the male botanists {{ men }}
             {% else %}
@@ -34,6 +32,6 @@
         </p>
     </div>
 </div>
-<p class="has-text-align-center" id="plant_footer"><strong><span class="has-inline-color has-primary-color">Native to</span></strong>
+<p class="has-text-align-center" id="plant_footer"><strong><span class="has-inline-color has-primary-color">Native to </span></strong>
 {{ countries }}
 </p>

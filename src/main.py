@@ -104,7 +104,7 @@ def main():
     # Define tags and category
     tags = countries
     category = ['Plants']
-    title = scientific_name
+    title = '<i>' + scientific_name + '</i>'
     
     # Concatenate plant synonyms and countries
     t_o = '<i>'
@@ -135,7 +135,7 @@ def main():
     # Post to Wordpress and Twitter (To Do: handle tweepy code 186 by shortening message_twitter and trying again)
     wordpress_post(wp,title,message_wp,tags,category)
 
-    twitter_post(api,message_twitter,tttr_media)
+    # twitter_post(api,message_twitter,tttr_media)
 
     os.remove(filename)
 

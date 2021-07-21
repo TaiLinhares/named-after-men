@@ -113,10 +113,12 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
 
 def wordpress_post(wp,title,message_wp,tags,category):
     '''Posts to wordpress'''
+
     post = WordPressPost()
     post.post_status = 'publish'
     post.title = title
     post.content = message_wp
+    post.comment_status = 'open'
     post.excerpt = 'Named after men'
     post.terms_names = {
         "post_tag": tags,
