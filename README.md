@@ -3,6 +3,10 @@
 
 ## Setup
 
+### Handling secrets and environment variables
+
+Copy the `.env.template` file and rename it to `.env` add your secrets here. These values will then be loaded as environment variables and used to create a config object in the config package.
+
 ### Set virtual environment
 
 https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
