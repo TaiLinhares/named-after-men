@@ -21,8 +21,6 @@ from wordpress import (
 from utils import text_concat, get_pic
 
 
-# Define standard post text and formatting variables
-
 # Call for action to the project to be posted on Twitter
 call_for_action = (
     ". Data is not neutral, let's start this conversation. "
@@ -42,7 +40,9 @@ call_for_action = (
 def main():
 
     try:
-        raise ValueError('A very specific bad thing')
+        # Test email notification: 
+        # raise ValueError('A very specific bad thing')
+
         # Gets plant of the day
         plant = Plant(CONF["PSQL_USER"], CONF["PSQL_PASS"])
 
@@ -96,12 +96,12 @@ def main():
         # shortening message_twitter and trying again)
         wordpress_post(wp, title, message_wp, tags, category)
 
-        # twitter_post(api, message_twitter, tttr_media)
+        twitter_post(api, message_twitter, tttr_media)
 
         os.remove(filename)
     
     except Exception as e:
-        send_email(e, CONF["SENDGRID_API_KEY"])
+        send_email(e, CONF["SENDGRID_API_KEY"], CONF["NOTIFY_EMAIL"])
 
 
 

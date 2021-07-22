@@ -4,7 +4,7 @@ from loguru import logger
 
 logger = logger.bind(name="Plants")
 
-def send_email(e, SENDGRID_API_KEY):
+def send_email(e, SENDGRID_API_KEY, NOTIFY_EMAIL):
 
 
     # Create the body of the message (a plain-text and an HTML version).
@@ -20,21 +20,22 @@ def send_email(e, SENDGRID_API_KEY):
     <head></head>
     <body>
         Hi!<br>
-        How are you?<p>
-        Weather.com says: It is %s F now in South San Francisco. <p>
-        Yahoo says: It is F now in South San Francisco. <p>
-        
-        smooches, <br>
-        the white rabbit
+        How are you?
+        <p>Something went wrong in the Plants project:</p>
+        <p>%s F now in South San Francisco.</p>
+        <p> Do not freak out, everything is gona be ok. :)</p>
+        <br>
+        Hugs!<br>
+        you
     </body>
     </html>
     """ % (e)
 
 
     sg = SendGridAPIClient(api_key=SENDGRID_API_KEY)
-    from_email = Email("test@example.com")
-    to_email = To("test@example.com")
-    subject = "Sending with SendGrid is Fun"
+    from_email = Email(NOTIFY_EMAIL)
+    to_email = To(NOTIFY_EMAIL)
+    subject = "Issue in Plants project"
     content = Mail(from_email,
             to_email,
             subject,

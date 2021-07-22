@@ -17,4 +17,5 @@ CONF = {
     "PSQL_USER": os.getenv("psql_user"),
     "PSQL_PASS": os.getenv("psql_password"),
     "SENDGRID_API_KEY": os.getenv("sendgrid_api_key"),
+    "NOTIFY_EMAIL": os.getenv("notify_email")
 }
