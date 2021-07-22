@@ -5,7 +5,7 @@ import psycopg2
 
 from config import CONF
 from plant import Plant
-from handling_problems import send_email
+from notifications import send_email
 from twitter import (
     twitter_connect,
     twitter_up_media,

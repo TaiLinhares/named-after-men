@@ -16,5 +16,5 @@ CONF = {
     "WP_URL": os.getenv("url"),
     "PSQL_USER": os.getenv("psql_user"),
     "PSQL_PASS": os.getenv("psql_password"),
-    "SENDGRID_API_KEY": os.getenv(""),
+    "SENDGRID_API_KEY": os.getenv("sendgrid_api_key"),
 }
