@@ -41,7 +41,7 @@ def main():
 
     try:
         # Test email notification: 
-        # raise ValueError('A very specific bad thing')
+        # raise ValueError("A very specific bad thing just happened.")
 
         # Gets plant of the day
         plant = Plant(CONF["PSQL_USER"], CONF["PSQL_PASS"])

@@ -22,7 +22,7 @@ def send_email(e, SENDGRID_API_KEY, NOTIFY_EMAIL):
         Hi!<br>
         How are you?
         <p>Something went wrong in the Plants project:</p>
-        <p>%s F now in South San Francisco.</p>
+        <p><b>%s</b></p>
         <p> Do not freak out, everything is gona be ok. :)</p>
         <br>
         Hugs!<br>
@@ -43,5 +43,5 @@ def send_email(e, SENDGRID_API_KEY, NOTIFY_EMAIL):
             html_content=HtmlContent(html))
     response = sg.send(message=content)
     logger.info(response.status_code)
-    logger.info(response.body)
+    logger.info((response.body).decode("utf-8")) # is empty, see why
     logger.info(response.headers)
