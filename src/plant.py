@@ -65,6 +65,8 @@ class Plant():
         conn.autocommit = True
         cursor = conn.cursor()
 
+        logger.info("Database has been opened........")
+
         # Find out database length
         q = "SELECT COUNT(*) FROM plantsdb"
         cursor.execute(q)

@@ -69,6 +69,7 @@ def main():
             CONF["TWITTER_ACCESS_TOKEN"],
             CONF["TWITTER_ACCESS_TOKEN_SECRET"],
         )
+        logger.info("Connected to Wordpress and Twitter...")
 
         # Upload picture to Wordpress and Twitter
         wp_img = wordpress_up_media(wp, filename)
@@ -97,6 +98,8 @@ def main():
         wordpress_post(wp, title, message_wp, tags, category)
 
         twitter_post(api, message_twitter, tttr_media)
+
+        logger.info("Plant has been posted.")
 
         os.remove(filename)
     
