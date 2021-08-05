@@ -50,7 +50,7 @@ class Plant():
         Returns tuple corresponding to the plant's row in DB"""
 
         # Define post ID
-        start_day = datetime.date(2021, 7, 9)
+        start_day = datetime.date(2021, 7, 8)
         today = datetime.date.today()
         post_idx = (today - start_day).days + 1
 

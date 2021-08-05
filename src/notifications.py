@@ -43,5 +43,6 @@ def send_email(e, SENDGRID_API_KEY, NOTIFY_EMAIL):
             html_content=HtmlContent(html))
     response = sg.send(message=content)
     logger.info(response.status_code)
+    # logger.info(response.body) 
     logger.info((response.body).decode("utf-8")) # is empty, see why
     logger.info(response.headers)
