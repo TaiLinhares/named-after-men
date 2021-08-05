@@ -99,7 +99,7 @@ def main():
 
         twitter_post(api, message_twitter, tttr_media)
 
-        logger.info("Plant has been posted.")
+        logger.info("Plant has already been posted.")
 
         os.remove(filename)
     
