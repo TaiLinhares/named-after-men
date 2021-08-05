@@ -44,7 +44,7 @@ def main():
         # raise ValueError("A very specific bad thing just happened.")
 
         # Gets plant of the day
-        plant = Plant(CONF["PSQL_USER"], CONF["PSQL_PASS"])
+        plant = Plant(CONF["PSQL_USER"], CONF["PSQL_PASS"], CONF["DATABASE"], CONF["HOST"])
 
         # Define tags and category
         tags = plant.countries

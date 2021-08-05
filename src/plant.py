@@ -24,11 +24,12 @@ class Plant():
     
 
 
-    def __init__(self, PSQL_USER, PSQL_PASS):
+    def __init__(self, PSQL_USER, PSQL_PASS, DATABASE, HOST):
 
         self.PSQL_USER = PSQL_USER
         self.PSQL_PASS = PSQL_PASS
-
+        self.DATABASE = DATABASE
+        self.HOST = HOST
 
 
         query_content = self.get_plant()
@@ -56,10 +57,10 @@ class Plant():
 
         # Connect with local postgresql database
         conn = psycopg2.connect(
-            database="postgres",
+            database=self.DATABASE,
             user=self.PSQL_USER,
             password=self.PSQL_PASS,
-            host="127.0.0.1",
+            host=self.HOST,
             port="5432",
         )
         conn.autocommit = True
