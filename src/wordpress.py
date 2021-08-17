@@ -59,14 +59,13 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
     returns: a string with html post content
     """
     content_text = ""
-    logger.info("Before Jinja2 FileSystemLoader.")
+
     file_loader = FileSystemLoader("src/templates")
-    logger.info("After Jinja2 FileSystemLoader.")
+
     env = Environment(loader=file_loader)
-    logger.info("Before environment get_template.")
-    logger.info(env.list_templates())
+
     template = env.get_template("wp_template.html")
-    logger.info("After environment get_template.")
+
     content_text = template.render(
         imgsrc=imgsrc,
         img=img,
@@ -78,7 +77,7 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
         year=str(year),
         countries=countries,
     )
-    logger.info("Before return.")
+
     return content_text
 
 
