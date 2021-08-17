@@ -64,7 +64,7 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
     logger.info("After Jinja2 FileSystemLoader.")
     env = Environment(loader=file_loader)
     logger.info("Before environment get_template.")
-    logger.info(env)
+    logger.info(env.list_templates())
     template = env.get_template("wp_template.html")
     logger.info("After environment get_template.")
     content_text = template.render(
