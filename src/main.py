@@ -97,7 +97,7 @@ def main():
         # shortening message_twitter and trying again)
         wordpress_post(wp, title, message_wp, tags, category)
 
-        twitter_post(api, message_twitter, tttr_media)
+        # twitter_post(api, message_twitter, tttr_media)
 
         logger.info("Congratulations, a new plant has been posted!")
 
