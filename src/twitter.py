@@ -52,6 +52,7 @@ def twitter_message(post_day, name, synonyms, men, cfa):
     lim = 280 - (len(cfa) + 2)
 
     file_loader = FileSystemLoader("src/templates")
+    # file_loader = FileSystemLoader("templates")
     env = Environment(loader=file_loader)
 
     template = env.get_template("tttr_template.txt")
