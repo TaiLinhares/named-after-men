@@ -30,6 +30,6 @@ def get_pic(img_url):
             for chunk in request:
                 image.write(chunk)
     else:
-        filename = "image-not-found.jpg"
+        filename = "img/image-not-found.jpg"
 
     return filename
