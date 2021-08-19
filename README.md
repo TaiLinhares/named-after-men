@@ -2,7 +2,7 @@
 
 ## Description
 
-The code queries and formats content from a Postgresql database and posts it on Twitter and on a Wordpress blog. If the code throws any exception, the maintainer is notified per email.
+Queries and formats content from a Postgresql database and posts it on Twitter and on a Wordpress blog. If the code throws any exception, the maintainer is notified per email.
 
 ## Context
 
@@ -74,4 +74,4 @@ Configuration for pycodestyle can be found in the `./setup.cfg` file. The linter
 
 ### Running locally vs. running on Heroku
 
-The `FileSystemLoader` template path parameter starts on the root folder on Heroku `src/templates`, while it starts from the src folder when running locally, that is `template`.
+The `FileSystemLoader` template path parameter starts on the root folder on Heroku `src/templates`, while it starts from the src folder when running locally, that is `templates`.
