@@ -1,5 +1,12 @@
-# Plants
+# Named after Men - Daily post bot
 
+## Description
+
+The code queries and formats content from a Postgresql database and posts it on Twitter and on a Wordpress blog. If the code throws any exception, the maintainer is notified per email.
+
+## Context
+
+This repository is part of the data/art project **Named after Men**, which posts daily on Twitter and on the website [namedaftermen.com](www.namedaftermen.com) a plant that was named after a male botanist. The goal of this project is to reflect on the power structures that regulate the act of naming.
 
 ## Setup
 
@@ -12,7 +19,33 @@ Copy the `.env.template` file and rename it to `.env` add your secrets here. The
 https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
 https://docs.python.org/3/tutorial/venv.html
 
-#### in anaconda prompt
+#### On VS Code using Conda as interpreter
+
+```sh
+conda activate base
+```
+
+#### Create virtual environment on the project root folder
+
+```sh
+python -m venv venv
+```
+
+#### Activate virtual environment
+
+```sh
+venv\Scripts\activate
+// or on linux
+source venv/bin/activate
+```
+
+#### Deactivate virtual environment
+
+```sh
+deactivate
+```
+
+#### Useful Python commands
 
 ```sh
 // Check version, installed packages, and current environment
@@ -20,39 +53,13 @@ py --version
 py -m  pip list
 where python
 
-// If virtualenv package not installed (one of two)
+// If virtualenv package not installed
 py -m pip install virtualenv
-py -m pip install --user virtualenv
 
-// Install environment in the project root folder
-cd C:\Users\taian\Documents\Arts\Project\named_after_Men\Plants
-python -m venv venv
-```
-
-### OR Activate conda in vscode
-```sh
-C:/Users/taian/Anaconda3/Scripts/activate
-conda activate base
-```
-
-### Activate/Deactivate virtual environment (cmd, powershell or Anaconda prompt)
-```sh
-venv\Scripts\activate
-// or on linux
-source venv/bin/activate
-deactivate
-```
-
-
-### Install Packages (Anaconda prompt with venv activated)
-```sh
-py -m pip install package-name
-```
-
-### Update requirements txt
-```sh
+// Update requirements.txt
 pip3 freeze > requirements.txt
 ```
+
 
 ### Pythonic Linting
 

@@ -1,7 +1,6 @@
 import os
 import datetime
 from loguru import logger
-import psycopg2
 
 from config import CONF
 from plant import Plant
