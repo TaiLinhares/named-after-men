@@ -13,9 +13,9 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(text_concat(["A", "B", "C"], "<foo>", "</foo>"),
                          "<foo>A</foo>, <foo>B</foo>, and <foo>C</foo>")
 
-    def test_check_dtype(self):
-        self.assertEqual(
-            check_dtype(
-                ("dog", int(1), [
-                    "a", "b", "c"]), [
-                    "str", "int", "list"])[0], True)
+    # def test_check_dtype(self):
+    #     self.assertEqual(
+    #         check_dtype(
+    #             ("dog", int(1), [
+    #                 "a", "b", "c"]), [
+    #                 "str", "int", "list"])[0], True)
