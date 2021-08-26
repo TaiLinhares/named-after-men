@@ -14,7 +14,7 @@ class TestTwitter(unittest.TestCase):
     def test_twitter_message(self):
 
         test_template = []
-        with open(".test_templates/test_tttr_template.txt") as f:
+        with open("test_templates/test_tttr_template.txt") as f:
             test_template = f.readlines()
 
         # {{ post_day }} {{ name }}{% if synonyms != '' %}, also {% endif %}{{ synonyms }}
