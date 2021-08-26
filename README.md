@@ -91,6 +91,12 @@ git stash pop
 git merge main
 ```
 
+### Running [unittest](https://docs.python.org/3/library/unittest.html)
+
+```sh
+python -m unittest tests/test_script_name.py
+```
+
 ### Running locally vs. running on Heroku
 
 The `FileSystemLoader` template path parameter starts on the root folder on Heroku `src/templates`, while it starts from the src folder when running locally, that is `templates`.

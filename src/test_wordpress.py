@@ -6,7 +6,7 @@ class TestWordpress(unittest.TestCase):
 
     def test_wp_message(self):
 
-        with open(".test_templates/test_wp_template.txt") as f:
+        with open("test_templates/test_wp_template.txt") as f:
             test_template = f.read()
 
         self.assertEqual(
