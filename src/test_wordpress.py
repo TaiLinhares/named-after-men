@@ -12,7 +12,7 @@ class TestWordpress(unittest.TestCase):
                             "Beautiful planta",
                             "www.wikipedia.org",
                             "Planta bonita",
-                            "Man, or Homem",
+                            "Mand, or Homem",
                             1987,
                             "Brazil-Southeast, and Brazil-Northeast.",
                             "www.plant.org",
