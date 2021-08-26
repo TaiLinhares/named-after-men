@@ -1,5 +1,4 @@
 import unittest
-from jinja2 import Environment, FileSystemLoader
 from twitter import twitter_message
 
 
@@ -17,13 +16,14 @@ class TestTwitter(unittest.TestCase):
         test_template = []
         with open(".test_templates/test_tttr_template.txt") as f:
             test_template = f.readlines()
-        # test_template = "#1 Beautiful planta, also Planta bonita. Named after male botanists Man, Hombre, and Homem" + self.cfa
+ 
         #{{ post_day }} {{ name }}{% if synonyms != '' %}, also {% endif %}{{ synonyms }}{% if ',' in men %}. 
         # Named after male botanists {% else %}. Named after male botanist {% endif %}{{ men }}
-        #4 Awesome plant, also Plant bela. Named after male botanist Man, or Homem
+
         test_equal = [(1, "Beautiful planta", "Planta bonita", "Man, Hombre, and Homem", self.cfa),
                        (2, "Nova planta", "", "Man, and Hombre", self.cfa),
                        (3, "Planta plantarus", "Planta one, Planta two, Planta three, and Planta four", "A. Man, or B. Man, and C. Man, or D. Man", self.cfa),
                        (4, "Awesome plant", "Plant bela", "Man, or Homem", self.cfa)]
+                       
         for e,t in zip(test_equal, test_template):
             self.assertEqual(twitter_message(*e), t.rstrip())
