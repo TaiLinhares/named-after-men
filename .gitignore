@@ -131,3 +131,5 @@ dmypy.json
 # VS Workspace
 .plants-project.code-workspace
 
+# Folders
+.test_templates

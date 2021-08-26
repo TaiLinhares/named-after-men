@@ -90,7 +90,7 @@ def wordpress_post(wp, title, message_wp, tags, category):
     post.title = title
     post.content = message_wp
     post.comment_status = "open"
-    post.excerpt = "Named after men"
+    post.excerpt = "named after Men"
     post.terms_names = {"post_tag": tags, "category": category}
 
     wp.call(NewPost(post))
