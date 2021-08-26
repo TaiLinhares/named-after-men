@@ -1,8 +1,9 @@
 import os
+import sys
 import datetime
 from loguru import logger
 
-from config import CONF
+from config import Config
 from plant import Plant
 from notifications import send_email
 from twitter import (
@@ -38,12 +39,20 @@ call_for_action = (
 
 def main():
 
+    env = Config()
+
+    if env.val_config() == True:
+        logger.info("All environment variables exist.")
+    else:
+        logger.info("Some environment variables do not exist.")
+        sys.exit()
+
     try:
         # Test email notification: 
         # raise ValueError("A very specific bad thing just happened.")
 
         # Gets plant of the day
-        plant = Plant(CONF["PSQL_USER"], CONF["PSQL_PASS"], CONF["DATABASE"], CONF["HOST"])
+        plant = Plant(env.CONF["PSQL_USER"], env.CONF["PSQL_PASS"], env.CONF["DATABASE"], env.CONF["HOST"])
 
         # Define tags and category
         tags = plant.countries
@@ -61,12 +70,12 @@ def main():
         filename = get_pic(plant.img_url)
 
         # Connect to Wordpress and Twitter
-        wp = wordpress_connect(CONF["WP_URL"], CONF["WP_USER"], CONF["WP_PASS"])
+        wp = wordpress_connect(env.CONF["WP_URL"], env.CONF["WP_USER"], env.CONF["WP_PASS"])
         api = twitter_connect(
-            CONF["TWITTER_API_KEY"],
-            CONF["TWITTER_API_SECRET_KEY"],
-            CONF["TWITTER_ACCESS_TOKEN"],
-            CONF["TWITTER_ACCESS_TOKEN_SECRET"],
+            env.CONF["TWITTER_API_KEY"],
+            env.CONF["TWITTER_API_SECRET_KEY"],
+            env.CONF["TWITTER_ACCESS_TOKEN"],
+            env.CONF["TWITTER_ACCESS_TOKEN_SECRET"],
         )
         logger.info("Connected to Wordpress and Twitter...")
 
@@ -103,7 +112,7 @@ def main():
         os.remove(filename)
     
     except Exception as e:
-        send_email(e, CONF["SENDGRID_API_KEY"], CONF["NOTIFY_EMAIL"])
+        send_email(e, env.CONF["SENDGRID_API_KEY"], env.CONF["NOTIFY_EMAIL"])
 
 
 
