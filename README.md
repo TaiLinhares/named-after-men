@@ -69,8 +69,27 @@ black .
 pycodestyle .
 ```
 
+Use [autopep8](https://pypi.org/project/autopep8/) to automatically lint the code.
+
+```sh
+autopep8 --in-place --aggressive --aggressive .\script_name.py
+```
+
 Configuration for pycodestyle can be found in the `./setup.cfg` file. The linters will also run as github actions when code is pushed to Github.
 
+### Transfering changes in code from branch to main on github
+
+```sh
+git stash
+git checkout main
+git stash pop
+```
+
+### Merging updated code from main into a branch
+
+```sh
+git merge main
+```
 
 ### Running locally vs. running on Heroku
 

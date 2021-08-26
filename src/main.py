@@ -13,9 +13,9 @@ from twitter import (
     twitter_post,
 )
 from wordpress import (
-    wordpress_connect, 
-    wordpress_up_media, 
-    wp_message, 
+    wordpress_connect,
+    wordpress_up_media,
+    wp_message,
     wordpress_post,
 )
 from utils import text_concat, get_pic
@@ -36,23 +36,26 @@ call_for_action = (
 #############################################################
 
 
-
 def main():
 
     env = Config()
 
-    if env.val_config() == True:
+    if env.val_config():
         logger.info("All environment variables exist.")
     else:
         logger.info("Some environment variables do not exist.")
         sys.exit()
 
     try:
-        # Test email notification: 
+        # Test email notification:
         # raise ValueError("A very specific bad thing just happened.")
 
         # Gets plant of the day
-        plant = Plant(env.CONF["PSQL_USER"], env.CONF["PSQL_PASS"], env.CONF["DATABASE"], env.CONF["HOST"])
+        plant = Plant(
+            env.CONF["PSQL_USER"],
+            env.CONF["PSQL_PASS"],
+            env.CONF["DATABASE"],
+            env.CONF["HOST"])
 
         if plant is None:
             sys.exit()
@@ -113,10 +116,9 @@ def main():
         logger.info("Congratulations, a new plant has been posted!")
 
         os.remove(filename)
-    
+
     except Exception as e:
         send_email(e, env.CONF["SENDGRID_API_KEY"], env.CONF["NOTIFY_EMAIL"])
-
 
 
 if __name__ == "__main__":

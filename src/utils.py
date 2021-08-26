@@ -43,13 +43,12 @@ def check_dtype(obj, dt):
     if len(obj) != len(dt):
         return (False, None)
     else:
-        for o,t in zip(obj,dt):
+        for o, t in zip(obj, dt):
             print(o, " - ", t)
-            if type(o) != t:
+            if not isinstance(o, t):
                 wrong.append({o: type(o)})
                 status = False
         if len(wrong) > 0:
             return (status, wrong)
         else:
             return (status, None)
-            
