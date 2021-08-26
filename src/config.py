@@ -4,10 +4,10 @@ import os
 # Load Environment variables
 load_dotenv()
 
+
 class Config():
 
     def __init__(self):
-    
 
         self.CONF = {
             "TWITTER_USER": os.getenv("ttr_user"),
@@ -32,5 +32,5 @@ class Config():
         for c in self.CONF.keys():
             if self.CONF[c] == "":
                 return False
-            
+
         return True

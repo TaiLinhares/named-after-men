@@ -81,7 +81,6 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
     return content_text
 
 
-
 def wordpress_post(wp, title, message_wp, tags, category):
     """Posts to wordpress"""
 

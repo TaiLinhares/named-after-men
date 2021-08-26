@@ -7,22 +7,19 @@ import psycopg2
 logger = logger.bind(name="Plants")
 
 from_db_get = {
-        "Id": 0,
-        "Name": 1,
-        "Img_url": 2,
-        "Year": 3,
-        "Plant_url": 4,
-        "Synonyms": 5,
-        "Botanists_wp": 6,
-        "Botanists_ttr": 7,
-        "Countries": 8,
+    "Id": 0,
+    "Name": 1,
+    "Img_url": 2,
+    "Year": 3,
+    "Plant_url": 4,
+    "Synonyms": 5,
+    "Botanists_wp": 6,
+    "Botanists_ttr": 7,
+    "Countries": 8,
 }
 
 
-
 class Plant():
-    
-
 
     def __init__(self, PSQL_USER, PSQL_PASS, DATABASE, HOST):
 
@@ -30,7 +27,6 @@ class Plant():
         self.PSQL_PASS = PSQL_PASS
         self.DATABASE = DATABASE
         self.HOST = HOST
-
 
         query_content = self.get_plant()
 
@@ -43,8 +39,6 @@ class Plant():
         self.botanists_wp = query_content[0][from_db_get["Botanists_wp"]]
         self.botanists_ttr = query_content[0][from_db_get["Botanists_ttr"]]
         self.countries = query_content[0][from_db_get["Countries"]]
-    
-
 
     def get_plant(self):
         """Connects with plantsdb database and queries the plant of the day
@@ -93,5 +87,3 @@ class Plant():
         conn.close()
 
         return plant
-
-

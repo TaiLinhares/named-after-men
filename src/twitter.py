@@ -69,7 +69,6 @@ def twitter_message(post_day, name, synonyms, men, cfa):
     return content_text
 
 
-
 def twitter_post(api, message_twitter, tttr_media):
     """Posts to twitter"""
 
