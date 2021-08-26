@@ -22,7 +22,8 @@ class TestTwitter(unittest.TestCase):
 
         test_equal = [(1, "Beautiful planta", "Planta bonita", "Man, Hombre, and Homem", self.cfa),
                        (2, "Nova planta", "", "Man, and Hombre", self.cfa),
-                       (3, "Planta plantarus", "Planta one, Planta two, Planta three, and Planta four", "A. Man, or B. Man, and C. Man, or D. Man", self.cfa),
+                       (3, "Planta plantarus", "Planta one, Planta two, Planta three, and Planta four", 
+                       "A. Man, or B. Man, and C. Man, or D. Man", self.cfa),
                        (4, "Awesome plant", "Plant bela", "Man, or Homem", self.cfa),
                        (5, "Nice plant", "Plant bela", "Mand, or Homem", self.cfa)]
                        
