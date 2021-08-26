@@ -55,7 +55,7 @@ def main():
         t_c = "</i>"
         syn_concat_wp = text_concat(plant.synonyms, t_o, t_c)
         syn_concat_ttr = text_concat(plant.synonyms)
-        ctr_concat = text_concat(plant.countries)
+        ctr_concat = text_concat(plant.countries) + "."
 
         # Download picture to directory
         filename = get_pic(plant.img_url)
