@@ -94,7 +94,7 @@ git merge main
 ### Running [unittest](https://docs.python.org/3/library/unittest.html)
 
 ```sh
-python -m unittest tests/test_script_name.py
+python -m unittest test_script_name
 ```
 
 ### Running locally vs. running on Heroku
