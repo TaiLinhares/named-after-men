@@ -20,12 +20,12 @@ class TestTwitter(unittest.TestCase):
         #{{ post_day }} {{ name }}{% if synonyms != '' %}, also {% endif %}{{ synonyms }}{% if ',' in men %}. 
         # Named after male botanists {% else %}. Named after male botanist {% endif %}{{ men }}
 
-        test_equal = [(1, "Beautiful planta", "Planta bonita", "Man, Hombre, and Homem", self.cfa),
+        test_cases = [(1, "Beautiful planta", "Planta bonita", "Man, Hombre, and Homem", self.cfa),
                        (2, "Nova planta", "", "Man, and Hombre", self.cfa),
                        (3, "Planta plantarus", "Planta one, Planta two, Planta three, and Planta four", 
                        "A. Man, or B. Man, and C. Man, or D. Man", self.cfa),
                        (4, "Awesome plant", "Plant bela", "Man, or Homem", self.cfa),
                        (5, "Nice plant", "Plant bela", "Mand, or Homem", self.cfa)]
                        
-        for e,t in zip(test_equal, test_template):
-            self.assertEqual(twitter_message(*e), t.rstrip())
+        for c,t in zip(test_cases, test_template):
+            self.assertEqual(twitter_message(*c), t.rstrip())
