@@ -54,6 +54,9 @@ def main():
         # Gets plant of the day
         plant = Plant(env.CONF["PSQL_USER"], env.CONF["PSQL_PASS"], env.CONF["DATABASE"], env.CONF["HOST"])
 
+        if plant is None:
+            sys.exit()
+
         # Define tags and category
         tags = plant.countries
         category = ["Plants"]

@@ -81,6 +81,10 @@ class Plant():
 
         else:
             logger.info("Project is over")
+            conn.commit()
+            logger.info("Database has been closed........")
+            conn.close()
+
             return
 
         # Close local database
