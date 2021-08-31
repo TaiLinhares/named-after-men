@@ -1,17 +1,17 @@
-
-<div class="wp-block-columns">
+<div class="wp-block-columns plant-main">
     <div class="wp-block-column" style="flex-basis:50%">
-        <figure class="wp-block-image size-large is-style-default" id="plant_fig">
-            <img src= "{{ imgsrc }}" alt="This plant's image" class="wp-image-29"/>
+        <figure class="wp-block-image size-large is-style-default plant-fig">
+            <img src= "{{ imgsrc }}" alt="This plant's image" class="wp-image-29 plant-img"/>
             <figcaption>
                 <i>{{ name }}</i>. See image source <a href="{{ img }}">here</a>.
             </figcaption>
+        </figure>
     </div>
     <div class="wp-block-column" style="flex-basis:50%">
         <p></p><p></p><p></p>
-        <p id="plant_text">
+        <p class="plant-text">
             <span style="color: #d12b0e; font-size:3.6em; font-weight: 800; font-family: \'inter-val\',sans-serif; margin:0.05em 0.1em 0.1em 0; line-height: .68; float:left" >#{{ post_day }} </span>They called me {% if wiki == None %}<i>{{ name }}</i>{% else %}<i><a href="{{ wiki }}">{{ name }}</a></i>{% endif %}{% if synonyms != '' %}, also known as {{ synonyms }}{% else %}{% endif %}{% if ', and' in men %}. I pay homage to the male botanists {{ men }}{% else %}. I pay homage to the male botanist {{ men }}{% endif %}. They first catalogued me in {{ year }}.
         </p>
     </div>
 </div>
-<p class="has-text-align-center" id="plant_footer"><strong><span class="has-inline-color has-primary-color">Native to </span></strong>{{ countries }}</p>
+<p class="has-text-align-center plant-footer"><strong><span class="has-inline-color has-primary-color">Native to </span></strong>{{ countries }}</p>
