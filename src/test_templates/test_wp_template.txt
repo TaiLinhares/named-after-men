@@ -10,7 +10,7 @@
     <div class="wp-block-column" style="flex-basis:50%">
         <p></p><p></p><p></p>
         <p class="plant-text">
-            <span style="color: #d12b0e; font-size:3.6em; font-weight: 800; font-family: \'inter-val\',sans-serif; margin:0.05em 0.1em 0.1em 0; line-height: .68; float:left" >#1 </span>They called me <i><a href="www.wikipedia.org">Beautiful planta</a></i>, also known as Planta bonita. I pay homage to the male botanist Mand, or Homem. They first catalogued me in 1987.
+            <span class="plant-number" style="color: #d12b0e; font-size:3.6em; font-weight: 800; font-family: \'inter-val\',sans-serif; margin:0.05em 0.1em 0.1em 0; line-height: .68; float:left" >#1 </span>They called me <i><a href="www.wikipedia.org">Beautiful planta</a></i>, also known as Planta bonita. I pay homage to the male botanist Mand, or Homem. They first catalogued me in 1987.
         </p>
     </div>
 </div>
