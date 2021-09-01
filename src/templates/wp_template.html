@@ -10,8 +10,9 @@
     <div class="wp-block-column" style="flex-basis:50%">
         <p></p><p></p><p></p>
         <p class="plant-text">
-            <span class="plant-number" style="color: #d12b0e; font-size:3.6em; font-weight: 800; font-family: \'inter-val\',sans-serif; margin:0.05em 0.1em 0.1em 0; line-height: .68; float:left" >#{{ post_day }} </span>They called me {% if wiki == None %}<i>{{ name }}</i>{% else %}<i><a href="{{ wiki }}">{{ name }}</a></i>{% endif %}{% if synonyms != '' %}, also known as {{ synonyms }}{% else %}{% endif %}{% if ', and' in men %}. I pay homage to the male botanists {{ men }}{% else %}. I pay homage to the male botanist {{ men }}{% endif %}. They first catalogued me in {{ year }}.
+            <span class="plant-number">#{{ post_day }} </span>They called me {% if wiki == None %}<i>{{ name }}</i>{% else %}<i><a href="{{ wiki }}" class="plant-wiki">{{ name }}</a></i>{% endif %}{% if synonyms != '' %}, also known as {{ synonyms }}{% else %}{% endif %}{% if ', and' in men %}. I pay homage to the male botanists {{ men }}{% else %}. I pay homage to the male botanist {{ men }}{% endif %}. They first catalogued me in {{ year }}.
         </p>
     </div>
 </div>
+<div class="plant-widget"></div>
 <p class="has-text-align-center plant-footer"><strong><span class="has-inline-color has-primary-color">Native to </span></strong>{{ countries }}</p>
