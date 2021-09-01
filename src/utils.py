@@ -33,3 +33,22 @@ def get_pic(img_url):
         filename = "img/image-not-found.jpg"
 
     return filename
+
+
+def check_dtype(obj, dt):
+    '''obj: tuple, with objects to check type.
+        dt: list, object data types to check against.'''
+    wrong = []
+    status = True
+    if len(obj) != len(dt):
+        return (False, None)
+    else:
+        for o, t in zip(obj, dt):
+            print(o, " - ", t)
+            if not isinstance(o, t):
+                wrong.append({o: type(o)})
+                status = False
+        if len(wrong) > 0:
+            return (status, wrong)
+        else:
+            return (status, None)
