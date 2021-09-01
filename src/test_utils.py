@@ -1,5 +1,4 @@
 import unittest
-import requests
 from utils import text_concat, check_dtype
 
 

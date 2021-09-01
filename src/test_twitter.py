@@ -3,11 +3,14 @@ from twitter import twitter_message
 
 
 class TestTwitter(unittest.TestCase):
-    # len(cfa) = 145, lim = 133
+    # old len(cfa) = 145, new len(cfa) = 127
+    # old lim = 133, new lim 151
     # Limit of text - cfa is 133, if longer substitute last two chr for ".."
-    cfa = (". Data is not neutral, let's start this conversation. "
-           "Know the project at www.namedaftermen.com #namedaftermen "
-           "#decolonizescience #data #botanics")
+    cfa = (
+        ". Data is not neutral, go to www.namedafterMen.com "
+        "and join the conversation. "
+        "#NamedAfterMen #DecolonizeScience #Data #Botanics"
+    )
 
     lim = 280 - (len(cfa) + 2)
 
@@ -25,7 +28,7 @@ class TestTwitter(unittest.TestCase):
                       (2, "Nova planta", "", "Man, and Hombre", self.cfa),
                       (3,
                        "Planta plantarus", "Planta one, Planta two, Planta three, and Planta four",
-                       "A. Man, or B. Man, and C. Man, or D. Man", self.cfa),
+                       "A. Man, or B. Man, and C. Man, D. Man, or E. Man", self.cfa),
                       (4, "Awesome plant", "Plant bela", "Man, or Homem", self.cfa),
                       (5, "Nice plant", "Plant bela", "Mand, or Homem", self.cfa)]
 

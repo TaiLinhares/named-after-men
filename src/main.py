@@ -1,6 +1,5 @@
 import os
 import sys
-import datetime
 from loguru import logger
 
 from config import Config
@@ -23,13 +22,11 @@ from utils import text_concat, get_pic
 
 # Call for action to the project to be posted on Twitter
 call_for_action = (
-    ". Data is not neutral, let's start this conversation. "
-    "Know the project at www.namedaftermen.com #namedaftermen "
-    "#decolonizescience #data #botanics"
+    ". Data is not neutral, go to www.namedafterMen.com "
+    "and join the conversation. "
+    "#NamedAfterMen #DecolonizeScience #Data #Botanics"
 )
 
-# initialize logger
-# logger = logger.bind(name="Plants")
 
 #############################################################
 #                       Functions                           #
@@ -47,9 +44,6 @@ def main():
         sys.exit()
 
     try:
-        # Test email notification:
-        # raise ValueError("A very specific bad thing just happened.")
-
         # Gets plant of the day
         plant = Plant(
             env.CONF["PSQL_USER"],
