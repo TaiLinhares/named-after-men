@@ -15,6 +15,7 @@ from wordpress import (
     wordpress_connect,
     wordpress_up_media,
     wp_message,
+    wp_excerpt,
     wordpress_post,
 )
 from utils import text_concat, get_pic
@@ -58,12 +59,14 @@ def main():
         tags = plant.countries
         category = ["Plants"]
         title = "<i>" + plant.scientific_name + "</i>"
+        slug = str(plant.day) + " " + plant.scientific_name
 
         # Concatenate plant synonyms and countries
         t_o = "<i>"
         t_c = "</i>"
         syn_concat_wp = text_concat(plant.synonyms, t_o, t_c)
-        syn_concat_ttr = text_concat(plant.synonyms)
+        syn_concat_wp_short = text_concat(plant.synonyms, t_o, t_c, lim=2)
+        syn_concat_ttr = text_concat(plant.synonyms, lim=2)
         ctr_concat = text_concat(plant.countries) + "."
 
         # Download picture to directory
@@ -82,8 +85,17 @@ def main():
         # Upload picture to Wordpress and Twitter
         wp_img = wordpress_up_media(wp, filename)
         wp_img_url = wp_img["url"]
+        wp_img_id = wp_img["id"]
 
         tttr_media = twitter_up_media(api, filename)
+
+        # Create WP excerpt text
+        excerpt_text = wp_excerpt(
+            plant.scientific_name,
+            syn_concat_wp_short,
+            plant.botanists_ttr,
+            lim=300
+        )
 
         # Create WP HTML post content and twitter message
         message_wp = wp_message(
@@ -103,7 +115,7 @@ def main():
 
         # Post to Wordpress and Twitter (To Do: handle tweepy code 186 by
         # shortening message_twitter and trying again)
-        wordpress_post(wp, title, message_wp, tags, category)
+        wordpress_post(wp, title, message_wp, tags, category, slug, wp_img_id, excerpt_text)
 
         # twitter_post(api, message_twitter, tttr_media)
 
