@@ -11,6 +11,10 @@ class TestUtils(unittest.TestCase):
                          "<foo>A</foo>, and <foo>B</foo>")
         self.assertEqual(text_concat(["A", "B", "C"], "<foo>", "</foo>"),
                          "<foo>A</foo>, <foo>B</foo>, and <foo>C</foo>")
+        self.assertEqual(text_concat(["A", "B", "C", "D"], "<foo>", "</foo>", 3),
+                         "<foo>A</foo>, <foo>B</foo>, and <foo>C</foo>")
+        self.assertEqual(text_concat(["A", "B", "C", "D"], "<foo>", "</foo>", 5),
+                         "<foo>A</foo>, <foo>B</foo>, <foo>C</foo>, and <foo>D</foo>")
 
     # def test_check_dtype(self):
     #     self.assertEqual(

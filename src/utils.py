@@ -1,17 +1,26 @@
 import requests
 
 
-def text_concat(names, tag_o="", tag_c=""):
+def text_concat(names, tag_o="", tag_c="", lim=0):
     """Concatenate list of names and apply conjunction
-    Returns concatenated list of names"""
+        names: list, strings to be concatenated.
+        tag_o: str, opening html tag.
+        tag_c: str, closing html tag.
+        lim: int, maximum items to be concatenated.
+        returns concatenated list of names"""
 
     text = ""
 
+    if lim > 0 and lim <= len(names):
+        names = names[:lim]
+    else:
+        lim = len(names)
+
     for i, m in enumerate(names):
-        if len(names) == 1:
+        if lim == 1:
             text += tag_o + m + tag_c
 
-        elif (len(names) - 1) == i:
+        elif (lim - 1) == i:
             text += "and " + tag_o + m + tag_c
 
         else:

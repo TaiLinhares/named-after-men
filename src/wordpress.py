@@ -42,6 +42,35 @@ def wordpress_up_media(wp, filename):
     return wp_media
 
 
+def wp_excerpt(name, synonyms, men, lim=0):
+    '''Creates excerpt text
+        name: str, plant scientific name
+        synonyms: str, concatenated synonyms
+        men: str, concatenated botanists names
+        lim: int, character limit'''
+
+    text = ''
+
+    file_loader = FileSystemLoader("templates")
+
+    env = Environment(loader=file_loader)
+
+    template = env.get_template("wp_excerpt_template.html")
+
+    text = template.render(
+        name=name,
+        synonyms=synonyms,
+        men=men,
+    )
+
+    if lim > 0 and lim <= len(text):
+        text = text[:(lim - 2)] + "...</p>"
+    else:
+        text = text + ".</p>"
+
+    return text
+
+
 def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc):
     """Uploads media file to wordpress library, and creates post object
 
@@ -60,7 +89,7 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
     """
     content_text = ""
 
-    file_loader = FileSystemLoader("templates")
+    file_loader = FileSystemLoader("src/templates")
 
     env = Environment(loader=file_loader)
 
@@ -81,15 +110,17 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
     return content_text
 
 
-def wordpress_post(wp, title, message_wp, tags, category):
+def wordpress_post(wp, title, message_wp, tags, category, post_slug, img_id, excerpt):
     """Posts to wordpress"""
 
     post = WordPressPost()
     post.post_status = "publish"
     post.title = title
+    post.slug = post_slug
     post.content = message_wp
     post.comment_status = "open"
-    post.excerpt = "named after Men"
+    post.excerpt = excerpt
+    post.thumbnail = img_id
     post.terms_names = {"post_tag": tags, "category": category}
 
     wp.call(NewPost(post))
