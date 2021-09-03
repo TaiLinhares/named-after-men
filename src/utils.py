@@ -33,15 +33,18 @@ def get_pic(img_url):
     """Download picture to directory"""
 
     filename = "temp.jpg"
-    request = requests.get(img_url, stream=True)
-    if request.status_code == 200:
-        with open(filename, "wb") as image:
-            for chunk in request:
-                image.write(chunk)
-    else:
+    try:
+        request = requests.get(img_url, stream=True)
+        if request.status_code == 200:
+            with open(filename, "wb") as image:
+                for chunk in request:
+                    image.write(chunk)
+        else:
+            filename = "img/image-not-found.jpg"
+    except:
         filename = "img/image-not-found.jpg"
-
-    return filename
+    finally:
+        return filename
 
 
 def check_dtype(obj, dt):
