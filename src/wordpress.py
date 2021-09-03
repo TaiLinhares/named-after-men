@@ -51,7 +51,7 @@ def wp_excerpt(name, synonyms, men, lim=0):
 
     text = ''
 
-    file_loader = FileSystemLoader("templates")
+    file_loader = FileSystemLoader("src/templates")
 
     env = Environment(loader=file_loader)
 
