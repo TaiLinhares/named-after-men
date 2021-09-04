@@ -11,7 +11,7 @@
         <div class="wp-block-column" style="flex-basis:50%">
             <p></p><p></p><p></p>
             <p class="plant-text">
-                <span class="plant-number">#1 </span>They called me <i><a href="www.wikipedia.org" class="plant-wiki">Beautiful planta</a></i>, also known as Planta bonita. I pay homage to the male botanist Mand, or Homem. They first catalogued me in 1987.
+                <span class="plant-number">#1 </span>They called me <i><a href="www.wikipedia.org" class="plant-wiki">Beautiful planta</a></i>, also known as Planta bonita. I pay homage to the male botanist <span class="botanist-wiki">Mand, or Homem</span>. They first catalogued me in 1987.
             </p>
         </div>
     </div>
