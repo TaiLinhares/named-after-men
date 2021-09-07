@@ -48,7 +48,7 @@ def get_pic(img_url, SENDGRID_API_KEY, NOTIFY_EMAIL):
             filename = "img/image-not-found.jpg"
     except Exception as e:
         logger.info("Could not download picture, so image is placeholder.")
-        send_email(e, SENDGRID_API_KEY, NOTIFY_EMAIL)
+        send_email(e, SENDGRID_API_KEY, NOTIFY_EMAIL, "picture is placeholder")
         filename = "img/image-not-found.jpg"
     finally:
         return filename

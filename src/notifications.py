@@ -5,7 +5,7 @@ from loguru import logger
 logger = logger.bind(name="Plants")
 
 
-def send_email(e, SENDGRID_API_KEY, NOTIFY_EMAIL):
+def send_email(e, SENDGRID_API_KEY, NOTIFY_EMAIL, subject="unknown"):
 
     # Create the body of the message (a plain-text and an HTML version).
     # text is your plain-text email
@@ -33,7 +33,7 @@ def send_email(e, SENDGRID_API_KEY, NOTIFY_EMAIL):
     sg = SendGridAPIClient(api_key=SENDGRID_API_KEY)
     from_email = Email(NOTIFY_EMAIL)
     to_email = To(NOTIFY_EMAIL)
-    subject = "Issue in Plants project"
+    subject = "Issue in Plants project: " + subject
     content = Mail(from_email,
                    to_email,
                    subject,
