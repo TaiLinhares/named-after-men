@@ -58,7 +58,7 @@ def main():
         # Define tags and category
         tags = plant.countries
         category = ["Plants"]
-        title = "<i>" + plant.scientific_name + "</i>"
+        title = plant.scientific_name
         slug = str(plant.day) + " " + plant.scientific_name
 
         # Concatenate plant synonyms and countries
