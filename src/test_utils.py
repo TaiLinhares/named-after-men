@@ -1,5 +1,5 @@
 import unittest
-from utils import text_concat, check_dtype
+from utils import text_concat
 
 
 class TestUtils(unittest.TestCase):
@@ -15,10 +15,3 @@ class TestUtils(unittest.TestCase):
                          "<foo>A</foo>, <foo>B</foo>, and <foo>C</foo>")
         self.assertEqual(text_concat(["A", "B", "C", "D"], "<foo>", "</foo>", 5),
                          "<foo>A</foo>, <foo>B</foo>, <foo>C</foo>, and <foo>D</foo>")
-
-    # def test_check_dtype(self):
-    #     self.assertEqual(
-    #         check_dtype(
-    #             ("dog", int(1), [
-    #                 "a", "b", "c"]), [
-    #                 "str", "int", "list"])[0], True)
