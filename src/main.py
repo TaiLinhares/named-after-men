@@ -70,7 +70,7 @@ def main():
         ctr_concat = text_concat(plant.countries) + "."
 
         # Download picture to directory
-        filename = get_pic(plant.img_url)
+        filename = get_pic(plant.img_url, env.CONF["SENDGRID_API_KEY"], env.CONF["NOTIFY_EMAIL"])
 
         # Connect to Wordpress and Twitter
         wp = wordpress_connect(env.CONF["WP_URL"], env.CONF["WP_USER"], env.CONF["WP_PASS"])

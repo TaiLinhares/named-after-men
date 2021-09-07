@@ -1,5 +1,8 @@
 import requests
+from loguru import logger
+from notifications import send_email
 
+logger = logger.bind(name="Plants")
 
 def text_concat(names, tag_o="", tag_c="", lim=0):
     """Concatenate list of names and apply conjunction
@@ -29,7 +32,7 @@ def text_concat(names, tag_o="", tag_c="", lim=0):
     return text
 
 
-def get_pic(img_url):
+def get_pic(img_url, SENDGRID_API_KEY, NOTIFY_EMAIL):
     """Download picture to directory"""
 
     filename = "temp.jpg"
@@ -40,8 +43,11 @@ def get_pic(img_url):
                 for chunk in request:
                     image.write(chunk)
         else:
+            logger.info("Could not download picture, so image is placeholder.")
             filename = "img/image-not-found.jpg"
-    except:
+    except Exception as e:
+        logger.info("Could not download picture, so image is placeholder.")
+        send_email(e, SENDGRID_API_KEY, NOTIFY_EMAIL)
         filename = "img/image-not-found.jpg"
     finally:
         return filename
