@@ -1,4 +1,4 @@
-# Named after Men - Daily post bot
+# named after Men - Daily post bot
 
 ## Description
 
