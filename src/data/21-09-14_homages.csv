@@ -1,0 +1,2570 @@
+plant_id,scientific_name,synonym,botanist_last_name
+1,Ficus erecta,Ficus taquetii,taquet
+1,Ficus erecta,Ficus sieboldii,siebold
+2,Hemiptelea davidii,Hemiptelea davidii,david
+2,Hemiptelea davidii,Planera davidii,david
+2,Hemiptelea davidii,Abelicea davidii,david
+3,Acalypha amentacea,Acalypha warburgii,warburg
+4,Carissa spinarum,Carissa dalzellii,dalzell
+4,Carissa spinarum,Carissa brownii,brown
+4,Carissa spinarum,Damnacanthus esquirolii,esquirol
+4,Carissa spinarum,Arduina campenonii,campenon
+5,Solanum hasslerianum,Solanum brownii,brown
+6,Chrysojasminum humile,Jasminum wallichii,wallich
+6,Chrysojasminum humile,Jasminum jacquemontii,jacquemont
+7,Juniperus cedrus,Juniperus webbii,webb
+8,Alternanthera pungens,Achyranthes lorentzii,lorentz
+8,Alternanthera pungens,Alternanthera lorentzii,lorentz
+9,Triumfetta rhomboidea,Triumfetta vahlii,vahl
+10,Cephalotaxus oliveri,Cephalotaxus griffithii,griffith
+11,Piper longum,Piper roxburghii,roxburgh
+11,Piper longum,Chavica roxburghii,roxburgh
+12,Najas marina,Najas marina var. ohwii,ohw
+12,Najas marina,Najas marina var. riedelii,riedel
+12,Najas marina,Najas marina subsp. ehrenbergii,ehrenberg
+13,Plantago lanceolata,Plantago preslii,presl
+13,Plantago lanceolata,Plantago schottii,schott
+13,Plantago lanceolata,Plantago linkii,link
+14,Solanum album,Solanum gaudichaudii,gaudichaud
+14,Solanum album,Solanum cavanillesii,cavanilles
+14,Solanum album,Solanum jacquinii,jacquin
+14,Solanum album,Solanum macannii,macann
+14,Solanum album,Solanum cumingii,cuming
+14,Solanum album,Solanum melongena subsp. cumingii,cuming
+14,Solanum album,Solanum requienii,requien
+14,Solanum album,Solanum junghuhnii,junghuhn
+14,Solanum album,Solanum vincentii,vincent
+14,Solanum album,Solanum nelsonii,nelson
+14,Solanum album,Solanum heynii,heyn
+14,Solanum album,Solanum kurzii,kurz
+15,Ophrys tenthredinifera,Ophrys tenthredinifera subsp. guimaraesii,guimaraes
+15,Ophrys tenthredinifera,Ophrys tenthredinifera var. guimaraesii,guimaraes
+15,Ophrys tenthredinifera,Ophrys tenthredinifera f. choffatii,choffat
+15,Ophrys tenthredinifera,Ophrys normanii,norman
+16,Iris pseudacorus,Iris bastardii,bastard
+17,Sclerophylax kurtzii,Sclerophylax kurtzii,kurtz
+18,Trimezia martinicensis,Xanthocromyon herbertii,herbert
+19,Tritonia gladiolaris,Tritonia krausii,kraus
+20,Sisyrinchium angustifolium,Sisyrinchium nuttallii,nuttall
+21,Moraea setifolia,Moraea rogersii,rogers
+21,Moraea setifolia,Helixyra rogersii,rogers
+21,Moraea setifolia,Gynandriris rogersii,rogers
+22,Crocus veluchensis,Crocus pallasii,pallas
+22,Crocus veluchensis,Crocus elwesii,elwes
+22,Crocus veluchensis,Crocus thiebautii,thiebaut
+23,Iris jacquinii,Iris jacquinii,jacquin
+23,Iris jacquinii,Xiphion jacquinii,jacquin
+24,Sisyrinchium rosulatum,Sisyrinchium brownii,brown
+25,Iris laevigata,Iris gmelinii,gmelin
+25,Iris laevigata,Iris dierinckii,dierinck
+26,Crocus tournefortii,Crocus tournefortii,tournefort
+26,Crocus tournefortii,Crocus boryi subsp. tournefortii,tournefort
+27,Ranunculus tuberosus,Ranunculus lecokii,lecok
+27,Ranunculus tuberosus,Ranunculus crantzii,crantz
+27,Ranunculus tuberosus,Ranunculus delacourii,delacour
+27,Ranunculus tuberosus,Ranunculus amansii,amans
+28,Herbertia lahue,Herbertia watsonii,watson
+29,Iris ensata,Iris smithii,smith
+30,Olsynium douglasii,Olsynium douglasii,douglas
+30,Olsynium douglasii,Sisyrinchium douglasii,douglas
+31,Crocus biflorus,Crocus parkinsonii,parkinson
+32,Gladiolus crassifolius,Gladiolus junodii,junod
+32,Gladiolus crassifolius,Gladiolus thomsonii,thomson
+32,Gladiolus crassifolius,Gladiolus conrathii,conrath
+32,Gladiolus crassifolius,Gladiolus dieterlenii,dieterlen
+33,Iris hartwegii,Iris hartwegii,hartweg
+33,Iris hartwegii,Limniris hartwegii,hartweg
+33,Iris hartwegii,Iris hartwegii subsp. hartwegii,hartweg
+34,Aristea ecklonii,Aristea ecklonii,ecklon
+34,Aristea ecklonii,Aristea lastii,last
+34,Aristea ecklonii,Aristea maitlandii,maitland
+35,Babiana nervosa,Gladiolus lamarckii,lamarck
+36,Thalassia hemprichii,Thalassia hemprichii,hemprich
+37,Crocus fleischeri,Crocus sennii,senn
+37,Crocus fleischeri,Crocus kirkii,kirk
+38,Watsonia pillansii,Watsonia pillansii,pillans
+38,Watsonia pillansii,Watsonia priorii,prior
+38,Watsonia pillansii,Watsonia hutchinsonii,hutchinson
+39,Sisyrinchium langloisii,Sisyrinchium langloisii,langlois
+39,Sisyrinchium langloisii,Sisyrinchium tenuifolium var. seatonii,seaton
+39,Sisyrinchium langloisii,Bermudiana hartwegii,hartweg
+39,Sisyrinchium langloisii,Sisyrinchium hartwegii,hartweg
+40,Moraea pallida,Homeria mossii,moss
+41,Phillyrea latifolia,Phillyrea latifolia subsp. daninii,danin
+41,Phillyrea latifolia,Phillyrea latifolia var. rodriguezii,rodriguez
+41,Phillyrea latifolia,Phillyrea trabutii,trabut
+41,Phillyrea latifolia,Phillyrea angustifolia subsp. rodriguezii,rodriguez
+41,Phillyrea latifolia,Phillyrea cadevallii,cadevall
+41,Phillyrea latifolia,Phillyrea jahandiezii,jahandiez
+41,Phillyrea latifolia,Phillyrea latifolia subsp. rodriguezii,rodriguez
+42,Aethionema arabicum,Aethionema buxbaumii,buxbaum
+42,Aethionema arabicum,Thlaspi buxbaumii,buxbaum
+43,Gladiolus ecklonii,Gladiolus ecklonii,ecklon
+44,Gladiolus rogersii,Gladiolus rogersii,rogers
+44,Gladiolus rogersii,Gladiolus rogersii var. vlokii,vlok
+44,Gladiolus rogersii,Gladiolus burchellii,burchell
+45,Hesperantha bachmannii,Hesperantha bachmannii,bachmann
+46,Crocus aleppicus,Crocus gaillardotii,gaillardot
+47,Gladiolus sericeovillosus,Gladiolus ludwigii,ludwig
+48,Gladiolus woodii,Gladiolus woodii,wood
+49,Daucus carota,Daucus allionii,allion
+49,Daucus carota,Daucus kotovii,kotov
+50,Moraea ochroleuca,Homeria lucasii,lucas
+51,Babiana bainesii,Babiana bainesii,baines
+52,Lapeirousia jacquinii,Lapeirousia jacquinii,jacquin
+53,Sisyrinchium luzula,Sisyrinchium burchellii,burchell
+54,Geniostoma rupestre,Geniostoma macgregorii,macgregor
+54,Geniostoma rupestre,Geniostoma brassii,brass
+54,Geniostoma rupestre,Geniostoma gilgii,gilg
+54,Geniostoma rupestre,Geniostoma fleischmannii,fleischmann
+55,Calicotome villosa,Cytisus preslii,presl
+56,Cypella herbertii,Cypella herbertii,herbert
+56,Cypella herbertii,Tigridia herbertii,herbert
+56,Cypella herbertii,Moraea herbertii,herbert
+56,Cypella herbertii,Phalocallis herbertii,herbert
+57,Pandanus tectorius,Pandanus douglasii,douglas
+57,Pandanus tectorius,Pandanus menziesii,menzies
+57,Pandanus tectorius,Pandanus parhamii,parham
+57,Pandanus tectorius,Pandanus bergmanii,bergman
+57,Pandanus tectorius,Pandanus parksii,parks
+57,Pandanus tectorius,Pandanus grantii,grant
+57,Pandanus tectorius,Pandanus rockii,rock
+57,Pandanus tectorius,Pandanus jonesii,jones
+57,Pandanus tectorius,Pandanus sykesii,sykes
+57,Pandanus tectorius,Pandanus christophersenii,christophersen
+57,Pandanus tectorius,Pandanus hubbardii,hubbard
+57,Pandanus tectorius,Pandanus kraussii,krauss
+57,Pandanus tectorius,Pandanus brownii,brown
+57,Pandanus tectorius,Pandanus koidzumii,koidzum
+57,Pandanus tectorius,Pandanus smithii,smith
+57,Pandanus tectorius,Pandanus volkensii,volkens
+57,Pandanus tectorius,Pandanus edwinii,edwin
+57,Pandanus tectorius,Pandanus veitchii,veitch
+57,Pandanus tectorius,Pandanus tectorius var. douglasii,douglas
+57,Pandanus tectorius,Pandanus tectorius var. menziesii,menzies
+58,Dodonaea viscosa,Dodonaea ehrenbergii,ehrenberg
+58,Dodonaea viscosa,Dodonaea viscosa f. ehrenbergii,ehrenberg
+58,Dodonaea viscosa,Dodonaea eriocarpa var. forbesii,forbes
+58,Dodonaea viscosa,Dodonaea eriocarpa var. skottsbergii,skottsberg
+58,Dodonaea viscosa,Dodonaea eriocarpa var. hillebrandii,hillebrand
+58,Dodonaea viscosa,Dodonaea eriocarpa var. sherffii,sherff
+59,Tritonia nelsonii,Tritonia nelsonii,nelson
+60,Babiana nana,Babiana sprengelii,sprengel
+61,Gladiolus inflatus,Gladiolus bolusii,bolus
+62,Wahlenbergia gracilis,Campanula preissii,preiss
+63,Sarcomelicope simplicifolia,Acronychia hillii,hill
+64,Gladiolus ochroleucus,Gladiolus kirkii,kirk
+65,Tritonia securigera,Ixia thunbergii,thunberg
+66,Premna serratifolia,Premna perrottetii,perrottet
+66,Premna serratifolia,Premna obtusifolia var. gaudichaudii,gaudichaud
+66,Premna serratifolia,Premna lamii,lam
+66,Premna serratifolia,Premna gaudichaudii,gaudichaud
+66,Premna serratifolia,Premna woodii,wood
+67,Tetragonia implexicoma,Trianthema maidenii,maiden
+68,Babiana hirsuta,Babiana thunbergii,thunberg
+69,Iris collettii,Iris collettii,collett
+69,Iris collettii,Junopsis collettii,collett
+69,Iris collettii,Iris duclouxii,ducloux
+70,Allophylus cobbe,Allophylus bartlettii,bartlett
+71,Eragrostis brownii,Eragrostis brownii,brown
+71,Eragrostis brownii,Megastachya brownii,brown
+71,Eragrostis brownii,Eragrostis benthamii,bentham
+71,Eragrostis brownii,Poa brownii,brown
+72,Salvia fruticosa,Salvia thomasii,thomas
+72,Salvia fruticosa,Salvia fruticosa subsp. thomasii,thomas
+73,Alstonia costata,Alstonia smithii,smith
+74,Sisyrinchium jamesonii,Sisyrinchium jamesonii,jameson
+74,Sisyrinchium jamesonii,Bermudiana jamesonii,jameson
+75,Watsonia zeyheri,Watsonia comptonii,compton
+76,Eleocharis acuta,Eleocharis cunninghamii,cunningham
+76,Eleocharis acuta,Scirpus cunninghamii,cunningham
+77,Gladiolus wilsonii,Gladiolus wilsonii,wilson
+77,Gladiolus wilsonii,Gladiolus permeabilis subsp. wilsonii,wilson
+77,Gladiolus wilsonii,Gladiolus frederickii,frederick
+77,Gladiolus wilsonii,Tritonia wilsonii,wilson
+78,Davallia solida,Davallia robinsonii,robinson
+79,Plumeria rubra,Plumeria jamesonii,jameson
+79,Plumeria rubra,Plumeria kerrii,kerr
+79,Plumeria rubra,Plumeria gouanii,gouan
+80,Epidendrum secundum,Epidendrum herzogii,herzog
+81,Festuca lachenalii,Festuca lachenalii,lachenal
+81,Festuca lachenalii,Triticum lachenalii,lachenal
+81,Festuca lachenalii,Nardurus lachenalii,lachenal
+81,Festuca lachenalii,Nardurus morisonii,morison
+81,Festuca lachenalii,Vulpia lachenalii,lachenal
+82,Microtis unifolia,Microtis holmesii,holmes
+82,Microtis unifolia,Microtis banksii,banks
+83,Radinosiphon leptostachya,Radinosiphon cameronii,cameron
+84,Euphorbia characias,Euphorbia cuatrecasasii,cuatrecasas
+85,Dracaena angustifolia,Cordyline rumphii,rumph
+85,Dracaena angustifolia,Cordyline cheesemanii,cheeseman
+85,Dracaena angustifolia,Dracaena × bartetii,bartet
+85,Dracaena angustifolia,Dracaena gibsonii,gibson
+85,Dracaena angustifolia,Cordyline dennisonii,dennison
+85,Dracaena angustifolia,Cordyline baptistii,baptist
+85,Dracaena angustifolia,Dracaena chelsonii,chelson
+85,Dracaena angustifolia,Cordyline bartelii,bartel
+85,Dracaena angustifolia,Cordyline macarthurii,macarthur
+85,Dracaena angustifolia,Dracaena flemingii,fleming
+85,Dracaena angustifolia,Cordyline duffii,duff
+85,Dracaena angustifolia,Calodracon jacquinii,jacquin
+85,Dracaena angustifolia,Cordyline thomsonii,thomson
+85,Dracaena angustifolia,Cordyline chelsonii,chelson
+85,Dracaena angustifolia,Cordyline hendersonii,henderson
+85,Dracaena angustifolia,Cordyline laingii,laing
+85,Dracaena angustifolia,Cordyline jacquinii,jacquin
+85,Dracaena angustifolia,Cordyline youngii,young
+85,Dracaena angustifolia,Dracaena hendersonii,henderson
+85,Dracaena angustifolia,Cordyline williamsii,williams
+86,Zehneria mucronata,Bryonia johnstonii,johnston
+87,Alophia silvestris,Nemastylis bequaertii,bequaert
+88,Eucalyptus fibrosa,Eucalyptus bowmanii,bowman
+89,Caladium bicolor,Caladium brongniartii,brongniart
+89,Caladium bicolor,Caladium gaerdtii,gaerdt
+89,Caladium bicolor,Caladium connaertii,connaert
+89,Caladium bicolor,Caladium chantinii,chantin
+89,Caladium bicolor,Caladium kochii,koch
+89,Caladium bicolor,Caladium verschaffeltii,verschaffelt
+89,Caladium bicolor,Caladium curwadlii,curwadl
+89,Caladium bicolor,Caladium houlletii,houllet
+89,Caladium bicolor,Caladium barraquinii,barraquin
+89,Caladium bicolor,Caladium leopoldii,leopold
+89,Caladium bicolor,Caladium sieboldii,siebold
+89,Caladium bicolor,Caladium wightii,wight
+89,Caladium bicolor,Xanthosoma lindenii,linden
+89,Caladium bicolor,Caladium jacquinii,jacquin
+89,Caladium bicolor,Caladium thelemannii,thelemann
+89,Caladium bicolor,Caladium eckhartii,eckhart
+89,Caladium bicolor,Caladium bicolor f. wightii,wight
+89,Caladium bicolor,Caladium bicolor f. chantinii,chantin
+89,Caladium bicolor,Caladium bicolor f. barraquinii,barraquin
+89,Caladium bicolor,Caladium neumannii,neumann
+89,Caladium bicolor,Caladium bicolor f. verschaffeltii,verschaffelt
+89,Caladium bicolor,Caladium bicolor f. neumannii,neumann
+89,Caladium bicolor,Caladium bicolor f. brongniartii,brongniart
+89,Caladium bicolor,Phyllotaenium lindenii,linden
+89,Caladium bicolor,Caladium lindenii,linden
+89,Caladium bicolor,Alocasia roezlii,roezl
+89,Caladium bicolor,Caladium dussii,duss
+89,Caladium bicolor,Caladium hendersonii,henderson
+90,Gladiolus saundersii,Gladiolus saundersii,saunders
+91,Isolepis cernua,Isolepis kochii,koch
+91,Isolepis cernua,Scirpus setaceus var. savii,sav
+91,Isolepis cernua,Schoenoplectus savii,sav
+91,Isolepis cernua,Scirpus savii,sav
+91,Isolepis cernua,Isolepis savii,sav
+91,Isolepis cernua,Scirpus cernuus var. vahlii,vahl
+91,Isolepis cernua,Cyperus aitonii,aiton
+92,Iris grant-duffii,Iris grant-duffii,grant-duff
+92,Iris grant-duffii,Syrianthus grant-duffii,grant-duff
+92,Iris grant-duffii,Iris aschersonii,ascherson
+92,Iris grant-duffii,Syrianthus aschersonii,ascherson
+93,Mirabilis laevis,Hesperonia heimerlii,heimerl
+93,Mirabilis laevis,Mirabilis heimerlii,heimerl
+94,Lachnagrostis filiformis,Calamagrostis willdenowii,willdenow
+94,Lachnagrostis filiformis,Agrostis leonii,leon
+95,Gladiolus melleri,Gladiolus johnstonii,johnston
+96,Tulipa orphanidea,Tulipa orphanidea subsp. whittalii,whittal
+96,Tulipa orphanidea,Tulipa whittallii,whittall
+96,Tulipa orphanidea,Tulipa orphanidea var. whittallii,whittall
+96,Tulipa orphanidea,Tulipa hayatii,hayat
+97,Dierama mossii,Dierama mossii,moss
+98,Oplismenus hirtellus,Panicum balfourii,balfour
+98,Oplismenus hirtellus,Oplismenus borhidii,borhid
+99,Trifolium uniflorum,Trifolium buxbaumii,buxbaum
+99,Trifolium uniflorum,Lupinaster buxbaumii,buxbaum
+100,Ixora casei,Ixora duffii,duff
+100,Ixora casei,Ixora volkensii,volkens
+100,Ixora casei,Ixora williamsii,williams
+101,Epipremnum pinnatum,Epipremnum merrillii,merrill
+101,Epipremnum pinnatum,Rhaphidophora cunninghamii,cunningham
+101,Epipremnum pinnatum,Rhaphidophora rosenburghii,rosenburgh
+101,Epipremnum pinnatum,Epipremnum robinsonii,robinson
+101,Epipremnum pinnatum,Rhaphidophora merrillii,merrill
+101,Epipremnum pinnatum,Rhaphidophora wallichii,wallich
+102,Planchonella obovata,Sideroxylon merrillii,merrill
+102,Planchonella obovata,Planchonella merrillii,merrill
+102,Planchonella obovata,Sideroxylon brownii,brown
+103,Dieffenbachia seguine,Dieffenbachia poeppigii,poeppig
+103,Dieffenbachia seguine,Dieffenbachia seguine subvar. wallisii,wallis
+103,Dieffenbachia seguine,Dieffenbachia wallisii,wallis
+103,Dieffenbachia seguine,Dieffenbachia picta subvar. jenmanii,jenman
+103,Dieffenbachia seguine,Dieffenbachia jenmanii,jenman
+103,Dieffenbachia seguine,Dieffenbachia verschaffeltii,verschaffelt
+103,Dieffenbachia seguine,Dieffenbachia chelsonii,chelson
+104,Ipomoea violacea,Calonyction jacquinii,jacquin
+105,Sparaxis variegata,Sparaxis wattii,watt
+106,Ophioglossum lusitanicum,Ophioglossum braunii,braun
+107,Cocculus orbiculatus,Cocculus thunbergii,thunberg
+108,Koeleria vallesiana,Koeleria linkii,link
+108,Koeleria vallesiana,Koeleria borbasii,borbas
+108,Koeleria vallesiana,Koeleria skorpilii,skorpil
+108,Koeleria vallesiana,Koeleria mitrushii,mitrush
+109,Sphaeropteris glauca,Alsophila mertensii,mertens
+109,Sphaeropteris glauca,Alsophila smithii,smith
+109,Sphaeropteris glauca,Cyathea smithii,smith
+109,Sphaeropteris glauca,Hemitelia smithii,smith
+110,Jasione heldreichii,Jasione heldreichii,heldreich
+111,Ochrosia oppositifolia,Kopsia lamarckii,lamarck
+111,Ochrosia oppositifolia,Calpicarpum lamarckii,lamarck
+112,Abutilon indicum,Abutilon cunninghamii,cunningham
+112,Abutilon indicum,Abutilon indicum var. welwitschii,welwitsch
+113,Tritoniopsis burchellii,Tritoniopsis burchellii,burchell
+113,Tritoniopsis burchellii,Antholyza burchellii,burchell
+113,Tritoniopsis burchellii,Anapalina burchellii,burchell
+114,Asteriscus aquaticus,Asteriscus morrisonii,morrison
+115,Serapias bergonii,Serapias bergonii,bergon
+116,Iris munzii,Iris munzii,munz
+116,Iris munzii,Limniris munzii,munz
+117,Procris pedunculata,Procris humblotii,humblot
+118,Quercus pubescens,Quercus vukotinocicii,vukotinocic
+118,Quercus pubescens,Quercus borzii,borz
+118,Quercus pubescens,Quercus tommasinii,tommasin
+118,Quercus pubescens,Quercus secondatii,secondat
+118,Quercus pubescens,Quercus tournefortii,tournefort
+119,Grammitis pectinata,Humata archboldii,archbold
+119,Grammitis pectinata,Humata banksii,banks
+119,Grammitis pectinata,Polypodium leysii,leys
+119,Grammitis pectinata,Prosaptia leysii,leys
+119,Grammitis pectinata,Ctenopteris leysii,leys
+119,Grammitis pectinata,Grammitis leysii,leys
+120,Laportea ruderalis,Laportea schomburgkii,schomburgk
+121,Capsicum annuum,Capsicum tournefortii,tournefort
+121,Capsicum annuum,Capsicum hamiltonii,hamilton
+122,Nonea echioides,Lithospermum tournefortii,tournefort
+123,Prestoea acuminata,Prestoea allenii,allen
+124,Gladiolus hollandii,Gladiolus hollandii,holland
+125,Limonium pectinatum,Limonium humboldtii,humboldt
+125,Limonium pectinatum,Statice humboldtii,humboldt
+126,Lepidaploa glabra,Vernonia longifolia var. sintenisii,sintenis
+126,Lepidaploa glabra,Vernonia sintenisii,sintenis
+126,Lepidaploa glabra,Vernonia × gleasonii,gleason
+127,Geissorhiza exscapa,Gladiolus thunbergii,thunberg
+128,Gladiolus huttonii,Gladiolus huttonii,hutton
+128,Gladiolus huttonii,Homoglossum hollandii,holland
+128,Gladiolus huttonii,Homoglossum huttonii,hutton
+129,Pentalinon luteum,Urechites andrewsii,andrews
+129,Pentalinon luteum,Echites andrewsii,andrews
+130,Hymenophyllum rarum,Hymenophyllum gunnii,gunn
+131,Heliotropium sarmentosum,Tournefortia horsfieldii,horsfield
+132,Bourreria succulenta,Bourreria wrightii,wright
+133,Geissorhiza bolusii,Geissorhiza bolusii,bolus
+134,Fumaria kralikii,Fumaria kralikii,kralik
+135,Sporobolus africanus,Sporobolus batesii,bates
+136,Vulpia bromoides,Festuca willemetii,willemet
+137,Plantago subulata,Plantago wulfenii,wulfen
+138,Polygonum equisetiforme,Polygonum ehrenbergii,ehrenberg
+139,Angiopteris evecta,Angiopteris ruttenii,rutten
+139,Angiopteris evecta,Angiopteris norrisii,norris
+139,Angiopteris evecta,Angiopteris cumingii,cuming
+139,Angiopteris evecta,Angiopteris willinkii,willink
+139,Angiopteris evecta,Angiopteris lauterbachii,lauterbach
+139,Angiopteris evecta,Angiopteris naumannii,naumann
+139,Angiopteris evecta,Angiopteris lorentzii,lorentz
+139,Angiopteris evecta,Angiopteris hellwigii,hellwig
+140,Opuntia stricta,Opuntia bentonii,benton
+140,Opuntia stricta,Opuntia bartramii,bartram
+140,Opuntia stricta,Opuntia dillenii var. reitzii,reitz
+140,Opuntia stricta,Opuntia dillenii,dillen
+141,Ranunculus gracilis,Ranunculus agerii,ager
+142,Arisaema serratum,Arisaema serratum fo. thunbergii,thunberg
+143,Ipomoea batatas,Batatas wallii,wall
+143,Ipomoea batatas,Ipomoea purpusii,purpus
+143,Ipomoea batatas,Ipomoea tiliacea var. smithii,smith
+143,Ipomoea batatas,Ipomoea wallii,wall
+144,Haplophyllum buxbaumii,Haplophyllum buxbaumii,buxbaum
+144,Haplophyllum buxbaumii,Haplophyllum biebersteinii,bieberstein
+144,Haplophyllum buxbaumii,Ruta buxbaumii,buxbaum
+145,Tagetes erecta,Tagetes ernstii,ernst
+146,Coleus scutellarioides,Coleus saundersii,saunders
+146,Coleus scutellarioides,Coleus gibsonii,gibson
+146,Coleus scutellarioides,Coleus verschaffeltii,verschaffelt
+146,Coleus scutellarioides,Coleus marshallii,marshall
+146,Coleus scutellarioides,Coleus gaudichaudii,gaudichaud
+146,Coleus scutellarioides,Coleus dixii,dix
+146,Coleus scutellarioides,Coleus veitchii,veitch
+147,Vavaea amicorum,Vavaea lamii,lam
+147,Vavaea amicorum,Vavaea ledermannii,ledermann
+147,Vavaea amicorum,Vavaea brassii,brass
+147,Vavaea amicorum,Vavaea kajewskii,kajewsk
+147,Vavaea amicorum,Vavaea chalmersii,chalmers
+147,Vavaea amicorum,Beilschmiedia brassii,brass
+148,Sambucus canadensis,Sambucus simpsonii,simpson
+148,Sambucus canadensis,Sambucus eberhardtii,eberhardt
+149,Antidesma excavatum,Antidesma katikii,katik
+149,Antidesma excavatum,Antidesma warburgii,warburg
+149,Antidesma excavatum,Antidesma hylandii,hyland
+150,Dicranopteris linearis,Gleichenia hermannii,hermann
+150,Dicranopteris linearis,Dicranopteris hermannii,hermann
+150,Dicranopteris linearis,Mertensia lessonii,lesson
+150,Dicranopteris linearis,Gleichenia klotzschii,klotzsch
+150,Dicranopteris linearis,Mertensia klotzschii,klotzsch
+150,Dicranopteris linearis,Dicranopteris klotzschii,klotzsch
+150,Dicranopteris linearis,Mertensia hermannii,hermann
+151,Halodule wrightii,Halodule wrightii,wright
+151,Halodule wrightii,Diplanthera wrightii,wright
+151,Halodule wrightii,Diplanthera dawsonii,dawson
+152,Aira praecox,Aira gmelinii,gmelin
+153,Taeniophyllum fasciola,Taeniophyllum seemannii,seemann
+154,Hosta sieboldii,Hosta sieboldii,siebold
+154,Hosta sieboldii,Hosta okamii,okam
+154,Hosta sieboldii,Hosta sieboldii f. okamii,okam
+155,Fimbristylis cymosa,Fimbristylis warburgii,warburg
+155,Fimbristylis cymosa,Fimbristylis sintenisii,sintenis
+156,Malva multiflora,Lavatera cavanillesii,cavanilles
+157,Terminalia catappa,Myrobalanus commersonii,commerson
+157,Terminalia catappa,Terminalia copelandii,copeland
+157,Terminalia catappa,Badamia commersonii,commerson
+158,Sterculia shillinglawii,Sterculia shillinglawii,shillinglaw
+158,Sterculia shillinglawii,Sterculia conwentzii,conwentz
+159,Legousia hybrida,Legousia skvortsovii,skvortsov
+160,Bruguiera gymnorhiza,Bruguiera zippelii,zippel
+160,Bruguiera gymnorhiza,Bruguiera wightii,wight
+160,Bruguiera gymnorhiza,Bruguiera rumphii,rumph
+161,Gaultheria domingensis,Gaultheria swartzii,swartz
+162,Silene uniflora,Silene bastardii,bastard
+163,Sagina maritima,Sagina rodriguezii,rodriguez
+163,Sagina maritima,Sagina schiraevskii,schiraevsk
+163,Sagina maritima,Sagina thiebautii,thiebaut
+164,Eupatorium glehnii,Eupatorium glehnii,glehn
+165,Canna indica,Canna lambertii,lambert
+165,Canna indica,Canna indica var. warszewiczii,warszewicz
+165,Canna indica,Canna altensteinii,altenstein
+165,Canna indica,Canna warszewiczii,warszewicz
+165,Canna indica,Canna bihorellii,bihorell
+165,Canna indica,Canna sellowii,sellow
+165,Canna indica,Canna indica var. edwardsii,edwards
+165,Canna indica,Canna schubertii,schubert
+165,Canna indica,Canna poeppigii,poeppig
+165,Canna indica,Canna ehrenbergii,ehrenberg
+166,Diplazium caudatum,Asplenium aitonii,aiton
+167,Poa cookii,Poa cookii,cook
+167,Poa cookii,Festuca cookii,cook
+167,Poa cookii,Poa hamiltonii,hamilton
+168,Silene chlorifolia,Silene smithii,smith
+169,Hymenophyllum junghuhnii,Hymenophyllum junghuhnii,junghuhn
+169,Hymenophyllum junghuhnii,Hymenophyllum cumingii,cuming
+169,Hymenophyllum junghuhnii,Mecodium junghuhnii,junghuhn
+170,Sterculia macrophylla,Sterculia parkinsonii,parkinson
+171,Diplazium pallidum,Diplazium roxburghii,roxburgh
+172,Colona scabra,Columbia burretii,burret
+173,Manilkara zapota,Mimusops grisebachii,grisebach
+173,Manilkara zapota,Achras calderonii,calderon
+173,Manilkara zapota,Manilkariopsis rojasii,rojas
+173,Manilkara zapota,Achras conzattii,conzatt
+173,Manilkara zapota,Achras rojasii,rojas
+173,Manilkara zapota,Manilkara grisebachii,grisebach
+173,Manilkara zapota,Manilkara rojasii,rojas
+173,Manilkara zapota,Manilkara conzattii,conzatt
+173,Manilkara zapota,Manilkara calderonii,calderon
+174,Lolium rigidum,Lolium scholzii,scholz
+174,Lolium rigidum,Lolium husnotii,husnot
+175,Caladenia carnea,Caladenia atkinsonii,atkinson
+176,Tabebuia heterophylla,Tabebuia curtissii,curtiss
+176,Tabebuia heterophylla,Tabebuia lindahlii,lindahl
+176,Tabebuia heterophylla,Tecoma eggersii,eggers
+177,Eustrephus latifolius,Eustrephus latifolius var. brownii,brown
+177,Eustrephus latifolius,Eustrephus brownii,brown
+178,Cenchrus purpureus,Pennisetum benthamii,bentham
+179,Abelmoschus moschatus,Hibiscus roxburghii,roxburgh
+180,Passiflora foetida,Passiflora foetida var. glaziovii,glaziov
+180,Passiflora foetida,Passiflora hermannii,hermann
+181,Pericallis papyracea,Senecio hillebrandii,hillebrand
+181,Pericallis papyracea,Pericallis papyracea subsp. hillebrandii,hillebrand
+182,Rhopalostylis sapida,Areca banksii,banks
+183,Argyranthemum broussonetii,Argyranthemum broussonetii,broussonet
+183,Argyranthemum broussonetii,Matricaria broussonetii,broussonet
+183,Argyranthemum broussonetii,Ismelia broussonetii,broussonet
+183,Argyranthemum broussonetii,Pyrethrum broussonetii,broussonet
+183,Argyranthemum broussonetii,Chrysanthemum broussonetii,broussonet
+184,Hymenophyllum pallidum,Trichomanes braunii,braun
+184,Hymenophyllum pallidum,Craspedoneuron braunii,braun
+185,Torilis africana,Torilis hillebrandii,hillebrand
+186,Sisyrinchium mandonii,Sisyrinchium mandonii,mandon
+186,Sisyrinchium mandonii,Bermudiana mandonii,mandon
+187,Nephrolepis brownii,Nephrolepis brownii,brown
+187,Nephrolepis brownii,Aspidium schkuhrii,schkuhr
+187,Nephrolepis brownii,Nephrodium brownii,brown
+188,Aglaia silvestris,Dysoxylum baillonii,baillon
+188,Aglaia silvestris,Lepidaglaia baillonii,baillon
+188,Aglaia silvestris,Aglaia forstenii,forsten
+188,Aglaia silvestris,Lepiaglaia baillonii,baillon
+188,Aglaia silvestris,Aglaia baillonii,baillon
+188,Aglaia silvestris,Aglaia mannii,mann
+188,Aglaia silvestris,Epicharis baillonii,baillon
+189,Cyperus polystachyos,Cyperus hartii,hart
+189,Cyperus polystachyos,Cyperus dussii,duss
+189,Cyperus polystachyos,Cyperus liebmannii,liebmann
+189,Cyperus polystachyos,Cyperus gatesii,gates
+189,Cyperus polystachyos,Cyperus boivinii,boivin
+189,Cyperus polystachyos,Cyperus thouarsii,thouars
+190,Connarus semidecandrus,Connarus semidecandrus var. gaudichaudii,gaudichaud
+190,Connarus semidecandrus,Connarus wallichii,wallich
+190,Connarus semidecandrus,Omphalobium gaudichaudii,gaudichaud
+190,Connarus semidecandrus,Connarus gaudichaudii,gaudichaud
+190,Connarus semidecandrus,Connarus griffithii,griffith
+191,Retama monosperma,Spartium clusii,clus
+191,Retama monosperma,Spartium webbii,webb
+191,Retama monosperma,Retama spachii,spach
+192,Brachypodium sylvaticum,Brachypodium wattii,watt
+192,Brachypodium sylvaticum,Brachypodium sylvaticum subsp. spryginii,sprygin
+192,Brachypodium sylvaticum,Brachypodium fontanesii,fontanes
+192,Brachypodium sylvaticum,Brachypodium spryginii,sprygin
+193,Lolium perenne,Lolium marschallii,marschall
+193,Lolium perenne,Lolium trabutii,trabut
+193,Lolium perenne,Lolium gmelinii,gmelin
+193,Lolium perenne,Lolium perenne subsp. trabutii,trabut
+194,Eustachys petraea,Chloris dusenii,dusen
+194,Eustachys petraea,Chloris swartzii,swartz
+195,Paspalum scrobiculatum,Paspalum commersonii,commerson
+195,Paspalum scrobiculatum,Paspalum jardinii,jardin
+195,Paspalum scrobiculatum,Paspalum deightonii,deighton
+195,Paspalum scrobiculatum,Paspalum ledermannii,ledermann
+195,Paspalum scrobiculatum,Paspalum moratii,morat
+195,Paspalum scrobiculatum,Paspalum metzii,metz
+196,Ophrys sphegodes,Ophrys sphegodes subsp. zeusii,zeus
+196,Ophrys sphegodes,Ophrys ruppertii,ruppert
+196,Ophrys sphegodes,Ophrys fuchsii,fuchs
+196,Ophrys sphegodes,Ophrys camusii,camus
+196,Ophrys sphegodes,Ophrys zeusii,zeus
+197,Hypochaeris glabra,Achyrophorus balbisii,balbis
+197,Hypochaeris glabra,Hypochaeris bartholdii,barthold
+198,Phreatia matthewsii,Phreatia matthewsii,matthews
+198,Phreatia matthewsii,Pinalia matthewsii,matthews
+199,Ranunculus repens,Ranunculus schlechtendalii,schlechtendal
+199,Ranunculus repens,Ranunculus repens f. schlechtendalii,schlechtendal
+199,Ranunculus repens,Ranunculus clintonii,clinton
+199,Ranunculus repens,Ranunculus belvisii,belvis
+200,Vicia cracca,Vicia douglassii,douglass
+200,Vicia cracca,Vicia cracca subsp. grossheimii,grossheim
+201,Sandoricum koetjape,Sandoricum vidalii,vidal
+201,Sandoricum koetjape,Sandoricum harmandii,harmand
+202,Solanum aviculare,Solanum baylisii,baylis
+202,Solanum aviculare,Solanum cheesemanii,cheeseman
+203,Commersonia bartramia,Commersonia echinata var. bancroftii,bancroft
+204,Isolepis inundata,Isolepis gunnii,gunn
+205,Dierama galpinii,Dierama galpinii,galpin
+206,Vitis vinifera,Vitis guilelmii,guilelm
+206,Vitis vinifera,Vitis gmelinii,gmelin
+207,Pterocephalus plumosus,Pterocephalus vaillantii,vaillant
+207,Pterocephalus plumosus,Cephalaria wallichii,wallich
+207,Pterocephalus plumosus,Scabiosa willichii,willich
+207,Pterocephalus plumosus,Trichera willichii,willich
+208,Strobilanthes reptans,Hemigraphis robinsonii,robinson
+209,Sapindus saponaria,Sapindus thurstonii,thurston
+209,Sapindus saponaria,Sapindus turczaninowii,turczaninow
+210,Trigonella spruneriana,Trigonella sibthorpii,sibthorp
+210,Trigonella spruneriana,Trigonella spruneriana subsp. sibthorpii,sibthorp
+210,Trigonella spruneriana,Vicia sibthorpii,sibthorp
+210,Trigonella spruneriana,Cracca sibthorpii,sibthorp
+211,Acianthus sinclairii,Acianthus sinclairii,sinclair
+212,Ipomoea indica,Pharbitis learii,lear
+212,Ipomoea indica,Convolvulus ruizii,ruiz
+212,Ipomoea indica,Ipomoea learii,lear
+212,Ipomoea indica,Ipomoea austinii,austin
+213,Elaeocarpus angustifolius,Elaeocarpus wenzelii,wenzel
+213,Elaeocarpus angustifolius,Elaeocarpus parkinsonii,parkinson
+214,Duranta erecta,Duranta repens var. lopez-palacii,lopez-palac
+214,Duranta erecta,Duranta baumgartenii,baumgarten
+214,Duranta erecta,Duranta repens var. mutisii,mutis
+215,Melica imperfecta,Melica parishii,parish
+216,Pericallis webbii,Pericallis webbii,webb
+216,Pericallis webbii,Senecio webbii,webb
+216,Pericallis webbii,Doronicum webbii,webb
+217,Valerianella dentata,Fedia morisonii,morison
+217,Valerianella dentata,Valerianella morisonii,morison
+218,Hedychium coronarium,Gandasulium sieboldii,siebold
+218,Hedychium coronarium,Hedychium sieboldii,siebold
+219,Persea americana,Persea steyermarkii,steyermark
+220,Hesperantha huttonii,Hesperantha huttonii,hutton
+220,Hesperantha huttonii,Acidanthera huttonii,hutton
+221,Premna corymbosa,Premna alstonii,alston
+222,Phaleria octandra,Phaleria neumannii,neumann
+222,Phaleria octandra,Drimyspermum neumannii,neumann
+223,Echium bonnetii,Echium bonnetii,bonnet
+224,Noaea mucronata,Noaea tournefortii,tournefort
+224,Noaea mucronata,Salsola tournefortii,tournefort
+224,Noaea mucronata,Anabasis tournefortii,tournefort
+225,Vicia lutea,Vicia lutea subsp. cavanillesii,cavanilles
+226,Rumex crispus,Rumex kunthii,kunth
+227,Spermacoce remota,Spermacoce chapmanii,chapman
+227,Spermacoce remota,Spermacoce tenuior var. commersonii,commerson
+228,Platystemon californicus,Platystemon hallii,hall
+229,Micromeria benthamii,Micromeria benthamii,bentham
+229,Micromeria benthamii,Clinopodium benthamii,bentham
+229,Micromeria benthamii,Satureja benthamii,bentham
+230,Orchis simia,Orchis smithii,smith
+231,Anthurium grandifolium,Anthurium wullschlaegelii,wullschlaegel
+231,Anthurium grandifolium,Anthurium hahnii,hahn
+231,Anthurium grandifolium,Anthurium guildingii,guilding
+232,Vachellia farnesiana,Acacia smallii,small
+233,Ceodes brunoniana,Pisonia sinclairii,sinclair
+234,Marcus-kochia littorea,Hesperis broussonetii,broussonet
+235,Biscutella auriculata,Biscutella lamarckii,lamarck
+236,Dichapetalum timoriense,Dichapetalum robinsonii,robinson
+236,Dichapetalum timoriense,Dichapetalum peekelii,peekel
+237,Leucothrinax morrisii,Leucothrinax morrisii,morris
+237,Leucothrinax morrisii,Thrinax morrisii,morris
+237,Leucothrinax morrisii,Thrinax ekmanii,ekman
+238,Weinmannia fraxinea,Windmannia horsfieldii,horsfield
+238,Weinmannia fraxinea,Weinmannia ledermannii,ledermann
+238,Weinmannia fraxinea,Weinmannia horsfieldii,horsfield
+239,Pseuderanthemum carruthersii,Pseuderanthemum carruthersii,carruthers
+239,Pseuderanthemum carruthersii,Eranthemum carruthersii,carruthers
+239,Pseuderanthemum carruthersii,Pseuderanthemum carruthersii var. carruthersii,carruthers
+240,Sasa veitchii,Sasa veitchii,veitch
+240,Sasa veitchii,Sasa uii,u
+240,Sasa veitchii,Bambusa veitchii,veitch
+241,Crateva religiosa,Crateva hansemannii,hansemann
+241,Crateva religiosa,Crateva brownii,brown
+242,Helicia serrata,Helicia curtisii,curtis
+242,Helicia serrata,Helicia scortechinii,scortechin
+243,Festuca rubra,Festuca kirelowii,kirelow
+243,Festuca rubra,Festuca rubra subsp. kirelowii,kirelow
+243,Festuca rubra,Festuca alexeevii,alexeev
+243,Festuca rubra,Festuca waldsteinii,waldstein
+243,Festuca rubra,Festuca briquetii,briquet
+243,Festuca rubra,Festuca rubra var. magnelii,magnel
+243,Festuca rubra,Festuca halleri subsp. yvesii,yves
+243,Festuca rubra,Festuca gaudinii,gaudin
+244,Chionanthus ramiflorus,Linociera lauterbachii,lauterbach
+244,Chionanthus ramiflorus,Olea thozettii,thozett
+244,Chionanthus ramiflorus,Chionanthus roxburghii,roxburgh
+244,Chionanthus ramiflorus,Chionanthus paniculatus var. roxburghii,roxburgh
+244,Chionanthus ramiflorus,Olea roxburghii,roxburgh
+245,Dioscorea pentaphylla,Dioscorea jacquemontii,jacquemont
+246,Gliricidia sepium,Gliricidia lambii,lamb
+247,Gladiolus rehmannii,Gladiolus rehmannii,rehmann
+247,Gladiolus rehmannii,Gladiolus ecklonii subsp. rehmannii,rehmann
+248,Heteropogon contortus,Heteropogon roxburghii,roxburgh
+248,Heteropogon contortus,Andropogon allionii,allion
+248,Heteropogon contortus,Heteropogon allionii,allion
+248,Heteropogon contortus,Andropogon bellardii,bellard
+249,Paronychia argentea,Paronychia cuatrecasasii,cuatrecasas
+250,Strychnos minor,Strychnos thonningii,thonning
+250,Strychnos minor,Strychnos merrillii,merrill
+250,Strychnos minor,Strychnos forbesii,forbes
+250,Strychnos minor,Strychnos kerstingii,kersting
+251,Dioscorea cordata,Rajania sintenisii,sintenis
+251,Dioscorea cordata,Rajania ovata var. ehrenbergii,ehrenberg
+252,Annona reticulata,Annona humboldtii,humboldt
+253,Ixora coccinea,Ixora shawii,shaw
+253,Ixora coccinea,Ixora coccinea var. hermannii,hermann
+253,Ixora coccinea,Ixora eekhautii,eekhaut
+254,Alyxia reinwardtii,Alyxia reinwardtii,reinwardt
+254,Alyxia reinwardtii,Alyxia winckelii,winckel
+254,Alyxia reinwardtii,Alyxia forbesii,forbes
+254,Alyxia reinwardtii,Alyxia kurzii,kurz
+254,Alyxia reinwardtii,Gynopogon reinwardtii,reinwardt
+254,Alyxia reinwardtii,Alyxia kerrii,kerr
+255,Passiflora andersonii,Passiflora andersonii,anderson
+255,Passiflora andersonii,Tacsonia andersonii,anderson
+255,Passiflora andersonii,Decaloba andersonii,anderson
+256,Hymenophyllum holochilum,Meringium merrillii,merrill
+256,Hymenophyllum holochilum,Hymenophyllum merrillii,merrill
+256,Hymenophyllum holochilum,Hymenophyllum boschii,bosch
+256,Hymenophyllum holochilum,Hymenophyllum smithii,smith
+257,Lathyrus annuus,Lathyrus frenchii,french
+258,Cyrtococcum patens,Cyrtococcum schmidtii,schmidt
+258,Cyrtococcum patens,Panicum schmidtii,schmidt
+258,Cyrtococcum patens,Panicum warburgii,warburg
+258,Cyrtococcum patens,Cyrtococcum warburgii,warburg
+259,Salvia verbenaca,Salvia fontii,font
+259,Salvia verbenaca,Larnastyra claytonii,clayton
+259,Salvia verbenaca,Salvia anselmii,anselm
+259,Salvia verbenaca,Salvia vivianii,vivian
+259,Salvia verbenaca,Salvia sennenii,sennen
+259,Salvia verbenaca,Salvia basilii,basil
+259,Salvia verbenaca,Salvia domenechii,domenech
+259,Salvia verbenaca,Salvia spielmannii,spielmann
+259,Salvia verbenaca,Salvia claytonii,clayton
+259,Salvia verbenaca,Salvia sibthorpii,sibthorp
+259,Salvia verbenaca,Salvia fleckii,fleck
+260,Miliusa horsfieldii,Miliusa horsfieldii,horsfield
+260,Miliusa horsfieldii,Saccopetalum horsfieldii,horsfield
+261,Trichosanthes cucumerina,Trichosanthes ambrozii,ambroz
+261,Trichosanthes cucumerina,Gymnopetalum wightii,wight
+262,Dioscorea bulbifera,Dioscorea rogersii,rogers
+263,Paspalum blodgettii,Paspalum blodgettii,blodgett
+263,Paspalum blodgettii,Paspalum simpsonii,simpson
+264,Montia fontana,Montia hallii,hall
+264,Montia fontana,Montia chabertii,chabert
+264,Montia fontana,Montia funstonii,funston
+264,Montia fontana,Claytonia hallii,hall
+265,Dipteris conjugata,Drynaria horsfieldii,horsfield
+265,Dipteris conjugata,Dipteris horsfieldii,horsfield
+265,Dipteris conjugata,Polypodium horsfieldii,horsfield
+266,Echium webbii,Echium webbii,webb
+267,Taraxacum gilliesii,Taraxacum gilliesii,gillies
+267,Taraxacum gilliesii,Taraxacum ibarii,ibar
+268,Poa pratensis,Poa skrjabinii,skrjabin
+268,Poa pratensis,Poa peckii,peck
+268,Poa pratensis,Poa maydellii,maydell
+268,Poa pratensis,Poa brintnellii,brintnell
+268,Poa pratensis,Poa pratensis subsp. jordanii,jordan
+268,Poa pratensis,Poa macounii,macoun
+268,Poa pratensis,Poa pratensis subsp. skrjabinii,skrjabin
+268,Poa pratensis,Poa nymannii,nymann
+268,Poa pratensis,Poa todarii,todar
+268,Poa pratensis,Poa pratensis var. macounii,macoun
+268,Poa pratensis,Poa pratensis var. maydellii,maydell
+269,Populus tremula,Populus sieboldii,siebold
+269,Populus tremula,Populus tremula var. sieboldii,siebold
+269,Populus tremula,Populus rotundifolia var. bonatii,bonat
+269,Populus tremula,Populus bonatii,bonat
+270,Azadirachta indica,Melia hasskarlii,hasskarl
+270,Azadirachta indica,Azadirachta indica subsp. vartakii,vartak
+271,Alstonia scholaris,Alstonia kurzii,kurz
+272,Allium neapolitanum,Allium cowanii,cowan
+272,Allium neapolitanum,Allium gouanii,gouan
+273,Nephrolepis biserrata,Aspidium hoffmannseggii,hoffmannsegg
+273,Nephrolepis biserrata,Nephrodium hoffmanseggii,hoffmansegg
+274,Solanum opacum,Solanum allanii,allan
+275,Tectaria decurrens,Aspidium copelandii,copeland
+276,Leontodon longirostris,Leontodon rothii,roth
+277,Chrysophyllum cainito,Chrysophyllum bonplandii,bonpland
+278,Cordia dichotoma,Cordia brownii,brown
+278,Cordia dichotoma,Lithocardium griffithii,griffith
+278,Cordia dichotoma,Cordia griffithii,griffith
+278,Cordia dichotoma,Cordia wallichii,wallich
+278,Cordia dichotoma,Cordia obliqua var. wallichii,wallich
+279,Solanum torvum,Solanum mannii,mann
+279,Solanum torvum,Solanum wightii,wight
+280,Cyperus planifolius,Cyperus planifolius var. pickelii,pickel
+280,Cyperus planifolius,Cyperus solmsii,solms
+280,Cyperus planifolius,Cyperus krugii,krug
+281,Pterocarpus indicus,Pterocarpus wallichii,wallich
+282,Litsea glutinosa,Tetranthera roxburghii,roxburgh
+282,Litsea glutinosa,Litsea involucrata var. fernandezii,fernandez
+282,Litsea glutinosa,Litsea thwaitesii,thwaites
+282,Litsea glutinosa,Litsea brassii,brass
+283,Randia aculeata,Randia karstenii,karsten
+284,Chromolaena odorata,Eupatorium klattii,klatt
+285,Hedypnois rhagadioloides,Hedypnois tournefortii,tournefort
+286,Erodium laciniatum,Erodium cavanillesii,cavanilles
+287,Tapeinidium moluccanum,Hypolepis smithii,smith
+288,Galium setaceum,Galium sibthorpii,sibthorp
+289,Pinanga coronata,Pinanga kuhlii,kuhl
+289,Pinanga coronata,Seaforthia kuhlii,kuhl
+289,Pinanga coronata,Ptychosperma kuhlii,kuhl
+290,Alternanthera brasiliana,Alternanthera brasiliana var. jacquinii,jacquin
+291,Eleocharis pellucida,Scirpus thomsonii,thomson
+291,Eleocharis pellucida,Eleocharis thomsonii,thomson
+292,Vicia hirsuta,Vicia taquetii,taquet
+292,Vicia hirsuta,Vicia mitchellii,mitchell
+293,Fimbristylis dichotoma,Fimbristylis scherardii,scherard
+293,Fimbristylis dichotoma,Fimbristylis germainii,germain
+293,Fimbristylis dichotoma,Fimbristylis eggersii,eggers
+293,Fimbristylis dichotoma,Fimbristylis ramosii,ramos
+293,Fimbristylis dichotoma,Fimbristylis humboldtii,humboldt
+293,Fimbristylis dichotoma,Isolepis elliottii,elliott
+293,Fimbristylis dichotoma,Fimbristylis metzii,metz
+293,Fimbristylis dichotoma,Scirpus elliottii,elliott
+294,Juncus hybridus,Juncus bufonius var. kochii,koch
+294,Juncus hybridus,Juncus congdonii,congdon
+294,Juncus hybridus,Juncus bufonius var. cogdonii,cogdon
+295,Freycinetia demissa,Freycinetia parksii,parks
+296,Bikkia tetrandra,Bikkia comptonii,compton
+296,Bikkia tetrandra,Bikkiopsis comptonii,compton
+297,Selaginella substipitata,Selaginella sherringii,sherring
+297,Selaginella substipitata,Selaginella nashii,nash
+298,Crocus thomasii,Crocus thomasii,thomas
+299,Torenia crustacea,Vandellia brownii,brown
+299,Torenia crustacea,Lindernia crustacea var. smithii,smith
+300,Crataegus pentagyna,Crataegus klokovii,klokov
+300,Crataegus pentagyna,Crataegus petrodavisii,petrodavis
+301,Xanthophyllum vitellinum,Xanthophyllum curtisii,curtis
+301,Xanthophyllum vitellinum,Xanthophyllum griffithii var. curtisii,curtis
+302,Nepeta argolica,Glechoma sibthorpii,sibthorp
+302,Nepeta argolica,Nepeta sibthorpii,sibthorp
+303,Ximenia americana,Ximenia rogersii,rogers
+304,Leea guineensis,Leea wrightii,wright
+304,Leea guineensis,Leea schomburgkii,schomburgk
+304,Leea guineensis,Leea cumingii,cuming
+305,Eleocharis geniculata,Eleocharis sintenisii,sintenis
+305,Eleocharis geniculata,Scirpus brownii,brown
+306,Ficus fistulosa,Ficus harlandii,harland
+306,Ficus fistulosa,Ficus curranii,curran
+307,Asphodelus ramosus,Asphodelus audibertii,audibert
+308,Intsia bijuga,Bauhinia scandens var. horsfieldii,horsfield
+308,Intsia bijuga,Lasiobema scandens var. horsfieldii,horsfield
+308,Intsia bijuga,Lasiobema horsfieldii,horsfield
+308,Intsia bijuga,Bauhinia horsfieldii,horsfield
+309,Dracophyllum fitzgeraldii,Dracophyllum fitzgeraldii,fitzgerald
+310,Araucaria columnaris,Araucaria cookii,cook
+310,Araucaria columnaris,Eutacta cookii,cook
+310,Araucaria columnaris,Araucaria lavoixii,lavoix
+311,Arisarum vulgare,Arisarum forbesii,forbes
+311,Arisarum vulgare,Arisarum veslingii,vesling
+311,Arisarum vulgare,Arisarum jacquinii,jacquin
+311,Arisarum vulgare,Arisarum sibthorpii,sibthorp
+312,Malvaviscus arboreus,Malvaviscus drummondii,drummond
+312,Malvaviscus arboreus,Malvaviscus jordan-mottii,jordan-mott
+312,Malvaviscus arboreus,Malvaviscus conzattii,conzatt
+312,Malvaviscus arboreus,Malvaviscus arboreus var. grisebachii,grisebach
+312,Malvaviscus arboreus,Malvaviscus balbisii,balbis
+313,Nertera granadensis,Peratanthe ekmanii,ekman
+314,Petitia domingensis,Petitia domingensis var. poeppigii,poeppig
+314,Petitia domingensis,Petitia poeppigii,poeppig
+314,Petitia domingensis,Petitia domingensis var. ekmanii,ekman
+315,Tillandsia utriculata,Tillandsia bartramii,bartram
+315,Tillandsia utriculata,Allardtia potockii,potock
+315,Tillandsia utriculata,Tillandsia sintenisii,sintenis
+316,Poa trivialis,Poa schultesii,schultes
+316,Poa trivialis,Poa kitaibelii,kitaibel
+316,Poa trivialis,Poa perouinii,perouin
+316,Poa trivialis,Poa portalii,portal
+316,Poa trivialis,Poa woronowii,woronow
+316,Poa trivialis,Poa villarsii,villars
+316,Poa trivialis,Poa janczewskii,janczewsk
+317,Paspalum repens,Paspalum frankii,frank
+318,Anthurium palmatum,Anthurium andersonii,anderson
+319,Bauhinia purpurea,Bauhinia kurzii,kurz
+319,Bauhinia purpurea,Phanera kurzii,kurz
+320,Rhopalostylis baueri,Rhopalostylis baueri var. cheesemanii,cheeseman
+320,Rhopalostylis baueri,Rhopalostylis cheesemanii,cheeseman
+320,Rhopalostylis baueri,Eora cheesemanii,cheeseman
+321,Melastoma malabathricum,Osbeckia royenii,royen
+321,Melastoma malabathricum,Melastoma banksii,banks
+321,Melastoma malabathricum,Melastoma holmanii,holman
+321,Melastoma malabathricum,Melastoma royenii,royen
+322,Fimbristylis ferruginea,Fimbristylis roxburghii,roxburgh
+323,Pittosporum arborescens,Pittosporum richii,rich
+324,Picrasma javanica,Triscaphis kerrii,kerr
+325,Carex gmelinii,Carex gmelinii,gmelin
+326,Pandanus odorifer,Pandanus fosbergii,fosberg
+326,Pandanus odorifer,Eydouxia delessertii,delessert
+326,Pandanus odorifer,Pandanus phamhoangii,phamhoang
+326,Pandanus odorifer,Pandanus delessertii,delessert
+326,Pandanus odorifer,Pandanus hendersonii,henderson
+326,Pandanus odorifer,Pandanus smitinandii,smitinand
+326,Pandanus odorifer,Pandanus hartmanii,hartman
+327,Mezzettia parviflora,Mezzettia curtisii,curtis
+328,Loxogramme dictyopteris,Polypodium cunninghamii,cunningham
+329,Rumex conglomeratus,Rumex winterlii,winterl
+330,Terpsichore eggersii,Terpsichore eggersii,eggers
+330,Terpsichore eggersii,Polypodium eggersii,eggers
+330,Terpsichore eggersii,Grammitis eggersii,eggers
+331,Ranunculus nivalis,Ranunculus jacquinii,jacquin
+332,Lotus berthelotii,Lotus berthelotii,berthelot
+332,Lotus berthelotii,Heinekenia berthelotii,berthelot
+333,Cordyline australis,Cordyline veitchii,veitch
+333,Cordyline australis,Cordyline sturmii,sturm
+334,Gossypium hirsutum,Gossypium schottii,schott
+334,Gossypium hirsutum,Gossypium harrisii,harris
+334,Gossypium hirsutum,Gossypium birkinshawii,birkinshaw
+334,Gossypium hirsutum,Gossypium rhorii,rhor
+334,Gossypium hirsutum,Gossypium hirsutum f. pollardii,pollard
+334,Gossypium hirsutum,Gossypium morrillii,morrill
+335,Nervilia concolor,Pogonia scottii,scott
+335,Nervilia concolor,Nervilia scottii,scott
+336,Canaria tortuosa,Seseli webbii,webb
+337,Juncus tenageia,Tenageia vaillantii,vaillant
+337,Juncus tenageia,Juncus vaillantii,vaillant
+338,Myristica hollrungii,Myristica hollrungii,hollrung
+338,Myristica hollrungii,Myristica albertisii,albertis
+339,Woodwardia radicans,Blechnum houttuynii,houttuyn
+340,Anthurium willdenowii,Anthurium willdenowii,willdenow
+341,Carex pisiformis,Carex mariesii,maries
+342,Centaurium pulchellum,Centaurium hermannii,hermann
+342,Centaurium pulchellum,Erythraea gerardii,gerard
+342,Centaurium pulchellum,Centaurium pulchellum var. hermannii,hermann
+342,Centaurium pulchellum,Chironia vaillantii,vaillant
+342,Centaurium pulchellum,Chironia gerardii,gerard
+342,Centaurium pulchellum,Erythraea hermannii,hermann
+343,Athyrium wardii,Athyrium wardii,ward
+343,Athyrium wardii,Asplenium wardii,ward
+344,Eurya nitida,Eurya hasseltii,hasselt
+344,Eurya nitida,Eurya japonica var. thunbergii,thunberg
+345,Acriopsis liliifolia,Acriopsis liliifolia,liliifol
+345,Acriopsis liliifolia,Acriopsis griffithii,griffith
+346,Agrostis gigantea,Agrostis virletii,virlet
+346,Agrostis gigantea,Agrostis welwitschii,welwitsch
+346,Agrostis gigantea,Agrostis widenii,widen
+346,Agrostis gigantea,Agrostis gigantea var. gouxii,goux
+346,Agrostis gigantea,Vilfa gaudichaudii,gaudichaud
+346,Agrostis gigantea,Agrostis zerovii,zerov
+346,Agrostis gigantea,Agrostis kitaibelii,kitaibel
+346,Agrostis gigantea,Agrostis sibthorpii,sibthorp
+347,Hymenophyllum serrulatum,Leptocionium preslii,presl
+347,Hymenophyllum serrulatum,Hymenophyllum preslii,presl
+348,Cephalaria transsylvanica,Cephalaria allionii,allion
+348,Cephalaria transsylvanica,Scabiosa hacquetii,hacquet
+349,Romulea austinii,Romulea austinii,austin
+350,Coccoloba swartzii,Coccoloba swartzii,swartz
+350,Coccoloba swartzii,Uvifera swartzii,swartz
+351,Solanum nigrum,Solanum tauschii,tausch
+351,Solanum nigrum,Solanum nigrum subsp. schultesii,schultes
+351,Solanum nigrum,Solanum schultesii,schultes
+351,Solanum nigrum,Solanum roxburghii,roxburgh
+351,Solanum nigrum,Solanum salzmannii,salzmann
+352,Macrosolen cochinchinensis,Macrosolen fordii,ford
+352,Macrosolen cochinchinensis,Elytranthe fordii,ford
+352,Macrosolen cochinchinensis,Elytranthe barnesii,barnes
+352,Macrosolen cochinchinensis,Loranthus fordii,ford
+353,Harrisonia perforata,Lasiolepis bennetii,bennet
+353,Harrisonia perforata,Harrisonia bennettii,bennett
+354,Antirrhinum majus,Antirrhinum majus var. hendersonii,henderson
+354,Antirrhinum majus,Antirrhinum hendersonii,henderson
+355,Urceola laevigata,Ecdysanthera griffithii,griffith
+356,Sideroxylon foetidissimum,Bumelia buchii,buch
+356,Sideroxylon foetidissimum,Bumelia obovata var. krugii,krug
+356,Sideroxylon foetidissimum,Bumelia krugii,krug
+357,Cyperus cyperoides,Mariscus humbertii,humbert
+357,Cyperus cyperoides,Cyperus kraussii,krauss
+358,Fuchsia magellanica,Fuchsia thompsonii,thompson
+358,Fuchsia magellanica,Fuchsia magellanica var. riccartonii,riccarton
+358,Fuchsia magellanica,Fuchsia ricoartonii,ricoarton
+359,Calyptranthes williamsii,Calyptranthes williamsii,williams
+359,Calyptranthes williamsii,Calyptranthes pallens var. williamsii,williams
+360,Selenicereus grandiflorus,Cereus antoinii,antoin
+360,Selenicereus grandiflorus,Selenicereus maxonii,maxon
+361,Euphorbia taurinensis,Euphorbia ehrenbergii,ehrenberg
+361,Euphorbia taurinensis,Euphorbia cyprianii,cyprian
+362,Melicope accedens,Euodia parkinsonii,parkinson
+363,Coccoloba krugii,Coccoloba krugii,krug
+363,Coccoloba krugii,Coccoloba borgesenii,borgesen
+363,Coccoloba krugii,Uvifera krugii,krug
+364,Iresine diffusa,Iresine endlichii,endlich
+364,Iresine diffusa,Iresine mutisii,mutis
+364,Iresine diffusa,Alternanthera forsstroemii,forsstroem
+365,Neyraudia arundinacea,Donax thouarii,thouar
+365,Neyraudia arundinacea,Arundo thouarsii,thouars
+365,Neyraudia arundinacea,Arundo boivinii,boivin
+365,Neyraudia arundinacea,Avena koenigii,koenig
+365,Neyraudia arundinacea,Neyraudia thouarsii,thouars
+366,Deschampsia chapmanii,Deschampsia chapmanii,chapman
+367,Adenostemma verbesina,Adenostemma swartzii,swartz
+368,Celosia argentea,Celosia huttonii,hutton
+368,Celosia argentea,Amaranthus huttonii,hutton
+369,Elaeagnus triflora,Elaeagnus cumingii,cuming
+370,Mentha suaveolens,Mentha bofillii,bofill
+370,Mentha suaveolens,Mentha suaveolens var. reverchonii,reverchon
+370,Mentha suaveolens,Mentha ripartii,ripart
+370,Mentha suaveolens,Mentha willdenowii,willdenow
+371,Trema orientalis,Sponia commersonii,commerson
+371,Trema orientalis,Celtis commersonii,commerson
+371,Trema orientalis,Trema wightii,wight
+371,Trema orientalis,Colubrina leschenaultii,leschenault
+371,Trema orientalis,Trema commersonii,commerson
+371,Trema orientalis,Sponia wightii,wight
+372,Cenchrus brownii,Cenchrus brownii,brown
+372,Cenchrus brownii,Cenchrus echinatus var. morisonii,morison
+372,Cenchrus brownii,Cenchrus cavanillesii,cavanilles
+373,Melastoma cyanoides,Otanthera lamii,lam
+373,Melastoma cyanoides,Otanthera macgregorii,macgregor
+374,Myrcianthes fragrans,Eugenia simpsonii,simpson
+374,Myrcianthes fragrans,Myrcianthes fragrans var. simpsonii,simpson
+374,Myrcianthes fragrans,Anamomis simpsonii,simpson
+374,Myrcianthes fragrans,Myrcianthes simpsonii,simpson
+374,Myrcianthes fragrans,Myrcianthes dugandii,dugand
+374,Myrcianthes fragrans,Myrcianthes fragrans subsp. simpsonii,simpson
+374,Myrcianthes fragrans,Eugenia dugandii,dugand
+374,Myrcianthes fragrans,Eugenia steyermarkii,steyermark
+375,Rhododendron ponticum,Rhododendron adansonii,adanson
+376,Nectandra krugii,Nectandra krugii,krug
+376,Nectandra krugii,Ocotea krugii,krug
+377,Citrus hystrix,Citrus southwickii,southwick
+377,Citrus hystrix,Citrus kerrii,kerr
+377,Citrus hystrix,Papeda rumphii,rumph
+378,Aristolochia acuminata,Aristolochia eschscholtzii,eschscholtz
+379,Heliconia psittacorum,Heliconia andrewsii,andrews
+380,Digitaria sanguinalis,Digitaria sanguinalis var. stewartii,stewart
+380,Digitaria sanguinalis,Panicum kunthii,kunth
+381,Scaevola plumieri,Scaevola thunbergii,thunberg
+382,Ochna integerrima,Ochna wallichii,wallich
+382,Ochna integerrima,Polythecium thorelii,thorel
+382,Ochna integerrima,Diporidium wallichii,wallich
+382,Ochna integerrima,Polythecanthum thorelii,thorel
+382,Ochna integerrima,Ochna harmandii,harmand
+382,Ochna integerrima,Discladium wallichii,wallich
+382,Ochna integerrima,Polythecium griffithii,griffith
+382,Ochna integerrima,Discladium harmandii,harmand
+383,Asplenium pellucidum,Asplenium boivinii,boivin
+383,Asplenium pellucidum,Asplenium hilsenbergii,hilsenberg
+384,Baccharis pedunculata,Eupatorium braunii,braun
+384,Baccharis pedunculata,Baccharis braunii,braun
+385,Manilkara bidentata,Manilkara balata var. schomburgkii,schomburgk
+385,Manilkara bidentata,Mimusops balata var. schomburgkii,schomburgk
+385,Manilkara bidentata,Manilkara williamsii,williams
+385,Manilkara bidentata,Manilkara balata var. hartii,hart
+385,Manilkara bidentata,Mimusops balata var. hartii,hart
+385,Manilkara bidentata,Mimusops commersonii,commerson
+385,Manilkara bidentata,Kaukenia commersonii,commerson
+385,Manilkara bidentata,Imbricaria commersonii,commerson
+386,Coccoloba diversifolia,Uvifera curtisii,curtis
+386,Coccoloba diversifolia,Coccoloba curtisii,curtis
+387,Mesua ferrea,Mesua roxburghii,roxburgh
+388,Wedelia calycina,Wedelia jacquinii,jacquin
+388,Wedelia calycina,Wedelia jacquinii f. andersonii,anderson
+388,Wedelia calycina,Wedelia jacquinii var. andersonii,anderson
+389,Crupina crupinastrum,Centaurea visianii subsp. visianii,visian
+389,Crupina crupinastrum,Centaurea visianii,visian
+389,Crupina crupinastrum,Crupina zuccarinii,zuccarin
+389,Crupina crupinastrum,Crupina morisii,moris
+390,Diospyros pilosanthera,Diospyros hiernii,hiern
+390,Diospyros pilosanthera,Diospyros pilosanthera var. nurii,nur
+390,Diospyros pilosanthera,Diospyros moonii,moon
+391,Waltheria indica,Waltheria wildii,wild
+391,Waltheria indica,Waltheria martii,mart
+392,Oloptum miliaceum,Milium thomasii,thomas
+392,Oloptum miliaceum,Piptatherum miliaceum subsp. thomasii,thomas
+392,Oloptum miliaceum,Urachne thomasii,thomas
+392,Oloptum miliaceum,Oloptum thomasii,thomas
+392,Oloptum miliaceum,Oryzopsis thomasii,thomas
+392,Oloptum miliaceum,Piptatherum thomasii,thomas
+393,Maasia glauca,Unona merrittii,merritt
+393,Maasia glauca,Polyalthia merrittii,merritt
+393,Maasia glauca,Polyalthia parkinsonii,parkinson
+394,Rauvolfia viridis,Rauvolfia lamarckii,lamarck
+394,Rauvolfia viridis,Rauvolfia lamarkii,lamark
+395,Juncus articulatus,Juncus tatewakii,tatewak
+395,Juncus articulatus,Juncus engelmannii,engelmann
+395,Juncus articulatus,Juncus articulatus f. zapalowiczii,zapalowicz
+396,Deschampsia media,Calamagrostis leersii,leers
+396,Deschampsia media,Deschampsia media subsp. masclansii,masclans
+396,Deschampsia media,Schismus gouanii,gouan
+396,Deschampsia media,Deschampsia media var. masclansii,masclans
+396,Deschampsia media,Schismus villarsii,villars
+396,Deschampsia media,Aira reverchonii,reverchon
+396,Deschampsia media,Aira lensii,lens
+396,Deschampsia media,Aira leersii,leers
+396,Deschampsia media,Aira edouardii,edouard
+396,Deschampsia media,Aira caryophyllea subsp. reverchonii,reverchon
+396,Deschampsia media,Aira hostii,host
+397,Juniperus chinensis,Juniperus thunbergii,thunberg
+397,Juniperus chinensis,Juniperus shepherdii,shepherd
+397,Juniperus chinensis,Juniperus sheppardii,sheppard
+397,Juniperus chinensis,Juniperus gaussenii,gaussen
+397,Juniperus chinensis,Juniperus chinensis var. gaussenii,gaussen
+397,Juniperus chinensis,Juniperus jacobii,jacob
+398,Leptospermum scoparium,Leptospermum scoparium var. nichollsii,nicholls
+398,Leptospermum scoparium,Leptospermum nichollsii,nicholls
+398,Leptospermum scoparium,Leptospermum scoparium var. martinii,martin
+399,Bauhinia monandra,Bauhinia krugii,krug
+400,Hymenophyllum wrightii,Hymenophyllum wrightii,wright
+400,Hymenophyllum wrightii,Mecodium wrightii,wright
+401,Veronica grisebachii,Veronica grisebachii,grisebach
+402,Microlepia speluncae,Dicksonia lessonii,lesson
+403,Leucas lavandulifolia,Leucas brownii,brown
+404,Fumaria bastardii,Fumaria bastardii,bastard
+404,Fumaria bastardii,Fumaria bastardii var. jordanii,jordan
+404,Fumaria bastardii,Fumaria jordanii,jordan
+405,Arundina graminifolia,Arundina meyenii,meyen
+405,Arundina graminifolia,Cymbidium meyenii,meyen
+405,Arundina graminifolia,Arundina philippii,philipp
+406,Luzula campestris,Luzula chabertii,chabert
+407,Aneilema acuminatum,Commelina brownii,brown
+408,Cratoxylum cochinchinense,Cratoxylum wightii,wight
+409,Veronica elliptica,Veronica simpsonii,simpson
+409,Veronica elliptica,Hebe menziesii,menzies
+409,Veronica elliptica,Veronica menziesii,menzies
+410,Colchicum burttii,Colchicum burttii,burtt
+411,Trichilia septentrionalis,Trichilia moritzii,moritz
+411,Trichilia septentrionalis,Trichilia krukovii,krukov
+412,Soulamea amara,Cardiophora hindsii,hinds
+413,Ptychosperma elegans,Archontophoenix veitchii,veitch
+413,Ptychosperma elegans,Ptychosperma seaforthii,seaforth
+414,Psychotria ligustrifolia,Psychotria stahlii,stahl
+415,Athyrium vidalii,Athyrium vidalii,vidal
+415,Athyrium vidalii,Athyrium neowardii,neoward
+415,Athyrium vidalii,Asplenium vidalii,vidal
+416,Rourea minor,Connarus roxburghii,roxburgh
+416,Rourea minor,Santaloides afzelii,afzel
+416,Rourea minor,Rourea millettii,millett
+416,Rourea minor,Santalodes roxburghii,roxburgh
+416,Rourea minor,Santaloides beccarii,beccar
+416,Rourea minor,Rourea afzelii,afzel
+417,Ryparosa javanica,Ryparosa kurzii,kurz
+418,Bulbinella rossii,Bulbinella rossii,ross
+418,Bulbinella rossii,Anthericum rossii,ross
+418,Bulbinella rossii,Chrysobactron rossii,ross
+418,Bulbinella rossii,Veratrum dubouzetii,dubouzet
+419,Gagea amblyopetala,Gagea heldreichii,heldreich
+420,Strophanthus caudatus,Strophanthus caudatus fo. marckii,marck
+420,Strophanthus caudatus,Strophanthus cumingii,cuming
+420,Strophanthus caudatus,Strophanthus griffithii,griffith
+421,Aglaia spectabilis,Amoora wallichii,wallich
+421,Aglaia spectabilis,Aphanamixis wallichii,wallich
+422,Abarema jupunba,Pithecellobium brongniartii,brongniart
+423,Bridelia ovata,Bridelia kurzii,kurz
+424,Paspalum laxum,Paspalum richardii,richard
+425,Caryota mitis,Caryota griffithii,griffith
+425,Caryota mitis,Drymophloeus zippellii,zippell
+426,Salvia serotina,Salvia blodgettii,blodgett
+426,Salvia serotina,Salvia micrantha var. blodgettii,blodgett
+426,Salvia serotina,Salvia fernaldii,fernald
+427,Melica ciliata,Melica magnolii,magnol
+427,Melica ciliata,Melica ciliata f. pappii,papp
+427,Melica ciliata,Melica ciliata subsp. magnolii,magnol
+428,Podocarpus macrophyllus,Margbensonia sweetii,sweet
+428,Podocarpus macrophyllus,Podocarpus sweetii,sweet
+428,Podocarpus macrophyllus,Podocarpus macrophyllus subsp. forrestii,forrest
+428,Podocarpus macrophyllus,Margbensonia forrestii,forrest
+428,Podocarpus macrophyllus,Podocarpus forrestii,forrest
+429,Saccoloma domingense,Dicksonia eggersii,eggers
+429,Saccoloma domingense,Patania lindenii,linden
+429,Saccoloma domingense,Dicksonia lindenii,linden
+429,Saccoloma domingense,Dicksonia plumieri var. lindenii,linden
+429,Saccoloma domingense,Saccoloma lindenii,linden
+430,Euphorbia pallens,Anisophyllum vahlii,vahl
+430,Euphorbia pallens,Chamaesyce vahlii,vahl
+430,Euphorbia pallens,Euphorbia coudercii,couderc
+430,Euphorbia pallens,Euphorbia harmandii,harmand
+430,Euphorbia pallens,Chamaesyce vachellii,vachell
+430,Euphorbia pallens,Chamaesyce harmandii,harmand
+430,Euphorbia pallens,Euphorbia vachellii,vachell
+430,Euphorbia pallens,Chamaesyce coudercii,couderc
+431,Glebionis segetum,Chrysanthemum welwitschii,welwitsch
+432,Anacolosa frutescens,Salacia bartlettii,bartlett
+433,Phragmites karka,Trichoon roxburghii,roxburgh
+433,Phragmites karka,Phragmites roxburghii,roxburgh
+433,Phragmites karka,Arundo roxburghii,roxburgh
+434,Schradera exotica,Schradera vahlii,vahl
+435,Terminalia citrina,Terminalia curtisii,curtis
+435,Terminalia citrina,Terminalia manii,man
+435,Terminalia citrina,Terminalia teysmannii,teysmann
+436,Cyperus surinamensis,Cyperus meyenii,meyen
+437,Jasminum elongatum,Jasminum horsfieldii,horsfield
+437,Jasminum elongatum,Jasminum evansii,evans
+437,Jasminum elongatum,Jasminum aemulum var. brassii,brass
+437,Jasminum elongatum,Jasminum esquirolii,esquirol
+437,Jasminum elongatum,Jasminum forstenii,forsten
+438,Plantago coronopus,Plantago aschersonii,ascherson
+438,Plantago coronopus,Plantago jacquinii,jacquin
+438,Plantago coronopus,Plantago parishii,parish
+439,Meliosma herbertii,Meliosma herbertii,herbert
+440,Imperata cylindrica,Imperata koenigii,koenig
+440,Imperata cylindrica,Imperata arundinacea var. koenigii,koenig
+440,Imperata cylindrica,Saccharum thunbergii,thunberg
+440,Imperata cylindrica,Saccharum koenigii,koenig
+440,Imperata cylindrica,Imperata cylindrica subsp. koenigii,koenig
+441,Micropholis guyanensis,Mastichodendron williamsii,williams
+441,Micropholis guyanensis,Pouteria piresii,pires
+441,Micropholis guyanensis,Planchonella melinonii,melinon
+441,Micropholis guyanensis,Sideroxylon williamsii,williams
+441,Micropholis guyanensis,Micropholis cowanii,cowan
+441,Micropholis guyanensis,Chrysophyllum melinonii,melinon
+441,Micropholis guyanensis,Pouteria melinonii,melinon
+442,Lindsaea repens,Davallia anderssonii,andersson
+442,Lindsaea repens,Humata brooksii,brooks
+442,Lindsaea repens,Humata kaudernii,kaudern
+442,Lindsaea repens,Humata ledermannii,ledermann
+442,Lindsaea repens,Humata anderssonii,andersson
+443,Iberis carnosa,Iberis pruitii,pruit
+443,Iberis carnosa,Iberis jordanii,jordan
+443,Iberis carnosa,Iberis ciliata subsp. pruitii,pruit
+443,Iberis carnosa,Iberis petitii,petit
+444,Huperzia serrata,Lycopodium serratum var. thunbergii,thunberg
+445,Gomphandra montana,Gomphandra carrii,carr
+446,Plantago triantha,Plantago thunbergii,thunberg
+447,Poa lanata,Poa norbergii,norberg
+447,Poa lanata,Poa komarovii,komarov
+448,Heliotropium dolosum,Heliotropium eichwaldii,eichwald
+449,Hymenophyllum armstrongii,Hymenophyllum armstrongii,armstrong
+449,Hymenophyllum armstrongii,Craspedophyllum armstrongii,armstrong
+449,Hymenophyllum armstrongii,Microtrichomanes armstrongii,armstrong
+449,Hymenophyllum armstrongii,Trichomanes armstrongii,armstrong
+449,Hymenophyllum armstrongii,Craspedophyllum cheesemanii,cheeseman
+450,Chisocheton lasiocarpus,Chisocheton schumannii,schumann
+450,Chisocheton lasiocarpus,Chisocheton weinlandii,weinland
+450,Chisocheton lasiocarpus,Chisocheton forbesii,forbes
+450,Chisocheton lasiocarpus,Chisocheton gjellerupii,gjellerup
+450,Chisocheton lasiocarpus,Dasycoleum forbesii,forbes
+450,Chisocheton lasiocarpus,Chisocheton ledermannii,ledermann
+450,Chisocheton lasiocarpus,Chisocheton lauterbachii,lauterbach
+450,Chisocheton lasiocarpus,Chisocheton versteegii,versteeg
+451,Mecardonia procumbens,Bacopa procumbens var. schottii,schott
+452,Ouratea guildingii,Ouratea guildingii,guilding
+452,Ouratea guildingii,Gomphia guildingii,guilding
+452,Ouratea guildingii,Trichouratea guildingii,guilding
+453,Aglaia sapindina,Aglaia miquelii,miquel
+453,Aglaia sapindina,Aglaia ermischii,ermisch
+453,Aglaia sapindina,Aglaia rudolfii,rudolf
+453,Aglaia sapindina,Aglaia gjellerupii,gjellerup
+453,Aglaia sapindina,Aglaia hartmannii,hartmann
+454,Urena lobata,Urena swartzii,swartz
+454,Urena lobata,Urena lobata f. swartzii,swartz
+455,Lasiacis divaricata,Lasiacis harrisii,harris
+455,Lasiacis divaricata,Panicum chauvinii,chauvin
+456,Ixeridium dentatum,Ixeris thunbergii,thunberg
+456,Ixeridium dentatum,Lactuca thunbergii,thunberg
+456,Ixeridium dentatum,Ixeris gregorii,gregor
+457,Gardenia elata,Gardenia lobbii,lobb
+458,Tropaeolum majus,Trophaeum naudinii,naudin
+458,Tropaeolum majus,Tropaeolum naudinii,naudin
+459,Potamogeton nodosus,Potamogeton leschenaultii,leschenault
+459,Potamogeton nodosus,Potamogeton thunbergii,thunberg
+460,Crepis sancta,Crepis kochii,koch
+460,Crepis sancta,Trichoseris rueppellii,rueppell
+460,Crepis sancta,Pterotheca ruppellii,ruppell
+461,Diplazium cristatum,Asplenium shepherdii,shepherd
+461,Diplazium cristatum,Diplazium shepherdii,shepherd
+461,Diplazium cristatum,Diplazium arboreum var. shepherdii,shepherd
+462,Fevillea cordifolia,Nhandiroba karstenii,karsten
+462,Fevillea cordifolia,Fevillea karstenii,karsten
+463,Ixora timorensis,Ixora kochii,koch
+464,Gironniera subaequalis,Gironniera korthalsii,korthals
+465,Elaphoglossum callifolium,Elaphoglossum christophersenii,christophersen
+465,Elaphoglossum callifolium,Elaphoglossum macgregorii,macgregor
+466,Swertia tetrapetala,Swertia pallasii,pallas
+466,Swertia tetrapetala,Swertia bissetii,bisset
+466,Swertia tetrapetala,Swertia tetrapetala var. wilfordii,wilford
+467,Pothos scandens,Pothos horsfieldii,horsfield
+468,Convolvulus betonicifolius,Convolvulus sibthorpii,sibthorp
+469,Gentianella cerina,Gentiana campbellii,campbell
+470,Aristida adscensionis,Aristida thonningii,thonning
+470,Aristida adscensionis,Chaetaria forskalii,forskal
+470,Aristida adscensionis,Arthratherum adscensionis subsp. heymannii,heymann
+470,Aristida adscensionis,Aristida heymannii,heymann
+470,Aristida adscensionis,Aristida ehrenbergii,ehrenberg
+471,Celtis trinervia,Celtis swartzii,swartz
+472,Vitex lucens,Vitex cunninghamii,cunningham
+473,Potamogeton cheesemanii,Potamogeton cheesemanii,cheeseman
+474,Dipterocarpus hasseltii,Dipterocarpus hasseltii,hasselt
+475,Lepidium nitidum,Lepidium nitidum var. howellii,howell
+476,Garuga floribunda,Garuga clarkii,clark
+477,Chrysophyllum pauciflorum,Chrysophyllum pauciflorum var. krugii,krug
+478,Phoradendron quadrangulare,Phoradendron townsendii,townsend
+478,Phoradendron quadrangulare,Phoradendron gracile var. ballii,ball
+478,Phoradendron quadrangulare,Phoradendron millspaughii,millspaugh
+478,Phoradendron quadrangulare,Phoradendron rensonii,renson
+479,Chlorophytum comosum,Anthericum vallis-trappii,vallis-trapp
+479,Chlorophytum comosum,Chlorophytum burchellii,burchell
+479,Chlorophytum comosum,Chlorophytum kirkii,kirk
+480,Setaria dielsii,Setaria dielsii,diels
+480,Setaria dielsii,Setaria buchananii,buchanan
+481,Xanthosoma undipes,Arum nigrum var. schottii,schott
+481,Xanthosoma undipes,Xanthosoma jacquinii,jacquin
+481,Xanthosoma undipes,Xanthosoma atrovirens var. kochii,koch
+481,Xanthosoma undipes,Xanthosoma atrovirens var. moritzii,moritz
+482,Heliconia indica,Heliconia seemannii,seemann
+483,Rourea mimosoides,Santaloides havilandii,haviland
+484,Lolium multiflorum,Lolium lesdainii,lesdain
+484,Lolium multiflorum,Lolium gaudinii,gaudin
+484,Lolium multiflorum,Festuca haussknechtii,haussknecht
+485,Blepharocalyx eggersii,Blepharocalyx eggersii,eggers
+485,Blepharocalyx eggersii,Neomitranthes castellanosii,castellanos
+485,Blepharocalyx eggersii,Marlieriopsis eggersii,eggers
+485,Blepharocalyx eggersii,Mitranthes eggersii,eggers
+485,Blepharocalyx eggersii,Mitranthes castellanosii,castellanos
+486,Celtis philippensis,Solenostigma wightii,wight
+486,Celtis philippensis,Celtis hasseltii,hasselt
+486,Celtis philippensis,Celtis wightii,wight
+486,Celtis philippensis,Celtis philippensis var. wightii,wight
+486,Celtis philippensis,Solenostigma hasseltii,hasselt
+486,Celtis philippensis,Celtis brownii,brown
+486,Celtis philippensis,Celtis prantlii,prantl
+487,Grammitis contigua,Prosaptia preslii,presl
+487,Grammitis contigua,Grammitis preslii,presl
+487,Grammitis contigua,Davallia preslii,presl
+487,Grammitis contigua,Prosaptia rosenstockii,rosenstock
+487,Grammitis contigua,Grammitis rosenstockii,rosenstock
+488,Decaisnina hollrungii,Decaisnina hollrungii,hollrung
+488,Decaisnina hollrungii,Elytranthe versteegii,versteeg
+488,Decaisnina hollrungii,Elytranthe hollrungii,hollrung
+488,Decaisnina hollrungii,Elytranthe peekelii,peekel
+488,Decaisnina hollrungii,Amylotheca hollrungii,hollrung
+488,Decaisnina hollrungii,Loranthus hollrungii,hollrung
+488,Decaisnina hollrungii,Loranthus versteegii,versteeg
+488,Decaisnina hollrungii,Amylotheca versteegii,versteeg
+489,Homalomena griffithii,Homalomena griffithii,griffith
+489,Homalomena griffithii,Homalomena grabowskii,grabowsk
+489,Homalomena griffithii,Homalomena kingii,king
+489,Homalomena griffithii,Chamaecladon griffithii,griffith
+490,Musa troglodytarum,Musa seemannii,seemann
+491,Horsfieldia spicata,Myristica roxburghii,roxburgh
+491,Horsfieldia spicata,Horsfieldia roxburghii,roxburgh
+492,Portulaca pilosa,Portulaca karwinskii,karwinsk
+492,Portulaca pilosa,Portulaca ehrenbergii,ehrenberg
+493,Ipomoea triloba,Ipomoea krugii,krug
+493,Ipomoea triloba,Ipomoea webbii,webb
+494,Consolea macracantha,Consolea nashii,nash
+494,Consolea macracantha,Opuntia nashii,nash
+494,Consolea macracantha,Consolea millspaughii,millspaugh
+494,Consolea macracantha,Consolea spinosissima subsp. millspaughii,millspaugh
+494,Consolea macracantha,Consolea macracantha subsp. nashii,nash
+494,Consolea macracantha,Opuntia millspaughii,millspaugh
+495,Momordica dioica,Momordica wallichii,wallich
+496,Scolopia spinosa,Phoberos roxburghii,roxburgh
+496,Scolopia spinosa,Scolopia roxburghii,roxburgh
+497,Leptaspis banksii,Leptaspis banksii,banks
+497,Leptaspis banksii,Pharus banksii,banks
+497,Leptaspis banksii,Leptaspis cumingii,cuming
+498,Cinnamomum burmanni,Cinnamomum thunbergii,thunberg
+498,Cinnamomum burmanni,Cinnamomum ammannii,ammann
+499,Actinodaphne multiflora,Neolitsea vidalii,vidal
+500,Clerodendrum thomsoniae,Clerodendrum balfourii,balfour
+500,Clerodendrum thomsoniae,Clerodendrum thomsoniae var. balfourii,balfour
+501,Piper celtidiforme,Piper fosbergii,fosberg
+501,Piper celtidiforme,Piper warburgii,warburg
+501,Piper celtidiforme,Piper usterii,uster
+502,Pouteria multiflora,Radlkoferella urbanii,urban
+502,Pouteria multiflora,Pouteria multiflora var. urbanii,urban
+502,Pouteria multiflora,Lucuma urbanii,urban
+502,Pouteria multiflora,Lucuma multiflora var. urbanii,urban
+503,Diplazium esculentum,Asplenium moritzii,moritz
+503,Diplazium esculentum,Callipteris wallichii,wallich
+504,Genista canariensis,Cytisus hillebrandtii,hillebrandt
+504,Genista canariensis,Genista philippii,philipp
+504,Genista canariensis,Genista hillebrandii,hillebrand
+504,Genista canariensis,Teline hillebrandii,hillebrand
+504,Genista canariensis,Cytisus philippii,philipp
+505,Ischaemum ciliare,Ischaemum ciliare var. wallichii,wallich
+505,Ischaemum ciliare,Andropogon retzii,retz
+505,Ischaemum ciliare,Ischaemum indicum var. wallichii,wallich
+505,Ischaemum ciliare,Ischaemum indicum var. togasii,togas
+506,Diospyros discolor,Diospyros merrillii,merrill
+507,Leea aequata,Leea kurzii,kurz
+508,Zostera marina,Zostera marina var. phillipsii,phillips
+509,Licaria triandra,Misanteca juergensenii,juergensen
+509,Licaria triandra,Tetranthera cervantesii,cervantes
+509,Licaria triandra,Litsea cervantesii,cervantes
+509,Licaria triandra,Laurus cervantesii,cervantes
+509,Licaria triandra,Misanteca cervantesii,cervantes
+509,Licaria triandra,Acrodiclidium cervantesii,cervantes
+509,Licaria triandra,Licaria cervantesii,cervantes
+510,Cyathea pungens,Cyathea eatonii,eaton
+510,Cyathea pungens,Cyathea gleasonii,gleason
+510,Cyathea pungens,Trichipteris eatonii,eaton
+510,Cyathea pungens,Trichipteris gleasonii,gleason
+510,Cyathea pungens,Alsophila eatonii,eaton
+510,Cyathea pungens,Alsophila gleasonii,gleason
+511,Piper amalago,Piper diguetii,diguet
+511,Piper amalago,Piper wilsonii,wilson
+511,Piper amalago,Piper lundellii,lundell
+511,Piper amalago,Piper macintoshii,macintosh
+511,Piper amalago,Piper medium var. leonardii,leonard
+511,Piper amalago,Piper wulfschlaegelii,wulfschlaegel
+511,Piper amalago,Piper henshenii,henshen
+511,Piper amalago,Piper deamii,deam
+512,Brachyglottis huntii,Brachyglottis huntii,hunt
+512,Brachyglottis huntii,Senecio huntii,hunt
+513,Calliandra renvoizeana,Calliandra grisebachii,grisebach
+513,Calliandra renvoizeana,Anneslia grisebachii,grisebach
+514,Phagnalon saxatile,Phagnalon bennettii,bennett
+515,Polystachya concreta,Polystachya buchananii,buchanan
+516,Ipomoea tiliacea,Ipomoea krusensternii,krusenstern
+516,Ipomoea tiliacea,Calonyction roxburghii,roxburgh
+517,Operculina macrocarpa,Piptostegia gomesii,gomes
+518,Rhabdadenia biflora,Echites billbergii,billberg
+518,Rhabdadenia biflora,Dipladenia billbergii,billberg
+518,Rhabdadenia biflora,Echites ehrenbergii,ehrenberg
+518,Rhabdadenia biflora,Rhabdadenia ehrenbergii,ehrenberg
+518,Rhabdadenia biflora,Echites bilbergii,bilberg
+519,Teucrium bicolor,Teucrium cavanillesii,cavanilles
+520,Piper reticulatum,Artanthe schlechtendalii,schlechtendal
+520,Piper reticulatum,Steffensia schlechtendalii,schlechtendal
+520,Piper reticulatum,Piper duchassaingii,duchassaing
+521,Ziziphus rugosa,Ziziphus horsfieldii,horsfield
+522,Fimbristylis schultzii,Fimbristylis schultzii,schultz
+522,Fimbristylis schultzii,Fimbristylis platystachys var. schultzii,schultz
+523,Hypobathrum racemosum,Spicillaria leschenaultii,leschenault
+523,Hypobathrum racemosum,Petunga roxburghii,roxburgh
+524,Bulbophyllum apodum,Bulbophyllum vidalii,vidal
+525,Haematoxylum campechianum,Cymbosepalum baronii,baron
+526,Pittosporum campbellii,Pittosporum campbellii,campbell
+527,Acalypha poiretii,Acalypha poiretii,poiret
+527,Acalypha poiretii,Ricinocarpus poiretii,poiret
+527,Acalypha poiretii,Acalypha williamsii,williams
+527,Acalypha poiretii,Gymnalypha jacquinii,jacquin
+528,Pygeum schlechteri,Pygeum forbesii,forbes
+529,Diplazium centripetale,Diplazium eggersii,eggers
+530,Grevillea banksii,Grevillea banksii,banks
+530,Grevillea banksii,Hakea banksii,banks
+530,Grevillea banksii,Stylurus banksii,banks
+531,Antidesma coriaceum,Aporosa griffithii,griffith
+532,Peltophorum pterocarpum,Caesalpinia glenieii,glenie
+532,Peltophorum pterocarpum,Poinciana roxburghii,roxburgh
+532,Peltophorum pterocarpum,Caesalpinia roxburghii,roxburgh
+532,Peltophorum pterocarpum,Peltophorum roxburghii,roxburgh
+532,Peltophorum pterocarpum,Caesalpinia macklottii,macklott
+533,Sisymbrium orientale,Sisymbrium orientale subsp. gaussenii,gaussen
+534,Potamogeton distinctus,Potamogeton franchetii,franchet
+535,Dianthus viscidus,Dianthus heldreichii,heldreich
+535,Dianthus viscidus,Dianthus grisebachii,grisebach
+536,Digitaria longiflora,Digitaria corradii,corrad
+536,Digitaria longiflora,Digitaria preslii,presl
+536,Digitaria longiflora,Digitaria friesii,fries
+536,Digitaria longiflora,Paspalum preslii,presl
+536,Digitaria longiflora,Digitaria roxburghii,roxburgh
+537,Ephedra fragilis,Ephedra wettsteinii,wettstein
+538,Heliotropium biblianum,Tournefortia wallichii,wallich
+538,Heliotropium biblianum,Tetrandra wallichii,wallich
+539,Garcinia cowa,Garcinia roxburghii,roxburgh
+539,Garcinia cowa,Garcinia wallichii,wallich
+540,Euphorbia pulcherrima,Euphorbia poinsettii,poinsett
+541,Lagenaria siceraria,Trochomeria rehmannii,rehmann
+542,Panicum trachyrhachis,Ichnanthus harmandii,harmand
+542,Panicum trachyrhachis,Panicum kerrii,kerr
+542,Panicum trachyrhachis,Panicum harmandii,harmand
+543,Diospyros kurzii,Diospyros kurzii,kurz
+544,Sterculia parviflora,Sterculia holttumii,holttum
+545,Codonorchis lessonii,Codonorchis lessonii,lesson
+545,Codonorchis lessonii,Calopogon lessonii,lesson
+545,Codonorchis lessonii,Codonorchis skottsbergii,skottsberg
+545,Codonorchis lessonii,Codonorchis poeppigii,poeppig
+545,Codonorchis lessonii,Pogonia lessonii var. skottsbergii,skottsberg
+545,Codonorchis lessonii,Epipactis lessonii,lesson
+545,Codonorchis lessonii,Pogonia lessonii,lesson
+545,Codonorchis lessonii,Pogonia lessonii var. poeppigii,poeppig
+546,Pelargonium peltatum,Pelargonium bachmannii,bachmann
+547,Euphorbia lecheoides,Chamaesyce wilsonii,wilson
+547,Euphorbia lecheoides,Euphorbia lecheoides var. wilsonii,wilson
+547,Euphorbia lecheoides,Chamaesyce lecheoides var. wilsonii,wilson
+548,Agrostis thurberiana,Agrostis hillebrandii,hillebrand
+549,Galactia dubia,Galactia dubia var. ehrenbergii,ehrenberg
+550,Pavonia hastata,Pavonia jonesii,jones
+551,Garcinia mannii,Garcinia mannii,mann
+552,Carex mertensii,Carex mertensii,mertens
+553,Jatropha curcas,Curcas adansonii,adanson
+554,Argyreia mollis,Argyreia championii,champion
+554,Argyreia mollis,Mouroucoa championii,champion
+554,Argyreia mollis,Lettsomia championii,champion
+555,Asplenium simile,Asplenium kaulfussii,kaulfuss
+555,Asplenium simile,Asplenium cumingii,cuming
+555,Asplenium simile,Asplenium schoggersii,schoggers
+555,Asplenium simile,Chamaefilix kaulfussii,kaulfuss
+555,Asplenium simile,Asplenium cookii,cook
+556,Bolbitis quoyana,Poecilopteris smithii,smith
+556,Bolbitis quoyana,Gymnopteris naumannii,naumann
+556,Bolbitis quoyana,Bolbitis naumannii,naumann
+557,Dillenia pentagyna,Dillenia baillonii,baillon
+558,Aeschynanthus longicaulis,Trichosporum griffithii,griffith
+558,Aeschynanthus longicaulis,Aeschynanthus griffithii,griffith
+559,Datura stramonium,Datura bernhardii,bernhard
+559,Datura stramonium,Datura cabanesii,cabanes
+559,Datura stramonium,Datura bertolonii,bertolon
+559,Datura stramonium,Datura wallichii,wallich
+560,Crocus mathewii,Crocus mathewii,mathew
+561,Teijsmanniodendron pteropodum,Vitex koordersii,koorders
+562,Diospyros canaliculata,Diospyros treubii,treub
+562,Diospyros canaliculata,Diospyros bequaertii,bequaert
+563,Bauhinia forficata,Bauhinia goldmanii,goldman
+564,Galanthus elwesii,Galanthus elwesii,elwes
+564,Galanthus elwesii,Chianthemum elwesii,elwes
+564,Galanthus elwesii,Galanthus gracilis subsp. baytopii,baytop
+564,Galanthus elwesii,Galanthus elwesii subsp. wagenitzii,wagenitz
+564,Galanthus elwesii,Galanthus elwesii subsp. baytopii,baytop
+564,Galanthus elwesii,Galanthus elewesii,elewes
+564,Galanthus elwesii,Galanthus elwesii subsp. yayintaschii,yayintasch
+564,Galanthus elwesii,Galanthus elwesii subsp. akmanii,akman
+565,Paspalum millegranum,Paspalum underwoodii,underwood
+566,Umbilicus horizontalis,Umbilicus rodriguezii,rodriguez
+567,Draba magellanica,Draba saffordii,safford
+567,Draba magellanica,Draba chodatii,chodat
+567,Draba magellanica,Draba magellanica var. saffordii,safford
+568,Echium angustifolium,Echium sibthorpii,sibthorp
+569,Colchicum cilicicum,Colchicum parkinsonii,parkinson
+569,Colchicum cilicicum,Colchicum sibthorpii,sibthorp
+570,Vachellia macracantha,Acacia humboldtii,humboldt
+570,Vachellia macracantha,Poponax cowellii,cowell
+570,Vachellia macracantha,Acacia cowellii,cowell
+571,Aegilops speltoides,Triticum tournefortii,tournefort
+571,Aegilops speltoides,Agropyron tournefortii,tournefort
+572,Scrophularia auriculata,Scrophularia hurstii,hurst
+572,Scrophularia auriculata,Scrophularia durandii,durand
+573,Ageratina riparia,Eupatorium harrisii,harris
+574,Croton linearis,Croton fergusonii,ferguson
+574,Croton linearis,Croton linearis var. fergusonii,ferguson
+574,Croton linearis,Croton kenskoffii,kenskoff
+575,Piper umbellatum,Pothomorphe allenii,allen
+576,Medicago littoralis,Medicago braunii,braun
+577,Syzygium nervosum,Jambosa commersonii,commerson
+577,Syzygium nervosum,Eugenia lambii,lamb
+577,Syzygium nervosum,Eugenia holmanii,holman
+578,Muscari neglectum,Etheiranthus jacquinii,jacquin
+578,Muscari neglectum,Muscari elwesii,elwes
+578,Muscari neglectum,Botryanthus saulii,saul
+578,Muscari neglectum,Muscari letourneuxii,letourneux
+578,Muscari neglectum,Botryanthus strangwaysii,strangways
+578,Muscari neglectum,Muscari strangwaysii,strangways
+578,Muscari neglectum,Muscari vinyalsii,vinyals
+578,Muscari neglectum,Muscari vandasii,vandas
+578,Muscari neglectum,Muscari conillii,conill
+578,Muscari neglectum,Muscari grossheimii,grossheim
+579,Psydrax dicoccos,Gardenia sonneratii,sonnerat
+580,Angiopteris pruinosa,Angiopteris forbesii,forbes
+581,Sarcolobus globosus,Gongronema finlaysonii,finlayson
+581,Sarcolobus globosus,Gymnema finlaysonii,finlayson
+581,Sarcolobus globosus,Sarcolobus banksii,banks
+582,Pterostylis papuana,Pterostylis braemii,braem
+583,Chisocheton macrophyllus,Chisocheton kingii,king
+584,Carex middendorffii,Carex middendorffii,middendorff
+585,Pseudophoenix sargentii,Pseudophoenix sargentii,sargent
+585,Pseudophoenix sargentii,Chamaephoenix sargentii,sargent
+585,Pseudophoenix sargentii,Cyclospathe northropii,northrop
+586,Onosma frutescens,Onosma tournefortii,tournefort
+587,Mangifera griffithii,Mangifera griffithii,griffith
+587,Mangifera griffithii,Mangifera beccarii,beccar
+588,Eriochloa procera,Eriochloa hackelii,hackel
+589,Diplazium australe,Athyrium brownii,brown
+590,Carex lyngbyei,Carex steenstrupii,steenstrup
+590,Carex lyngbyei,Carex macounii,macoun
+590,Carex lyngbyei,Carex riabushinskii,riabushinsk
+591,Parablechnum cordatum,Lomaria gilliesii,gillies
+591,Parablechnum cordatum,Blechnum gilliesii,gillies
+591,Parablechnum cordatum,Struthiopteris gilliesii,gillies
+591,Parablechnum cordatum,Orthogramma gilliesii,gillies
+591,Parablechnum cordatum,Spicanta capensis var. gilliesii,gillies
+591,Parablechnum cordatum,Blechnum chilense var. reedii,reed
+592,Aglaia subminutiflora,Aglaia chalmersii,chalmers
+592,Aglaia subminutiflora,Aglaia edelfeldtii,edelfeldt
+592,Aglaia subminutiflora,Aglaia carrii,carr
+593,Castanospermum australe,Castanospermum cunninghamii,cunningham
+594,Piper dilatatum,Piper eggersii,eggers
+594,Piper dilatatum,Piper readii,read
+594,Piper dilatatum,Piper grahamii,graham
+594,Piper dilatatum,Piper seitzii,seitz
+595,Gossypium herbaceum,Gossypium simpsonii,simpson
+595,Gossypium herbaceum,Gossypium zaitzevii,zaitzev
+596,Cecropia peltata,Cecropia goodspeedii,goodspeed
+597,Lotus corniculatus,Lotus tchihatchewii,tchihatchew
+597,Lotus corniculatus,Lotus corniculatus var. futakii,futak
+597,Lotus corniculatus,Lotus corniculatus subsp. ruprechtii,ruprecht
+597,Lotus corniculatus,Lotus corniculatus subsp. komarovii,komarov
+597,Lotus corniculatus,Lotus corniculatus var. sibthorpii,sibthorp
+597,Lotus corniculatus,Lotus juzepczukii,juzepczuk
+598,Lannea coromandelica,Spondias wirtgenii,wirtgen
+599,Oxera splendida,Clerodendrum peekelii,peekel
+599,Oxera splendida,Faradaya matthewsii,matthews
+599,Oxera splendida,Faradaya peekelii,peekel
+599,Oxera splendida,Faradaya hahlii,hahl
+599,Oxera splendida,Faradaya albertisii,albertis
+600,Diplazium sylvaticum,Callipteris swartzii,swartz
+600,Diplazium sylvaticum,Athyrium swartzii,swartz
+600,Diplazium sylvaticum,Asplenium bertolonii,bertolon
+600,Diplazium sylvaticum,Athyrium lastii,last
+600,Diplazium sylvaticum,Diplazium lastii,last
+600,Diplazium sylvaticum,Asplenium goldmannii,goldmann
+600,Diplazium sylvaticum,Asplenium mettenii,metten
+600,Diplazium sylvaticum,Asplenium swartzii,swartz
+600,Diplazium sylvaticum,Diplazium swartzii,swartz
+601,Allamanda schottii,Allamanda schottii,schott
+601,Allamanda schottii,Allamanda cathartica var. schottii,schott
+601,Allamanda schottii,Allamanda hendersonii,henderson
+601,Allamanda schottii,Allamanda aubletii,aublet
+601,Allamanda schottii,Allamanda chelsonii,chelson
+601,Allamanda schottii,Allamanda cathartica var. hendersonii,henderson
+602,Paspalum sumatrense,Paspalum orbiculare var. otobedii,otobed
+602,Paspalum sumatrense,Paspalum houttuynii,houttuyn
+603,Mycetia cauliflora,Mycetia yatesii,yates
+603,Mycetia cauliflora,Adenosacme scortechinii,scortechin
+603,Mycetia cauliflora,Mycetia scortechinii,scortechin
+604,Oxera amicorum,Faradaya powellii,powell
+604,Oxera amicorum,Clerodendrum powellii,powell
+604,Oxera amicorum,Clerodendrum arthur-gordonii,arthur-gordon
+604,Oxera amicorum,Clerodendrum gordonii,gordon
+605,Calamus aruensis,Calamus hollrungii,hollrung
+606,Neoscortechinia forbesii,Neoscortechinia forbesii,forbes
+606,Neoscortechinia forbesii,Scortechinia forbesii,forbes
+607,Oxalis enneaphylla,Oxalis enneaphylla subsp. ibarii,ibar
+607,Oxalis enneaphylla,Oxalis cunninghamii,cunningham
+608,Pectis linearis,Pectis elongata var. schottii,schott
+608,Pectis linearis,Pectis schottii,schott
+609,Xylosma luzonensis,Xylosma cumingii,cuming
+609,Xylosma luzonensis,Myroxylon cumingii,cuming
+610,Maianthemum japonicum,Tovaria rossii,ross
+610,Maianthemum japonicum,Smilacina rossii,ross
+611,Diplazium caracasanum,Diplazium guildingii,guilding
+611,Diplazium caracasanum,Asplenium guildingii,guilding
+612,Cyperus difformis,Cyperus goeringii,goering
+613,Lens nigricans,Lens biebersteinii,bieberstein
+614,Melilotus indicus,Melilotus boumettii,boumett
+614,Melilotus indicus,Melilotus bonplandii,bonpland
+614,Melilotus indicus,Melilotus berardii,berard
+614,Melilotus indicus,Trigonella smallii,small
+614,Melilotus indicus,Melilotus tommasinii,tommasin
+614,Melilotus indicus,Melilotus robinii,robin
+615,Scurrula parasitica,Scurrula roxburghii,roxburgh
+616,Aglaonema simplex,Aglaonema nieuwenhuisii,nieuwenhuis
+616,Aglaonema simplex,Aglaonema simplex f. nieuwenhuisii,nieuwenhuis
+617,Arum concinnatum,Arum nickelii,nickel
+617,Arum concinnatum,Arum wettsteinii,wettstein
+618,Bauhinia galpinii,Bauhinia galpinii,galpin
+618,Bauhinia galpinii,Perlebia galpinii,galpin
+619,Clerodendrum laevifolium,Clerodendrum wallichii,wallich
+620,Hydrangea macrophylla,Hydrangea sieboldii,siebold
+621,Kibara coriacea,Sciadicarpus brongniartii,brongniart
+621,Kibara coriacea,Kibara vidalii,vidal
+621,Kibara coriacea,Kibara warburgii,warburg
+622,Camonea umbellata,Ipomoea rothii,roth
+622,Camonea umbellata,Convolvulus rothii,roth
+623,Peperomia glabella,Peperomia sintenisii,sintenis
+623,Peperomia glabella,Peperomia taylorii,taylor
+623,Peperomia glabella,Peperomia buchii,buch
+623,Peperomia glabella,Peperomia wilsonii,wilson
+623,Peperomia glabella,Peperomia quadrivii,quadriv
+624,Lumnitzera racemosa,Pokornya ettingshausenii,ettingshausen
+625,Pseudopogonatherum trispicatum,Erianthus roxburghii,roxburgh
+625,Pseudopogonatherum trispicatum,Andropogon brongniartii,brongniart
+626,Cissus trifoliata,Cissus incisa var. andrewsii,andrews
+627,Selenicereus pteranthus,Cereus vaupelii,vaupel
+627,Selenicereus pteranthus,Selenicereus boeckmannii,boeckmann
+627,Selenicereus pteranthus,Cereus boeckmannii,boeckmann
+627,Selenicereus pteranthus,Cereus rothii,roth
+627,Selenicereus pteranthus,Selenicereus vaupelii,vaupel
+627,Selenicereus pteranthus,Selenicereus rothii,roth
+628,Zotovia thomsonii,Zotovia thomsonii,thomson
+628,Zotovia thomsonii,Microlaena thomsonii,thomson
+628,Zotovia thomsonii,Ehrharta thomsonii,thomson
+628,Zotovia thomsonii,Petriella thomsonii,thomson
+629,Ensete ventricosum,Musa laurentii,laurent
+629,Ensete ventricosum,Musa holstii,holst
+629,Ensete ventricosum,Ensete buchananii,buchanan
+629,Ensete ventricosum,Musa schweinfurthii,schweinfurth
+629,Ensete ventricosum,Musa buchananii,buchanan
+629,Ensete ventricosum,Ensete holstii,holst
+629,Ensete ventricosum,Ensete schweinfurthii,schweinfurth
+629,Ensete ventricosum,Ensete laurentii,laurent
+629,Ensete ventricosum,Ensete ventricosum var. montbeliardii,montbeliard
+630,Asparagus schoberioides,Asparagus wrightii,wright
+630,Asparagus schoberioides,Asparagus sieboldii,siebold
+631,Helichrysum gossypinum,Gnaphalium webbii,webb
+631,Helichrysum gossypinum,Helichrysum webbii,webb
+632,Oplismenus compositus,Oplismenus thiebautii,thiebaut
+632,Oplismenus compositus,Pollinia jacquinii,jacquin
+632,Oplismenus compositus,Oplismenus liebmannii,liebmann
+632,Oplismenus compositus,Oplismenus junghuhnii,junghuhn
+632,Oplismenus compositus,Orthopogon junghuhnii,junghuhn
+632,Oplismenus compositus,Oplismenus owatarii,owatar
+633,Ipomoea cairica,Ipomoea bouvetii,bouvet
+633,Ipomoea cairica,Batatas cavanillesii,cavanilles
+633,Ipomoea cairica,Ipomoea jacquinii,jacquin
+633,Ipomoea cairica,Convolvulus cavanillesii,cavanilles
+633,Ipomoea cairica,Ipomoea cavanillesii,cavanilles
+634,Myrsine hasseltii,Myrsine hasseltii,hasselt
+634,Myrsine hasseltii,Rapanea hasseltii,hasselt
+635,Cestrum parqui,Cestrum adelbertii,adelbert
+635,Cestrum parqui,Cestrum mandonii,mandon
+635,Cestrum parqui,Cestrum poeppigii,poeppig
+635,Cestrum parqui,Cestrum parqui var. poeppigii,poeppig
+636,Fagraea auriculata,Fagraea curranii,curran
+637,Ardisia purpurea,Ardisia leschenaultii,leschenault
+637,Ardisia purpurea,Ardisia hasseltii,hasselt
+637,Ardisia purpurea,Ardisia sarasinii,sarasin
+638,Haplopteris zosterifolia,Vittaria merrillii,merrill
+639,Diplazium cumingii,Diplazium cumingii,cuming
+639,Diplazium cumingii,Ochlogramma cumingii,cuming
+639,Diplazium cumingii,Athyrium cumingii,cuming
+640,Peperomia leptostachya,Peperomia esquirolii,esquirol
+640,Peperomia leptostachya,Peperomia bequaertii,bequaert
+640,Peperomia leptostachya,Peperomia moerenhoutii,moerenhout
+641,Rumohra adiantiformis,Aspidium cunninghamii,cunningham
+641,Rumohra adiantiformis,Polypodium thomassetii,thomasset
+641,Rumohra adiantiformis,Dryopteris thomassetii,thomasset
+641,Rumohra adiantiformis,Rumohra capuronii,capuron
+642,Bridelia curtisii,Bridelia curtisii,curtis
+642,Bridelia curtisii,Bridelia ovata var. curtisii,curtis
+643,Clibadium sylvestre,Clibadium schomburgkii,schomburgk
+643,Clibadium sylvestre,Clibadium vargasii,vargas
+644,Plectranthus verticillatus,Plectranthus thunbergii,thunberg
+645,Atriplex prostrata,Atriplex smithii,smith
+645,Atriplex prostrata,Atriplex sackii,sack
+645,Atriplex prostrata,Atriplex prostrata var. smithii,smith
+645,Atriplex prostrata,Atriplex hastata subsp. smithii,smith
+646,Brassica juncea,Brassica willdenovii,willdenov
+646,Brassica juncea,Brassica taquetii,taquet
+646,Brassica juncea,Brassica willdenowii,willdenow
+647,Vanilla bicolor,Vanilla wrightii,wright
+648,Gladiolus schweinfurthii,Gladiolus schweinfurthii,schweinfurth
+648,Gladiolus schweinfurthii,Antholyza schweinfurthii,schweinfurth
+648,Gladiolus schweinfurthii,Homoglossum schweinfurthii,schweinfurth
+648,Gladiolus schweinfurthii,Petamenes schweinfurthii,schweinfurth
+649,Sisyrinchium hirsutum,Sisyrinchium gilbertii,gilbert
+650,Burckella obovata,Illipe hollrungii,hollrung
+650,Burckella obovata,Illipe mentzelii,mentzel
+650,Burckella obovata,Bassia kajewskii,kajewsk
+650,Burckella obovata,Bassia hollrungii,hollrung
+650,Burckella obovata,Burckella hollrungii,hollrung
+650,Burckella obovata,Burckella kajewskii,kajewsk
+650,Burckella obovata,Payena mentzelii,mentzel
+651,Chrysosplenium wrightii,Chrysosplenium wrightii,wright
+651,Chrysosplenium wrightii,Chrysosplenium wrightii var. wrightii,wright
+652,Sesbania grandiflora,Sesbania mannii,mann
+653,Hornstedtia scottiana,Cardamomum scottii,scott
+654,Pteris terminalis,Pteris kuhnii,kuhn
+655,Digitaria horizontalis,Panicum hamiltonii,hamilton
+656,Calochlaena javanica,Dicksonia copelandii,copeland
+656,Calochlaena javanica,Balantium copelandii,copeland
+656,Calochlaena javanica,Culcita copelandii,copeland
+657,Piper glabrescens,Piper andersonii,anderson
+657,Piper glabrescens,Piper quentinii,quentin
+657,Piper glabrescens,Piper rothschuhii,rothschuh
+658,Marrubium vulgare,Marrubium vaillantii,vaillant
+659,Phenax sonneratii,Phenax sonneratii,sonnerat
+659,Phenax sonneratii,Parietaria sonneratii,sonnerat
+659,Phenax sonneratii,Procris sonneratii,sonnerat
+659,Phenax sonneratii,Pouzolzia sonneratii,sonnerat
+660,Osmelia philippina,Osmelia bartlettii,bartlett
+661,Dischidia nummularia,Dischidia gaudichaudii,gaudichaud
+661,Dischidia nummularia,Dischidia copelandii,copeland
+662,Dioclea hexandra,Dioclea fergusonii,ferguson
+662,Dioclea hexandra,Mucuna wertheimii,wertheim
+663,Aglaia elliptica,Aglaia moultonii,moulton
+663,Aglaia elliptica,Aglaia robinsonii,robinson
+663,Aglaia elliptica,Aglaia stapfii,stapf
+663,Aglaia elliptica,Aglaia reinwardtii,reinwardt
+663,Aglaia elliptica,Aglaia havilandii,haviland
+664,Ipomoea aquatica,Convolvulus adansonii,adanson
+664,Ipomoea aquatica,Convolvulus clappertonii,clapperton
+664,Ipomoea aquatica,Ipomoea clappertonii,clapperton
+664,Ipomoea aquatica,Ipomoea glenieii,glenie
+665,Poikilospermum suaveolens,Conocephalus roxburghii,roxburgh
+665,Poikilospermum suaveolens,Poikilospermum gagnepainii,gagnepain
+666,Festuca geniculata,Vulpia hackelii,hackel
+667,Deparia japonica,Diplazium thunbergii,thunberg
+668,Sedum hispanicum,Sedum witmannii,witmann
+668,Sedum hispanicum,Sedum andersonii,anderson
+669,Mickelia nicotianifolia,Bolbitis killipii,killip
+669,Mickelia nicotianifolia,Leptochilus killipii,killip
+670,Allium thunbergii,Allium thunbergii,thunberg
+670,Allium thunbergii,Allium opizii,opiz
+671,Symphyotrichum vahlii,Symphyotrichum vahlii,vahl
+671,Symphyotrichum vahlii,Aster vahlii,vahl
+671,Symphyotrichum vahlii,Erigeron vahlii var. vahlii,vahl
+671,Symphyotrichum vahlii,Oritrophium vahlii,vahl
+671,Symphyotrichum vahlii,Erigeron vahlii,vahl
+672,Neyraudia reynaudiana,Neyraudia mezii,mez
+672,Neyraudia reynaudiana,Thysanolaena mezii,mez
+673,Hymenophyllum lineare,Hymenophyllum durandii,durand
+673,Hymenophyllum lineare,Sphaerocionium durandii,durand
+673,Hymenophyllum lineare,Hymenophyllum wilsonii,wilson
+674,Parapolystichum acuminatum,Aspidium shepherdii,shepherd
+674,Parapolystichum acuminatum,Nephrodium shepherdii,shepherd
+674,Parapolystichum acuminatum,Dryopteris shepherdii,shepherd
+674,Parapolystichum acuminatum,Lastrea shepherdii,shepherd
+674,Parapolystichum acuminatum,Lastreopsis shepherdii,shepherd
+674,Parapolystichum acuminatum,Polystichum schkuhrii,schkuhr
+675,Gastrodia cunninghamii,Gastrodia cunninghamii,cunningham
+676,Maclura cochinchinensis,Cudrania thorelii,thorel
+676,Maclura cochinchinensis,Cudrania rumphii,rumph
+676,Maclura cochinchinensis,Maclura cochinchinensis var. bancroftii,bancroft
+676,Maclura cochinchinensis,Cudrania javanensis var. bancroftii,bancroft
+676,Maclura cochinchinensis,Maclura thorelii,thorel
+677,Magnolia liliifera,Magnolia liliifera,liliife
+677,Magnolia liliifera,Talauma forbesii,forbes
+677,Magnolia liliifera,Magnolia forbesii,forbes
+677,Magnolia liliifera,Talauma rumphii,rumph
+677,Magnolia liliifera,Magnolia rumphii,rumph
+678,Cenchrus setosus,Pennisetum hamiltonii,hamilton
+678,Cenchrus setosus,Pennisetum richardii,richard
+679,Oplismenus burmanni,Oplismenus baronii,baron
+679,Oplismenus burmanni,Panicum schultesii,schultes
+679,Oplismenus burmanni,Oplismenus preslii,presl
+680,Hopea sangal,Hopea curtisii,curtis
+680,Hopea sangal,Hopea lowii,low
+681,Pleioblastus simonii,Pleioblastus simonii,simon
+681,Pleioblastus simonii,Arundinaria simonii,simon
+681,Pleioblastus simonii,Nipponocalamus simonii,simon
+681,Pleioblastus simonii,Nipponocalamus kiyosumisimonii,kiyosumisimon
+681,Pleioblastus simonii,Bambusa simonii,simon
+681,Pleioblastus simonii,Pleioblastus kiyosumisimonii,kiyosumisimon
+682,Afrocarpus mannii,Afrocarpus mannii,mann
+682,Afrocarpus mannii,Podocarpus mannii,mann
+682,Afrocarpus mannii,Nageia mannii,mann
+682,Afrocarpus mannii,Decussocarpus mannii,mann
+683,Mesembryanthemum nodiflorum,Cryophytum rogersii,rogers
+684,Guettarda krugii,Guettarda krugii,krug
+684,Guettarda krugii,Guettarda taylorii,taylor
+685,Pleurophyllum criniferum,Pleurophyllum hombronii,hombron
+686,Lathyrus nissolia,Lathyrus gouanii,gouan
+686,Lathyrus nissolia,Anurus nissolia subsp. futakii,futak
+686,Lathyrus nissolia,Lathyrus gerardii,gerard
+686,Lathyrus nissolia,Lathyrus nissolia subsp. futakii,futak
+687,Pyrrosia sphaerosticha,Niphobolus warburgii,warburg
+687,Pyrrosia sphaerosticha,Cyclophorus warburgii,warburg
+688,Benstonea stenocarpa,Benstonea jacobsii,jacobs
+688,Benstonea stenocarpa,Pandanus jacobsii,jacobs
+689,Astraea lobata,Astraea seemannii,seemann
+689,Astraea lobata,Croton courtetii,courtet
+689,Astraea lobata,Croton lobatus var. seemannii,seemann
+690,Patersonia lowii,Patersonia lowii,low
+691,Guatteria blainii,Guatteria blainii,blain
+691,Guatteria blainii,Cananga blainii,blain
+691,Guatteria blainii,Asimina blainii,blain
+691,Guatteria blainii,Uvaria moralesii,morales
+691,Guatteria blainii,Guatteria moralesii,morales
+691,Guatteria blainii,Uvaria blainii,blain
+692,Rorippa indica,Cardamine lamontii,lamont
+693,Epilobium hornemannii,Epilobium hornemannii,hornemann
+693,Epilobium hornemannii,Epilobium alsineifolium var. hornemannii,hornemann
+693,Epilobium hornemannii,Epilobium schmidtii,schmidt
+694,Gagea lutea,Ornithoxanthum persoonii,persoon
+694,Gagea lutea,Ornithogalum persoonii,persoon
+695,Freycinetia hombronii,Freycinetia hombronii,hombron
+696,Schoenoplectiella juncoides,Scirpus rockii,rock
+696,Schoenoplectiella juncoides,Schoenoplectiella juncoides var. rockii,rock
+697,Fatsia japonica,Aralia sieboldii,siebold
+698,Lomaridium schottii,Lomaridium schottii,schott
+698,Lomaridium schottii,Blechnum schottii,schott
+698,Lomaridium schottii,Lomaria schottii,schott
+699,Talinum fruticosum,Calandrinia lockhartii,lockhart
+699,Talinum fruticosum,Talinum andrewsii,andrews
+699,Talinum fruticosum,Calandrinia andrewsii,andrews
+700,Euploca microphylla,Heliotropium ekmanii,ekman
+701,Symphonia globulifera,Aneuriscus aubletii,aublet
+702,Physalis lagascae,Physalis dunalii,dunal
+703,Xerochrysum bracteatum,Gnaphalium banksii,banks
+703,Xerochrysum bracteatum,Helichrysum banksii,banks
+704,Atriplex gmelinii,Atriplex gmelinii,gmelin
+705,Phaeanthus ophthalmicus,Phaeanthus cumingii,cuming
+706,Salvia farinacea,Sclarea sibthorpii,sibthorp
+707,Cardiocrinum cordatum,Cardiocrinum glehnii,glehn
+707,Cardiocrinum cordatum,Lilium glehnii,glehn
+708,Cyperus odoratus,Cyperus vahlii,vahl
+708,Cyperus odoratus,Cyperus engelmannii,engelmann
+708,Cyperus odoratus,Torulinium eggersii,eggers
+708,Cyperus odoratus,Cyperus eggersii,eggers
+708,Cyperus odoratus,Cyperus oerstedii,oersted
+708,Cyperus odoratus,Torulinium macrocephalum var. eggersii,eggers
+708,Cyperus odoratus,Cyperus hamiltonii,hamilton
+708,Cyperus odoratus,Diclidium reinwardtii,reinwardt
+708,Cyperus odoratus,Cyperus nortonii,norton
+708,Cyperus odoratus,Cyperus carruthii,carruth
+708,Cyperus odoratus,Cyperus ferax var. engelmannii,engelmann
+708,Cyperus odoratus,Cyperus odoratus var. engelmannii,engelmann
+708,Cyperus odoratus,Cyperus ferax subsp. engelmannii,engelmann
+708,Cyperus odoratus,Cyperus macrocephalus var. eggersii,eggers
+708,Cyperus odoratus,Cyperus kurrii,kurr
+709,Orobanche amethystea,Orobanche eryngii,eryng
+709,Orobanche amethystea,Orobanche knappii,knapp
+710,Gentiana jamesii,Gentiana jamesii,james
+710,Gentiana jamesii,Ciminalis jamesii,james
+710,Gentiana jamesii,Gentiana kawakamii,kawakam
+710,Gentiana jamesii,Gentianodes jamesii,james
+710,Gentiana jamesii,Varasia jamesii,james
+711,Erycibe griffithii,Erycibe griffithii,griffith
+712,Elaphoglossum apodum,Elaphoglossum webbii,webb
+713,Horsfieldia amygdalina,Myristica kurzii,kurz
+713,Horsfieldia amygdalina,Horsfieldia thorelii,thorel
+714,Cassipourea guianensis,Cassipourea guildingii,guilding
+715,Agelaea macrophylla,Castanola wallichii,wallich
+715,Agelaea macrophylla,Agelaea diepenhorstii,diepenhorst
+715,Agelaea macrophylla,Agelaea wallichii,wallich
+715,Agelaea macrophylla,Agelaea hullettii,hullett
+715,Agelaea macrophylla,Castanola hullettii,hullett
+715,Agelaea macrophylla,Connarus diepenhorstii,diepenhorst
+715,Agelaea macrophylla,Hemiandrina hullettii,hullett
+716,Parrya nudicaulis,Arabis gmelinii,gmelin
+717,Filago arvensis,Logfia davisii,davis
+717,Filago arvensis,Filago davisii,davis
+718,Pistia stratiotes,Pistia cumingii,cuming
+718,Pistia stratiotes,Pistia turpinii,turpin
+719,Diplopterygium bancroftii,Diplopterygium bancroftii,bancroft
+719,Diplopterygium bancroftii,Hicriopteris bancroftii,bancroft
+719,Diplopterygium bancroftii,Dicranopteris bancroftii,bancroft
+719,Diplopterygium bancroftii,Mertensia bancroftii,bancroft
+719,Diplopterygium bancroftii,Gleichenia bancroftii,bancroft
+720,Trachyspermum ammi,Seseli gilliesii,gillies
+720,Trachyspermum ammi,Deverra korolkowii,korolkow
+720,Trachyspermum ammi,Pituranthos korolkowii,korolkow
+720,Trachyspermum ammi,Carum korolkowii,korolkow
+721,Streblus taxoides,Taxotrophis roxburghii,roxburgh
+721,Streblus taxoides,Phyllochlamys wallichii,wallich
+722,Papaver rhoeas,Papaver fuchsii,fuchs
+722,Papaver rhoeas,Papaver pseudohaussknechtii,pseudohaussknecht
+722,Papaver rhoeas,Papaver osswaldii,osswald
+723,Pachira insignis,Pachira loddigesii,loddiges
+724,Cynometra mannii,Cynometra mannii,mann
+725,Chrysothemis pulchella,Tussacia woodsonii,woodson
+726,Perezia recurvata,Perezia beckii,beck
+726,Perezia recurvata,Perezia recurvata subsp. beckii,beck
+727,Silene italica,Silene griffithii,griffith
+727,Silene italica,Melandrium griffithii,griffith
+727,Silene italica,Silene royenii,royen
+727,Silene italica,Cucubalus royenii,royen
+727,Silene italica,Carpophora viscosa var. krascheninnikovii,krascheninnikov
+728,Actephila excelsa,Actephila thomsonii,thomson
+729,Mentha cunninghamii,Mentha cunninghamii,cunningham
+729,Mentha cunninghamii,Micromeria cunninghamii,cunningham
+730,Vrydagzynea salomonensis,Vrydagzynea cheesemanii,cheeseman
+731,Diospyros major,Diospyros andersonii,anderson
+731,Diospyros major,Ebenus andersonii,anderson
+732,Canavalia nitida,Canavalia ekmanii,ekman
+733,Orobanche alba,Orobanche wiedemannii,wiedemann
+734,Floscopa scandens,Commelina hamiltonii,hamilton
+734,Floscopa scandens,Floscopa hamiltonii,hamilton
+734,Floscopa scandens,Commelina schoubertii,schoubert
+734,Floscopa scandens,Commelina hispida var. gaudichaudii,gaudichaud
+734,Floscopa scandens,Dithyrocarpus rothii,roth
+735,Pomatocalpa spicatum,Saccolabium hobsonii,hobson
+735,Pomatocalpa spicatum,Cleisostoma mannii,mann
+735,Pomatocalpa spicatum,Pomatocalpa mannii,mann
+736,Disocactus speciosus,Cereus schrankii,schrank
+736,Disocactus speciosus,Disocactus schrankii,schrank
+736,Disocactus speciosus,Cereus jenkinsonii,jenkinson
+736,Disocactus speciosus,Heliocereus schrankii,schrank
+737,Leptochilus insignis,Microsorum hancockii,hancock
+737,Leptochilus insignis,Kaulinia hancockii,hancock
+738,Tetractomia tetrandra,Terminthodia schultzei-leonhardii,schultzei-leonhard
+738,Tetractomia tetrandra,Melicope beccarii,beccar
+738,Tetractomia tetrandra,Tetractomia holttumii,holttum
+738,Tetractomia tetrandra,Tetractomia beccarii,beccar
+739,Myristica guatteriifolia,Myristica guatteriifolia,guatteriifol
+739,Myristica guatteriifolia,Myristica cookii,cook
+739,Myristica guatteriifolia,Myristica riedelii,riedel
+740,Baccharis tricuneata,Coleosanthus watsonii,watson
+740,Baccharis tricuneata,Brickellia watsonii,watson
+740,Baccharis tricuneata,Brickellia microphylla var. watsonii,watson
+741,Deguelia scandens,Derris scandens var. toppinii,toppin
+741,Deguelia scandens,Lonchocarpus killipii,killip
+742,Oxalis pes-caprae,Oxalis ehrenbergii,ehrenberg
+742,Oxalis pes-caprae,Acetosella ehrenbergii,ehrenberg
+743,Haplophyllum suaveolens,Ruta biebersteinii,bieberstein
+744,Opuntia repens,Opuntia ekmanii,ekman
+745,Crocus haussknechtii,Crocus haussknechtii,haussknecht
+745,Crocus haussknechtii,Crocus pallasii subsp. haussknechtii,haussknecht
+746,Iris aitchisonii,Iris aitchisonii,aitchison
+746,Iris aitchisonii,Juno aitchisonii,aitchison
+746,Iris aitchisonii,Xiphion aitchisonii,aitchison
+747,Syngonium podophyllum,Syngonium poeppigii,poeppig
+747,Syngonium podophyllum,Syngonium ruizii,ruiz
+747,Syngonium podophyllum,Syngonium willdenowii,willdenow
+747,Syngonium podophyllum,Syngonium vellozianum var. poeppigii,poeppig
+748,Leptochloa asthenes,Poa sprengelii,sprengel
+749,Aerides odorata,Aerides reichenbachii,reichenbach
+749,Aerides odorata,Aerides micholitzii,micholitz
+750,Megalastrum subincisum,Nephrodium gilbertii,gilbert
+750,Megalastrum subincisum,Phegopteris galeottii,galeott
+751,Mitreola petiolata,Mitreola swartzii,swartz
+752,Rhynchosia acuminatissima,Rhynchosia versteegii,versteeg
+752,Rhynchosia acuminatissima,Rhynchosia cunninghamii,cunningham
+752,Rhynchosia acuminatissima,Dolicholus cunninghamii,cunningham
+753,Hakea sericea,Hakea acicularis var. smithii,smith
+754,Betula ermanii,Betula ermanii,erman
+754,Betula ermanii,Betula paraermanii,paraerman
+754,Betula ermanii,Betula komarovii,komarov
+755,Derris elliptica,Pongamia horsfieldii,horsfield
+756,Eragrostis prolifera,Eragrostis salzmannii,salzmann
+756,Eragrostis prolifera,Eragrostis hagerupii,hagerup
+757,Varronia curassavica,Cordia anderssonii,andersson
+757,Varronia curassavica,Lithocardium anderssonii,andersson
+758,Heliotropium steudneri,Heliotropium nelsonii,nelson
+758,Heliotropium steudneri,Heliotropium rogersii,rogers
+758,Heliotropium steudneri,Heliotropium gorinii,gorin
+758,Heliotropium steudneri,Heliotropium eduardii,eduard
+758,Heliotropium steudneri,Heliotropium chiatellinii,chiatellin
+759,Trifolium medium,Trifolium haynaldii,haynald
+760,Trichomanes trigonum,Trichomanes kaulfussii,kaulfuss
+760,Trichomanes trigonum,Ptilophyllum kaulfussii,kaulfuss
+761,Rinorea horneri,Rinorea brownii,brown
+761,Rinorea horneri,Rinorea curtisii,curtis
+761,Rinorea horneri,Rinorea hamelii,hamel
+761,Rinorea horneri,Alsodeia curtisii,curtis
+761,Rinorea horneri,Alsodeia brownii,brown
+761,Rinorea horneri,Rinorea copelandii,copeland
+762,Hedyotis kurzii,Hedyotis kurzii,kurz
+762,Hedyotis kurzii,Oldenlandia wallichii,wallich
+763,Iodes cirrhosa,Iodes brandisii,brandis
+764,Polyscias cumingiana,Aralia naumanii,nauman
+764,Polyscias cumingiana,Nothopanax cumingii,cuming
+764,Polyscias cumingiana,Panax cumingii,cuming
+764,Polyscias cumingiana,Polyscias cumingii,cuming
+764,Polyscias cumingiana,Aralia naumannii,naumann
+765,Brachypodium retusum,Brachypodium allionii,allion
+765,Brachypodium retusum,Brachypodium willkommii,willkomm
+765,Brachypodium retusum,Brachypodium hostii,host
+765,Brachypodium retusum,Brachypodium plukenetii,plukenet
+765,Brachypodium retusum,Bromus plukenetii,plukenet
+766,Actinidia kolomikta,Actinidia gagnepainii,gagnepain
+767,Cyrilla racemiflora,Cyrilla perrottetii,perrottet
+767,Cyrilla racemiflora,Cyrilla antillana var. perrottetii,perrottet
+767,Cyrilla racemiflora,Stachyanthemum schomburgkii,schomburgk
+768,Cochlearia officinalis,Eutrema rossii,ross
+769,Solanum nigrescens,Solanum jahnii,jahn
+769,Solanum nigrescens,Solanum nigrum var. dillenii,dillen
+769,Solanum nigrescens,Solanum rojasii,rojas
+770,Davallia denticulata,Trichomanes elegans var. weddellii,weddell
+770,Davallia denticulata,Trichomanes prieurii,prieur
+770,Davallia denticulata,Trichomanes weddellii,weddell
+770,Davallia denticulata,Trichomanes leprieurii,leprieur
+771,Euchiton japonicus,Gnaphalium willdenowii,willdenow
+772,Saurauia leprosa,Saurauia korthalsii,korthals
+773,Dichaea morrisii,Dichaea morrisii,morris
+773,Dichaea morrisii,Epithecia morrisii,morris
+773,Dichaea morrisii,Dichaeopsis morrisii,morris
+773,Dichaea morrisii,Dichaea muricata var. moritzii,moritz
+773,Dichaea morrisii,Dichaea moritzii,moritz
+774,Woodsia polystichoides,Woodsia polystichoides f. veitchii,veitch
+774,Woodsia polystichoides,Woodsia polystichoides var. veitchii,veitch
+774,Woodsia polystichoides,Woodsia brandtii,brandt
+775,Dendropanax arboreus,Gilibertia schippii,schipp
+775,Dendropanax arboreus,Gilibertia rothschuhii,rothschuh
+775,Dendropanax arboreus,Dendropanax schippii,schipp
+775,Dendropanax arboreus,Dendropanax juergensenii,juergensen
+775,Dendropanax arboreus,Gilibertia juergensenii,juergensen
+775,Dendropanax arboreus,Sciodaphyllum jacquinii,jacquin
+776,Antidesma ghaesembilla,Antidesma schultzii,schultz
+776,Antidesma ghaesembilla,Opilia thorelii,thorel
+777,Passiflora aurantia,Passiflora storckii,storck
+777,Passiflora aurantia,Disemma storckii,storck
+777,Passiflora aurantia,Passiflora banksii,banks
+777,Passiflora aurantia,Passiflora aurantia var. banksii,banks
+778,Grammitis poeppigiana,Grammitis armstrongii,armstrong
+779,Cryptocarya wightiana,Cryptocarya bourdillonii,bourdillon
+780,Asperula tournefortii,Asperula tournefortii,tournefort
+780,Asperula tournefortii,Crucianella tournefortii,tournefort
+781,Desmodium procumbens,Desmodium sprengelii,sprengel
+782,Cyperus meyenianus,Cyperus andrewsii,andrews
+783,Iochroma arborescens,Acnistus miersii,miers
+783,Iochroma arborescens,Acnistus benthamii,bentham
+783,Iochroma arborescens,Acnistus lehmannii,lehmann
+784,Raphidiocystis mannii,Raphidiocystis mannii,mann
+785,Rhynchosia minima,Glycine lamarckii,lamarck
+785,Rhynchosia minima,Rhynchosia klotzschii,klotzsch
+785,Rhynchosia minima,Dolicholus drummondii,drummond
+786,Polygonum aviculare,Polygonum meyenii,meyen
+786,Polygonum aviculare,Polygonum franktonii,frankton
+787,Vanda hindsii,Vanda hindsii,hinds
+788,Aporosa octandra,Aporosa clellandii,clelland
+788,Aporosa octandra,Lepidostachys roxburghii,roxburgh
+788,Aporosa octandra,Aporosa roxburghii,roxburgh
+789,Tabernaemontana rostrata,Ervatamia curtisii,curtis
+789,Tabernaemontana rostrata,Ervatamia evrardii,evrard
+789,Tabernaemontana rostrata,Ervatamia pitardii,pitard
+789,Tabernaemontana rostrata,Tabernaemontana evrardii,evrard
+789,Tabernaemontana rostrata,Tabernaemontana pitardii,pitard
+790,Reissantia indica,Hippocratea lobbii,lobb
+791,Sorindeia grandifolia,Sorindeia schweinfurthii,schweinfurth
+791,Sorindeia grandifolia,Sorindeia ledermannii,ledermann
+792,Phreatia hypsorrhynchos,Phreatia comptonii,compton
+793,Globba pendula,Hura koenigii,koenig
+793,Globba pendula,Globba kingii,king
+793,Globba pendula,Globba wallichii,wallich
+794,Crotalaria quinquefolia,Crotalaria ekmanii,ekman
+794,Crotalaria quinquefolia,Crotalaria hislopii,hislop
+795,Ficus depressa,Ficus johnsonii,johnson
+796,Pavetta hookeriana,Pavetta exellii,exell
+797,Stigmaphyllon adenodon,Stigmaphyllon kuhlmannii,kuhlmann
+798,Dipterocarpus grandiflorus,Dipterocarpus griffithii,griffith
+799,Hypochaeris arenaria,Achyrophorus webbii,webb
+800,Cyperus thunbergii,Cyperus thunbergii,thunberg
+800,Cyperus thunbergii,Mariscus thunbergii,thunberg
+800,Cyperus thunbergii,Cyperus poiretii,poiret
+801,Sarcomphalus taylorii,Sarcomphalus taylorii,taylor
+801,Sarcomphalus taylorii,Ziziphus taylorii,taylor
+802,Pavetta neurocarpa,Pavetta mannii,mann
+802,Pavetta neurocarpa,Ixora mannii,mann
+803,Veronica mannii,Veronica mannii,mann
+803,Veronica mannii,Veronica grandulosa subsp. mannii,mann
+804,Cyperus albostriatus,Cyperus mossii,moss
+804,Cyperus albostriatus,Cyperus braunii,braun
+805,Evolvulus convolvuloides,Evolvulus karstenii,karsten
+806,Viburnum sambucinum,Viburnum forbesii,forbes
+807,Nelumbo nucifera,Nelumbium rheedii,rheed
+807,Nelumbo nucifera,Nelumbo komarovii,komarov
+808,Corypha utan,Livistona vidalii,vidal
+809,Oleandra musifolia,Oleandra whangii,whang
+809,Oleandra musifolia,Oleandra moritzii,moritz
+809,Oleandra musifolia,Aspidium moritzii,moritz
+809,Oleandra musifolia,Oleandra parksii,parks
+809,Oleandra musifolia,Oleandra archboldii,archbold
+809,Oleandra musifolia,Oleandra christophersenii,christophersen
+810,Cyclea barbata,Cyclea wallichii,wallich
+811,Ammi majus,Ammi broussonetii,broussonet
+811,Ammi majus,Ammi topalii,topal
+812,Aglaia elaeagnoidea,Aglaia bourdillonii,bourdillon
+812,Aglaia elaeagnoidea,Aglaia elaeagnoidea var. bourdillonii,bourdillon
+812,Aglaia elaeagnoidea,Aglaia talbotii,talbot
+812,Aglaia elaeagnoidea,Aglaia wallichii,wallich
+813,Spergularia marina,Spergularia bofillii,bofill
+813,Spergularia marina,Spergularia dillenii,dillen
+813,Spergularia marina,Spergularia marina var. simonii,simon
+814,Dryopteris hasseltii,Dryopteris hasseltii,hasselt
+814,Dryopteris hasseltii,Athyrium hasseltii,hasselt
+814,Dryopteris hasseltii,Polystichopsis hasseltii,hasselt
+814,Dryopteris hasseltii,Phegopteris hasseltii,hasselt
+814,Dryopteris hasseltii,Acrorumohra hasseltii,hasselt
+814,Dryopteris hasseltii,Byrsopteris hasseltii,hasselt
+814,Dryopteris hasseltii,Arachniodes hasseltii,hasselt
+814,Dryopteris hasseltii,Rumohra hasseltii,hasselt
+814,Dryopteris hasseltii,Polypodium hasseltii,hasselt
+815,Teijsmanniodendron hollrungii,Teijsmanniodendron hollrungii,hollrung
+815,Teijsmanniodendron hollrungii,Vitex hollrungii,hollrung
+816,Vicia grandiflora,Vicia biebersteinii,bieberstein
+817,Cereus hexagonus,Cereus karstenii,karsten
+818,Strychnos axillaris,Strychnos wenzelii,wenzel
+818,Strychnos axillaris,Strychnos schmidtii,schmidt
+818,Strychnos axillaris,Strychnos robinsonii,robinson
+818,Strychnos axillaris,Strychnos scortechinii,scortechin
+819,Lycium americanum,Lycium johnstonii,johnston
+820,Agelaea rubiginosa,Agelaea schweinfurthii,schweinfurth
+820,Agelaea rubiginosa,Agelaea laurentii,laurent
+820,Agelaea rubiginosa,Agelaea vanderystii,vanderyst
+821,Origanum calcaratum,Beltokon tournefortii,tournefort
+821,Origanum calcaratum,Amaracus tournefortii,tournefort
+822,Scleria novae-hollandiae,Scleria merrillii,merrill
+823,Campanula rotundifolia,Campanula hostii,host
+823,Campanula rotundifolia,Campanula lostrittii,lostritt
+823,Campanula rotundifolia,Campanula wiedmannii,wiedmann
+823,Campanula rotundifolia,Campanula bielzii,bielz
+824,Lasianthus hirsutus,Lasianthus everettii,everett
+824,Lasianthus hirsutus,Lasianthus roxburghii,roxburgh
+825,Piper aequale,Piper aequale var. dussii,duss
+825,Piper aequale,Piper johnstonii,johnston
+825,Piper aequale,Piper donnell-smithii,donnell-smith
+825,Piper aequale,Piper funckii,funck
+826,Asteriscus schultzii,Asteriscus schultzii,schultz
+826,Asteriscus schultzii,Bubonium schultzii,schultz
+826,Asteriscus schultzii,Odontospermum schultzii,schultz
+826,Asteriscus schultzii,Nauplius schultzii,schultz
+827,Trichosanthes ovigera,Trichosanthes horsfieldii,horsfield
+827,Trichosanthes ovigera,Anguina horsfieldii,horsfield
+828,Memecylon excelsum,Memecylon kurzii,kurz
+829,Trichomanes pinnatum,Neurophyllum hedwigii,hedwig
+829,Trichomanes pinnatum,Trichomanes pinnatum var. hedwigii,hedwig
+829,Trichomanes pinnatum,Neuromanes hedwigii,hedwig
+829,Trichomanes pinnatum,Neuromanes kaulfussii,kaulfuss
+829,Trichomanes pinnatum,Trichomanes pinnatum var. kaulfussii,kaulfuss
+830,Fimbristylis complanata,Isolepis willdenowii,willdenow
+830,Fimbristylis complanata,Fimbristylis bequaertii,bequaert
+831,Tephroseris papposa,Tephroseris papposa subsp. heuffelii,heuffel
+831,Tephroseris papposa,Tephroseris papposa subsp. kitaibelii,kitaibel
+831,Tephroseris papposa,Tephroseris papposa subsp. wolffii,wolff
+831,Tephroseris papposa,Tephroseris wolffii,wolff
+831,Tephroseris papposa,Senecio heuffelii,heuffel
+832,Biophytum sensitivum,Biophytum cumingii,cuming
+833,Imperata cheesemanii,Imperata cheesemanii,cheeseman
+834,Guarea glabra,Guarea schomburgkii,schomburgk
+834,Guarea glabra,Guarea swartzii,swartz
+834,Guarea glabra,Guarea donnell-smithii,donnell-smith
+834,Guarea glabra,Guarea luxii,lux
+835,Epidendrum strobiliferum,Epidendrum mosenii,mosen
+835,Epidendrum strobiliferum,Epidendrum rodriguesii,rodrigues
+835,Epidendrum strobiliferum,Epidendrum sellowii,sellow
+836,Plantago australis,Plantago macrostachys var. stuckertii,stuckert
+836,Plantago australis,Plantago kurtzii,kurtz
+836,Plantago australis,Plantago stuckertii,stuckert
+836,Plantago australis,Plantago asplundii,asplund
+837,Glebionis coronaria,Glebionis roxburghii,roxburgh
+837,Glebionis coronaria,Chrysanthemum roxburghii,roxburgh
+838,Capparis pyrifolia,Capparis kerrii,kerr
+839,Thymus willdenowii,Thymus willdenowii,willdenow
+839,Thymus willdenowii,Thymus mohamedii subsp. rosatii,rosat
+839,Thymus willdenowii,Thymus mohamedii var. rosatii,rosat
+839,Thymus willdenowii,Thymus mohamedii,mohamed
+839,Thymus willdenowii,Thymus tidighinii,tidighin
+840,Iris kashmiriana,Iris bartonii,barton
+841,Iris postii,Iris postii,post
+841,Iris postii,Juno postii,post
+842,Tigridia mortonii,Tigridia mortonii,morton
+843,Dipsacus sativus,Dipsacus botterii,botter
+843,Dipsacus sativus,Dipsacus morisonii,morison
+844,Limonium oleifolium,Statice smithii,smith
+845,Farfugium japonicum,Senecio sieboldii,siebold
+846,Pleocnemia dahlii,Pleocnemia dahlii,dahl
+846,Pleocnemia dahlii,Phegopteris dahlii,dahl
+846,Pleocnemia dahlii,Aspidium dahlii,dahl
+846,Pleocnemia dahlii,Tectaria dahlii,dahl
+846,Pleocnemia dahlii,Dictyopteris dahlii,dahl
+847,Erodium acaule,Erodium cariotii,cariot
+848,Combretum latifolium,Combretum horsfieldii,horsfield
+848,Combretum latifolium,Combretum aubletii,aublet
+849,Pimpinella javana,Oenanthe normanii,norman
+850,Solanum tampicense,Solanum houstonii,houston
+850,Solanum tampicense,Nycterium lambertii,lambert
+851,Swintonia floribunda,Swintonia griffithii,griffith
+852,Neololeba atra,Bambusa forbesii,forbes
+852,Neololeba atra,Arundinaria cobonii,cobon
+852,Neololeba atra,Dendrocalamus forbesii,forbes
+853,Aristolochia parvifolia,Aristolochia tournefortii,tournefort
+854,Lasianthus attenuatus,Lasianthus copelandii,copeland
+854,Lasianthus attenuatus,Lasianthus thorelii,thorel
+854,Lasianthus attenuatus,Lasianthus wallichii,wallich
+854,Lasianthus attenuatus,Mephitidia wallichii,wallich
+855,Ichnanthus pallens,Panicum pallens var. swartzii,swartz
+855,Ichnanthus pallens,Ichnanthus hitchcockii,hitchcock
+855,Ichnanthus pallens,Panicum schlechtendahlii,schlechtendahl
+856,Psychilis correllii,Psychilis correllii,correll
+857,Cryptocarya laevigata,Cryptocarya merrillii,merrill
+858,Buchanania macrocarpa,Buchanania merrillii,merrill
+859,Garcinia hollrungii,Garcinia hollrungii,hollrung
+860,Corchorus orinocensis,Corchorus argutus var. blanchetii,blanchet
+860,Corchorus orinocensis,Corchorus argutus var. benthamii,bentham
+861,Marcgravia rectiflora,Marcgravia rectiflora var. jacquinii,jacquin
+862,Bromus catharticus,Ceratochloa willdenowii,willdenow
+862,Bromus catharticus,Bromus willdenowii,willdenow
+862,Bromus catharticus,Bromus brongniartii,brongniart
+862,Bromus catharticus,Bromus matthewsii,matthews
+862,Bromus catharticus,Bromus preslii,presl
+862,Bromus catharticus,Festuca stricta f. braunii,braun
+863,Oxalis latifolia,Oxalis eggersii,eggers
+863,Oxalis latifolia,Oxalis buchtienii,buchtien
+863,Oxalis latifolia,Ionoxalis buchtienii,buchtien
+864,Aglaia korthalsii,Aglaia korthalsii,korthals
+865,Commicarpus scandens,Boerhavia grahamii,graham
+866,Sporobolus pyramidatus,Vilfa richardii,richard
+867,Microstachys corniculata,Microstachys vahlii,vahl
+867,Microstachys corniculata,Sebastiania glandulosa var. pohlii,pohl
+867,Microstachys corniculata,Sebastiania corniculata var. poeppigii,poeppig
+867,Microstachys corniculata,Sebastiania corniculata var. pohlii,pohl
+868,Carex montana,Carex witheringii,withering
+868,Carex montana,Carex czetzii,czetz
+868,Carex montana,Carex montana subsp. czetzii,czetz
+868,Carex montana,Carex praecox f. petermannii,petermann
+868,Carex montana,Carex krullii,krull
+868,Carex montana,Carex forbesii,forbes
+869,Coursetia caribaea,Brittonamra caribaea var. edwardsii,edwards
+869,Coursetia caribaea,Benthamantha edwardsii,edwards
+869,Coursetia caribaea,Cracca edwardsii,edwards
+869,Coursetia caribaea,Cracca caribaea var. edwardsii,edwards
+869,Coursetia caribaea,Coursetia greenmanii,greenman
+869,Coursetia caribaea,Cracca greenmanii,greenman
+869,Coursetia caribaea,Benthamantha greenmanii,greenman
+870,Thecacoris stenopetala,Thecacoris batesii,bates
+871,Cyperus dubius,Cyperus merrillii,merrill
+871,Cyperus dubius,Mariscus merrillii,merrill
+871,Cyperus dubius,Mariscus kraussii,krauss
+872,Juniperus communis,Juniperus kanitzii,kanitz
+872,Juniperus communis,Juniperus niemannii,niemann
+872,Juniperus communis,Juniperus occidentalis f. corbetii,corbet
+873,Croton origanifolius,Croton ekmanii,ekman
+873,Croton origanifolius,Moacroton ekmanii,ekman
+874,Tephrosia purpurea,Tephrosia hamiltonii,hamilton
+874,Tephrosia purpurea,Tephrosia taylorii,taylor
+874,Tephrosia purpurea,Tephrosia wallichii,wallich
+874,Tephrosia purpurea,Cracca wallichii,wallich
+874,Tephrosia purpurea,Tephrosia mitchellii,mitchell
+874,Tephrosia purpurea,Tephrosia schweinfurthii,schweinfurth
+874,Tephrosia purpurea,Tephrosia franchetii,franchet
+874,Tephrosia purpurea,Galega haynii,hayn
+874,Tephrosia purpurea,Galega heynii,heyn
+874,Tephrosia purpurea,Tephrosia grahamii,graham
+875,Chamaecyparis lawsoniana,Cupressus lawsoniana var. aluminii,alumin
+875,Chamaecyparis lawsoniana,Cupressus lawsoniana f. stewartii,stewart
+875,Chamaecyparis lawsoniana,Chamaecyparis lawsoniana var. stewartii,stewart
+876,Stachys germanica,Stachys nuttallii,nuttall
+876,Stachys germanica,Stachys riddellii,riddell
+876,Stachys germanica,Stachys fuchsii,fuchs
+877,Blumeodendron kurzii,Blumeodendron kurzii,kurz
+877,Blumeodendron kurzii,Mallotus kurzii,kurz
+878,Psychotria merrillii,Psychotria merrillii,merrill
+878,Psychotria merrillii,Canthium valetonii,valeton
+879,Camptostylus mannii,Camptostylus mannii,mann
+879,Camptostylus mannii,Caloncoba mannii,mann
+879,Camptostylus mannii,Oncoba mannii,mann
+880,Ellipanthus tomentosus,Ellipanthus curtisii,curtis
+880,Ellipanthus tomentosus,Ellipanthus vidalii,vidal
+880,Ellipanthus tomentosus,Ellipanthus griffithii,griffith
+881,Trichilia pallida,Trichilia riedelii,riedel
+881,Trichilia pallida,Trichilia weddelii,weddel
+881,Trichilia pallida,Trichilia skutchii,skutch
+881,Trichilia pallida,Trichilia davisii,davis
+882,Quercus robur,Quercus dalechampii f. piersii,piers
+882,Quercus robur,Quercus fennessii,fenness
+882,Quercus robur,Quercus sieboldii,siebold
+882,Quercus robur,Quercus annenkowii,annenkow
+882,Quercus robur,Quercus welandii,weland
+882,Quercus robur,Quercus tauzinii,tauzin
+883,Elatostema mannii,Elatostema mannii,mann
+884,Buforrestia mannii,Buforrestia mannii,mann
+885,Spathandra blakeoides,Memecylon mannii,mann
+885,Spathandra blakeoides,Memecylon tessmannii,tessmann
+885,Spathandra blakeoides,Memecylon mildbraedii,mildbraed
+885,Spathandra blakeoides,Memecylon millenii,millen
+886,Psychotria camptopus,Cephaelis mannii,mann
+886,Psychotria camptopus,Uragoga mannii,mann
+886,Psychotria camptopus,Camptopus mannii,mann
+887,Radiogrammitis jagoriana,Polypodium koordersii,koorders
+887,Radiogrammitis jagoriana,Polypodium christii,christ
+888,Phalaris paradoxa,Phalaris sibthorpii,sibthorp
+889,Senna sulfurea,Cassia horsfieldii,horsfield
+890,Callianthe striata,Abutilon thompsonii,thompson
+891,Calliandra guildingii,Calliandra guildingii,guilding
+891,Calliandra guildingii,Anneslia guildingii,guilding
+891,Calliandra guildingii,Feuilleea guildingii,guilding
+892,Passiflora cochinchinensis,Disemma horsfieldii,horsfield
+892,Passiflora cochinchinensis,Anthactinia horsfleldii,horsfleld
+892,Passiflora cochinchinensis,Passiflora horsfieldii,horsfield
+893,Peperomia microphylla,Peperomia gilbertii,gilbert
+894,Poa arctica,Poa williamsii,williams
+894,Poa arctica,Poa eyerdamii,eyerdam
+894,Poa arctica,Poa charkeviczii,charkevicz
+894,Poa arctica,Poa arctica subsp. williamsii,williams
+895,Tulipa clusiana,Tulipa grey-wilsonii,grey-wilson
+895,Tulipa clusiana,Tulipa hafisii,hafis
+895,Tulipa clusiana,Tulipa fernandezii,fernandez
+895,Tulipa clusiana,Tulipa aitchisonii,aitchison
+895,Tulipa clusiana,Tulipa leichtlinii,leichtlin
+895,Tulipa clusiana,Tulipa clusiana f. fernandezii,fernandez
+896,Cyperus sphacelatus,Cyperus balbisii,balbis
+896,Cyperus sphacelatus,Cyperus duchaisingii,duchaising
+897,Leptinella scariosa,Cotula hombronii,hombron
+898,Garcinia indica,Garcinia rumphii,rumph
+898,Garcinia indica,Garcinia benthamii,bentham
+898,Garcinia indica,Garcinia kurzii,kurz
+898,Garcinia indica,Garcinia kingii,king
+899,Elaphoglossum blumeanum,Elaphoglossum copelandii,copeland
+900,Dichaea pendula,Dichaea swartzii,swartz
+900,Dichaea pendula,Dichaea pendula var. swartzii,swartz
+901,Asplenium batuense,Asplenium brooksii,brooks
+901,Asplenium batuense,Diplora grashoffii,grashoff
+901,Asplenium batuense,Asplenium grashoffii,grashoff
+901,Asplenium batuense,Phyllitis grashoffii,grashoff
+902,Aglaia edulis,Aglaia curranii,curran
+903,Phleum phleoides,Phleum hostii,host
+904,Mucuna bennettii,Mucuna bennettii,bennett
+904,Mucuna bennettii,Stizolobium bennettii,bennett
+905,Argythamnia stahlii,Argythamnia stahlii,stahl
+906,Asplenium carruthersii,Asplenium carruthersii,carruthers
+907,Lytoneuron paradoxum,Platyloma brownii,brown
+907,Lytoneuron paradoxum,Hemionitis pyornkrachzarkii,pyornkrachzark
+907,Lytoneuron paradoxum,Doryopteris glaziovii,glaziov
+908,Enteropogon unispiceus,Chloris cheesemanii,cheeseman
+908,Enteropogon unispiceus,Chionochloa cheesemanii,cheeseman
+909,Hyperbaena domingensis,Hyperbaena hostmannii,hostmann
+909,Hyperbaena domingensis,Hyperbaena moricandii,moricand
+910,Crotalaria vitellina,Crotalaria vitellina var. schippii,schipp
+910,Crotalaria vitellina,Crotalaria poeppigii,poeppig
+911,Sapium glandulosum,Sapium poeppigii,poeppig
+911,Sapium glandulosum,Sapium schippii,schipp
+911,Sapium glandulosum,Sapium klotzschianum var. glaziovii,glaziov
+912,Trisetum caudulatum,Trisetum vidalii,vidal
+912,Trisetum caudulatum,Trisetum variabile var. vidalii,vidal
+913,Pueraria pulcherrima,Glycine warburgii,warburg
+913,Pueraria pulcherrima,Pueraria warburgii,warburg
+914,Utricularia uliginosa,Utricularia nayarii,nayar
+914,Utricularia uliginosa,Utricularia griffithii,griffith
+915,Dipterocarpus gracilis,Dipterocarpus van-der-hoevenii,van-der-hoeven
+915,Dipterocarpus gracilis,Dipterocarpus schmidtii,schmidt
+916,Aganope thyrsiflora,Aganope thyrsiflora var. wallichii,wallich
+916,Aganope thyrsiflora,Derris wallichii,wallich
+917,Acorus calamus,Acorus griffithii,griffith
+917,Acorus calamus,Acorus commersonii,commerson
+918,Nectandra membranacea,Nectandra bondarii,bondar
+918,Nectandra membranacea,Nectandra williamsii,williams
+918,Nectandra membranacea,Nectandra skutchii,skutch
+918,Nectandra membranacea,Nectandra raimondii,raimond
+919,Eriochloa villosa,Paspalum elliottii,elliott
+920,Viburnum sargentii,Viburnum sargentii,sargent
+920,Viburnum sargentii,Viburnum opulus var. sargentii,sargent
+921,Crotalaria albida,Crotalaria vogelii,vogel
+921,Crotalaria albida,Crotalaria grahamii,graham
+921,Crotalaria albida,Crotalaria galeottii,galeott
+922,Scleria eggersiana,Scleria grisebachii,grisebach
+923,Koordersiochloa longiarista,Pseudostreptogyne richardii,richard
+924,Aphananthe cuspidata,Gironniera thompsonii,thompson
+924,Aphananthe cuspidata,Gironniera curranii,curran
+925,Werauhia ringens,Tillandsia veitchii,veitch
+926,Epithema horsfieldii,Epithema horsfieldii,horsfield
+926,Epithema horsfieldii,Aikinia horsfieldii,horsfield
+927,Cyrtosperma johnstonii,Cyrtosperma johnstonii,johnston
+927,Cyrtosperma johnstonii,Alocasia johnstonii,johnston
+928,Pinalia bractescens,Eria griffithii,griffith
+928,Pinalia bractescens,Eria dillwynii,dillwyn
+928,Pinalia bractescens,Eria bractescens var. kurzii,kurz
+928,Pinalia bractescens,Eria kurzii,kurz
+929,Helictotrichon convolutum,Helictotrichon convolutum subsp. heldreichii,heldreich
+929,Helictotrichon convolutum,Avena heldreichii,heldreich
+930,Vigna adenantha,Phaseolus macfadyenii,macfadyen
+930,Vigna adenantha,Phaseolus cummingii,cumming
+931,Eragrostis elliottii,Eragrostis elliottii,elliott
+932,Ceropegia cumingiana,Ceropegia merrillii,merrill
+933,Anthemis arvensis,Anthemis haynaldii,haynald
+934,Iris popovii,Iris popovii,popov
+934,Iris popovii,Juno popovii,popov
+935,Aristolochia rugosa,Howardia schomburgkii,schomburgk
+935,Aristolochia rugosa,Aristolochia dictyantha var. schomburgkii,schomburgk
+935,Aristolochia rugosa,Howardia lansbergii,lansberg
+936,Pseudoturritis turrita,Erysimum knowlesii,knowles
+936,Pseudoturritis turrita,Cheiranthus knowlesii,knowles
+937,Myrsine coriacea,Myrsine jelskii,jelsk
+937,Myrsine coriacea,Rapanea jelskii,jelsk
+937,Myrsine coriacea,Rapanea mandonii,mandon
+938,Liebigia horsfieldii,Liebigia horsfieldii,horsfield
+938,Liebigia horsfieldii,Chirita horsfieldii,horsfield
+938,Liebigia horsfieldii,Roettlera horsfieldii,horsfield
+939,Phoradendron mucronatum,Phoradendron lyonii,lyon
+940,Cytisus triflorus,Cytisus hirsutus var. grisebachii,grisebach
+940,Cytisus triflorus,Cytisus lamarckii,lamarck
+940,Cytisus triflorus,Cytisus haynaldii,haynald
+940,Cytisus triflorus,Chamaecytisus falcatus var. grisebachii,grisebach
+940,Cytisus triflorus,Chamaecytisus ciliatus var. grisebachii,grisebach
+941,Arenga pinnata,Saguerus rumphii,rumph
+941,Arenga pinnata,Gomutus rumphii,rumph
+941,Arenga pinnata,Arenga griffithii,griffith
+942,Luffa acutangula,Luffa forskalii,forskal
+942,Luffa acutangula,Luffa kleinii,klein
+943,Hymenophyllum peltatum,Hymenophyllum mettenii,metten
+943,Hymenophyllum peltatum,Hymenophyllum peltatum var. menziesii,menzies
+943,Hymenophyllum peltatum,Hymenophyllum menziesii,menzies
+944,Callisia repens,Callisia repens var. mandonii,mandon
+944,Callisia repens,Callisia hexandra var. salzmannii,salzmann
+944,Callisia repens,Callisia hexandra var. mandonii,mandon
+945,Agrostis meyenii,Agrostis meyenii,meyen
+946,Daphne oleoides,Daphne vahlii,vahl
+947,Jouvea pilosa,Poa preslii,presl
+948,Sedum urvillei,Sedum hillebrandii,hillebrand
+949,Acacia cyclops,Acacia mirbelii,mirbel
+950,Lotus cytisoides,Lotus allionii,allion
+950,Lotus cytisoides,Lotus cuatrecasasii,cuatrecasas
+951,Ipomoea fimbriosepala,Ipomoea smithii,smith
+951,Ipomoea fimbriosepala,Ipomoea gilletii,gillet
+952,Rhynchospora rubra,Sphaeroschoenus wallichii,wallich
+952,Rhynchospora rubra,Rhynchospora wallichii,wallich
+952,Rhynchospora rubra,Morisia wallichii,wallich
+953,Galinsoga quadriradiata,Galinsoga humboldtii,humboldt
+953,Galinsoga quadriradiata,Stemmatella lehmannii,lehmann
+954,Lophopetalum wallichii,Lophopetalum wallichii,wallich
+954,Lophopetalum wallichii,Solenospermum wallichii,wallich
+955,Fumaria vaillantii,Fumaria vaillantii,vaillant
+955,Fumaria vaillantii,Fumaria chavinii,chavin
+955,Fumaria vaillantii,Fumaria camerarii,camerar
+955,Fumaria vaillantii,Fumaria parviflora subsp. vaillantii,vaillant
+956,Desmodium scorpiurus,Meibomia martensii,martens
+957,Eulophia pulchra,Eulophia rouxii,roux
+958,Rumex japonicus,Rumex regelii,regel
+959,Casearia grewiifolia,Casearia grewiifolia,grewiifol
+959,Casearia grewiifolia,Casearia kerrii,kerr
+960,Najas indica,Najas kingii,king
+961,Panicum millegrana,Panicum beyrichii,beyrich
+962,Origanum vulgare,Origanum watsonii,watson
+963,Selliguea heterocarpa,Polypodium schoutenii,schouten
+963,Selliguea heterocarpa,Pleopeltis schoutenii,schouten
+963,Selliguea heterocarpa,Polypodium morganii,morgan
+964,Pedicularis verticillata,Pedicularis taquetii,taquet
+964,Pedicularis verticillata,Pedicularis menziesii,menzies
+965,Adiantum monosorum,Adiantum robinsonii,robinson
+966,Bletia florida,Bletia shepherdii,shepherd
+967,Combretum bracteatum,Combretum gentilii,gentil
+968,Sinningia speciosa,Gloxinia speciosa var. menziesii,menzies
+968,Sinningia speciosa,Gloxinia passinghamii,passingham
+968,Sinningia speciosa,Gloxinia merkii,merk
+969,Sarcostigma kleinii,Sarcostigma kleinii,klein
+969,Sarcostigma kleinii,Sarcostigma horsfieldii,horsfield
+969,Sarcostigma kleinii,Sarcostigma roxburghii,roxburgh
+969,Sarcostigma kleinii,Sarcostigma wallichii,wallich
+970,Pachystoma pubescens,Pachystoma wightii,wight
+970,Pachystoma pubescens,Pachystoma edgworthii,edgworth
+971,Lepisorus thunbergianus,Lepisorus stewartii,stewart
+972,Ornithogalum sigmoideum,Ornithogalum sibthorpii,sibthorp
+973,Ischaemum rugosum,Meoschium griffithii,griffith
+973,Ischaemum rugosum,Meoschium wightii,wight
+974,Semecarpus albescens,Holigarna kurzii,kurz
+975,Poa nemoralis,Poa parnellii,parnell
+975,Poa nemoralis,Poa kumgansanii,kumgansan
+975,Poa nemoralis,Poa nemoralis var. popovii,popov
+976,Pomatocalpa marsupiale,Cleisostoma koordersii,koorders
+976,Pomatocalpa marsupiale,Saccolabium koordersii,koorders
+976,Pomatocalpa marsupiale,Pomatocalpa koordersii,koorders
+977,Rhodalsine geniculata,Minuartia webbii,webb
+977,Rhodalsine geniculata,Alsine bartolottii,bartolott
+978,Cephalanthera longifolia,Cephalanthera thomsonii,thomson
+979,Pycnarrhena tumefacta,Pycnarrhena merrillii,merrill
+980,Oenothera biennis,Oenothera chicaginensis var. bartlettii,bartlett
+980,Oenothera biennis,Oenothera tacikii,tacik
+980,Oenothera biennis,Oenothera stucchii,stucch
+980,Oenothera biennis,Oenothera rostanskii,rostansk
+980,Oenothera biennis,Oenothera victorinii,victorin
+980,Oenothera biennis,Oenothera reynoldsii,reynolds
+980,Oenothera biennis,Oenothera pellegrinii,pellegrin
+981,Commelina africana,Commelina mannii,mann
+981,Commelina africana,Commelina lyallii,lyall
+982,Anaphyllum wightii,Anaphyllum wightii,wight
+983,Agrostis mannii,Agrostis mannii,mann
+983,Agrostis mannii,Calamagrostis mannii,mann
+983,Agrostis mannii,Deyeuxia mannii,mann
+984,Orchis italica,× Orchiaceras welwitschii,welwitsch
+984,Orchis italica,Orchis welwitschii,welwitsch
+985,Chonemorpha verrucosa,Cercocoma wallichii,wallich
+985,Chonemorpha verrucosa,Rhynchodia wallichii,wallich
+985,Chonemorpha verrucosa,Trachelospermum slootenii,slooten
+985,Chonemorpha verrucosa,Rhyncospermum wallichii,wallich
+986,Wetria insignis,Trigonostemon forbesii,forbes
+987,Coreopsis basalis,Coreopsis drummondii,drummond
+987,Coreopsis basalis,Coreopsis drummondii var. wrightii,wright
+987,Coreopsis basalis,Coreopsis wrightii,wright
+987,Coreopsis basalis,Coreopsis basalis var. wrightii,wright
+987,Coreopsis basalis,Calliopsis drummondii,drummond
+988,Tournefortia bicolor,Tournefortia aubletii,aublet
+989,Opuntia phaeacantha,Opuntia phaeacantha var. wootonii,wooton
+989,Opuntia phaeacantha,Opuntia wootonii,wooton
+989,Opuntia phaeacantha,Opuntia engelmannii var. wootonii,wooton
+989,Opuntia phaeacantha,Opuntia woodsii,woods
+990,Albuca bracteata,Ornithogalum massonii,masson
+990,Albuca bracteata,Urginea mouretii,mouret
+991,Microsorum linguiforme,Dendroconche kingii,king
+992,Radiogrammitis cheesemanii,Radiogrammitis cheesemanii,cheeseman
+992,Radiogrammitis cheesemanii,Grammitis cheesemanii,cheeseman
+993,Scirpus maximowiczii,Scirpus maximowiczii,maximowicz
+993,Scirpus maximowiczii,Eriophorum maximowiczii,maximowicz
+994,Morisonia americana,Morisonia johnstonii,johnston
+995,Heliotropium verdcourtii,Heliotropium verdcourtii,verdcourt
+995,Heliotropium verdcourtii,Tournefortia schomburgkii,schomburgk
+996,Cuphea strigulosa,Cuphea fiebrigii,fiebrig
+996,Cuphea strigulosa,Cuphea strigulosa var. sinclairii,sinclair
+997,Carex polystachya,Carex hartwegii,hartweg
+997,Carex polystachya,Carex cladostachya var. oerstedii,oersted
+997,Carex polystachya,Carex oerstedii,oersted
+998,Mapania amplivaginata,Mapania mildbraedii,mildbraed
+999,Solanecio mannii,Solanecio mannii,mann
+999,Solanecio mannii,Crassocephalum mannii,mann
+999,Solanecio mannii,Senecio mannii,mann
+1000,Crepidium acuminatum,Malaxis allanii,allan
+1000,Crepidium acuminatum,Malaxis wallichii,wallich
+1000,Crepidium acuminatum,Microstylis wallichii,wallich
+1001,Boerhavia coccinea,Boerhavia marlothii,marloth
+1001,Boerhavia coccinea,Boerhavia friesii,fries
+1002,Persicaria thunbergii,Persicaria thunbergii,thunberg
+1002,Persicaria thunbergii,Polygonum thunbergii,thunberg
+1002,Persicaria thunbergii,Tracaulon thunbergii,thunberg
+1002,Persicaria thunbergii,Truellum thunbergii,thunberg
+1003,Mandragora officinarum,Mandragora haussknechtii,haussknecht
+1004,Barteria nigritana,Barteria braunii,braun
+1005,Blumea lanceolaria,Blumea wallichii,wallich
+1006,Cantinoa mutabilis,Hyptis mutabilis var. bromfieldii,bromfield
+1006,Cantinoa mutabilis,Hyptis spicata var. bromfieldii,bromfield
+1007,Lasianthus chrysoneurus,Lasianthus kurzii,kurz
+1007,Lasianthus chrysoneurus,Lasianthus kurzii var. howii,how
+1007,Lasianthus chrysoneurus,Nonatelia kurzii,kurz
+1008,Radermachera quadripinnata,Spathodea lobbii,lobb
+1008,Radermachera quadripinnata,Radermachera quadripinnata subsp. lobbii,lobb
+1008,Radermachera quadripinnata,Radermachera whitfordii,whitford
+1008,Radermachera quadripinnata,Stereospermum seemannii,seemann
+1008,Radermachera quadripinnata,Radermachera lobbii,lobb
+1009,Euphorbia vermiculata,Euphorbia vahlii,vahl
+1010,Eleocharis palustris,Eleocharis palustris var. lindbergii,lindberg
+1010,Eleocharis palustris,Scirpus bailii,bail
+1010,Eleocharis palustris,Eleocharis palustris subsp. lindbergii,lindberg
+1010,Eleocharis palustris,Eleocharis lindbergii,lindberg
+1010,Eleocharis palustris,Eleocharis baronii,baron
+1011,Carex micropoda,Carex crandallii,crandall
+1011,Carex micropoda,Carex griffithii,griffith
+1011,Carex micropoda,Carex gilesii,giles
+1012,Phymatosorus powellii,Phymatosorus powellii,powell
+1012,Phymatosorus powellii,Phymatodes powellii,powell
+1012,Phymatosorus powellii,Pleopeltis powellii,powell
+1012,Phymatosorus powellii,Microsorum powellii,powell
+1012,Phymatosorus powellii,Polypodium powellii,powell
+1013,Willughbeia edulis,Pacouria roxburghii,roxburgh
+1014,Capparis lanceolaris,Capparis copelandii,copeland
+1015,Hymenophyllum hirsutum,Hymenophyllum boutonii,bouton
+1015,Hymenophyllum hirsutum,Trichomanes krugii,krug
+1016,Eragrostis pilosa,Eragrostis burttdavii,burttdav
+1016,Eragrostis pilosa,Eragrostis linkii,link
+1016,Eragrostis pilosa,Poa linkii,link
+1016,Eragrostis pilosa,Eragrostis petersii,peters
+1017,Euonymus hamiltonianus,Euonymus juzepczukii,juzepczuk
+1017,Euonymus hamiltonianus,Euonymus vidalii,vidal
+1018,Rinorea heteroclita,Rinorea roxburghii,roxburgh
+1018,Rinorea heteroclita,Dioryktandra roxburghii,roxburgh
+1018,Rinorea heteroclita,Alsodeia roxburghii,roxburgh
+1019,Cleisostoma williamsonii,Cleisostoma williamsonii,williamson
+1019,Cleisostoma williamsonii,Sarcanthus williamsonii,williamson
+1019,Cleisostoma williamsonii,Echioglossum williamsonii,williamson
+1020,Korthalsella taenioides,Korthalsella mumfordii,mumford
+1020,Korthalsella taenioides,Bifaria hillebrandii,hillebrand
+1021,Merremia hirta,Convolvulus benthamii,bentham
+1022,Gahnia javanica,Schoenus hasskarlii,hasskarl
+1023,Croton guildingii,Croton guildingii,guilding
+1023,Croton guildingii,Oxydectes guildingii,guilding
+1023,Croton guildingii,Croton dussii,duss
+1023,Croton guildingii,Croton jardinii,jardin
+1023,Croton guildingii,Oxydectes jardinii,jardin
+1024,Horsfieldia iryaghedhi,Pyrrhosa horsfieldii,horsfield
+1025,Achnatherum pekinense,Stipa komarovii,komarov
+1026,Euphorbia hyssopifolia,Chamaesyce jonesii,jones
+1026,Euphorbia hyssopifolia,Euphorbia jonesii,jones
+1026,Euphorbia hyssopifolia,Euphorbia hyssopifolia var. blanchetii,blanchet
+1026,Euphorbia hyssopifolia,Euphorbia brasiliensis var. blanchetii,blanchet
