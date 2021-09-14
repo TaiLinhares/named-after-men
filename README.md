@@ -1,4 +1,4 @@
-# Named after Men - Daily post bot
+# named after Men - Daily post bot
 
 ## Description
 
@@ -6,7 +6,7 @@ Queries and formats content from a Postgresql database and posts it on Twitter a
 
 ## Context
 
-This repository is part of the data/art project **Named after Men**, which posts daily on Twitter and on the website [namedaftermen.com](www.namedaftermen.com) a plant that was named after a male botanist. The goal of this project is to reflect on the power structures that regulate the act of naming.
+This repository is part of the data/art project **named after Men**, which posts daily on Twitter and on the website [namedaftermen.com](www.namedaftermen.com) a plant that was named after a male botanist. The goal of this project is to reflect on the power structures that regulate the act of naming.
 
 ## Setup
 
