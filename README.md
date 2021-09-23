@@ -100,3 +100,17 @@ python -m unittest test_script_name
 ### Running locally vs. running on Heroku
 
 The `FileSystemLoader` template path parameter starts on the root folder on Heroku `src/templates`, while it starts from the src folder when running locally, that is `templates`.
+
+
+## Data Analysis
+
+Data used in this project is available in the folder `src/data`. There are four csv files:
+* `botanists.csv`: dataset of botanists and the plants they probably name.
+* `distribution.csv`: dataset mapping plants to the regions they are native to.
+* `homages.csv`: dataset connecting plants to the men names they inherit.
+* `plants.csv`: dataset of all 1026 plants in our sample.
+
+
+## Creative Commons License
+
+This project is under the [Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/4.0/) creative commons license.
