@@ -51,7 +51,8 @@ def wp_excerpt(name, synonyms, men, lim=0):
 
     text = ''
 
-    file_loader = FileSystemLoader("src/templates")
+    # file_loader = FileSystemLoader("src/templates")
+    file_loader = FileSystemLoader("templates")
 
     env = Environment(loader=file_loader)
 
@@ -89,7 +90,8 @@ def wp_message(post_day, name, wiki, synonyms, men, year, countries, img, imgsrc
     """
     content_text = ""
 
-    file_loader = FileSystemLoader("src/templates")
+    # file_loader = FileSystemLoader("src/templates")
+    file_loader = FileSystemLoader("templates")
 
     env = Environment(loader=file_loader)
 
