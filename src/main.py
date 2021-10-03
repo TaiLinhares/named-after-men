@@ -121,7 +121,9 @@ def main():
 
         logger.info("Congratulations, a new plant has been posted!")
 
-        os.remove(filename)
+        if os.path.isfile("temp.jpg"):
+            os.remove("temp.jpg")
+            logger.info("temp.jpg removed from environment.")
 
     except Exception as e:
         send_email(e, env.CONF["SENDGRID_API_KEY"], env.CONF["NOTIFY_EMAIL"])
