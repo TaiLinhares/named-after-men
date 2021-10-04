@@ -38,7 +38,7 @@ def get_pic(img_url, SENDGRID_API_KEY, NOTIFY_EMAIL):
 
     filename = "temp.jpg"
     try:
-        request = requests.get(img_url, stream=True)
+        request = requests.get(img_url, stream=True, verify=False)
         if request.status_code == 200:
             with open(filename, "wb") as image:
                 for chunk in request:
