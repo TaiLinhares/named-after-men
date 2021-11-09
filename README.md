@@ -62,7 +62,7 @@ pip3 freeze > requirements.txt
 
 ### Pythonic Linting
 
-This project is linted using both [Black](https://pypi.org/project/black/) and [Pycodestyle(https://pypi.org/project/pycodestyle/). Both can be installed locally and ran with the following commands.
+This project is linted using both [Black](https://pypi.org/project/black/) and [Pycodestyle](https://pypi.org/project/pycodestyle/). Both can be installed locally and ran with the following commands.
 
 ```sh
 black .
