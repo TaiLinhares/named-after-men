@@ -126,6 +126,7 @@ def main():
             logger.info("temp.jpg removed from environment.")
 
     except Exception as e:
+        logger.warn(f"Check exception: {e}")
         send_email(e, env.CONF["SENDGRID_API_KEY"], env.CONF["NOTIFY_EMAIL"])
 
 
