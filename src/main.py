@@ -112,7 +112,7 @@ def main():
         message_twitter = twitter_message(
             plant.day, plant.scientific_name, syn_concat_ttr, plant.botanists_ttr, call_for_action
         )
-
+        logger.info("This is a test.")
         # Post to Wordpress and Twitter (To Do: handle tweepy code 186 by
         # shortening message_twitter and trying again)
         wordpress_post(wp, title, message_wp, tags, category, slug, wp_img_id, excerpt_text)
