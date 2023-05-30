@@ -87,8 +87,8 @@ def main():
         wp_img_url = wp_img["url"]
         wp_img_id = wp_img["id"]
         logger.info("Uploaded media in Wordpress...")
-        tttr_media = twitter_up_media(api, filename)
-        logger.info("Uploaded media in Twitter...")
+        # tttr_media = twitter_up_media(api, filename)
+        # logger.info("Uploaded media in Twitter...")
         # Create WP excerpt text
         excerpt_text = wp_excerpt(
             plant.scientific_name,
@@ -117,8 +117,8 @@ def main():
         # shortening message_twitter and trying again)
         wordpress_post(wp, title, message_wp, tags, category, slug, wp_img_id, excerpt_text)
         logger.info("Posted to Wordpress...")
-        twitter_post(api, message_twitter, tttr_media)
-        logger.info("Posted to Twitter...")
+        # twitter_post(api, message_twitter, tttr_media)
+        # logger.info("Posted to Twitter...")
 
         logger.info("Congratulations, a new plant has been posted!")
 
